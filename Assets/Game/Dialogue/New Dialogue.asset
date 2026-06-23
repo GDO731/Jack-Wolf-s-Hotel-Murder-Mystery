@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6578517431380049472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: 7d786d03-5e36-4630-b126-4b9c0a600064
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  isPlayerSpeaking: 0
+  text: 
+  audioSource: {fileID: 0}
+  animation: {fileID: 0}
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 406
+    y: 85
+    width: 300
+    height: 125
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 625f302100e5f6b4799070d409f0967e, type: 3}
+  m_Name: New Dialogue
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.Dialogue
+  nodes:
+  - {fileID: 4500546438378084686}
+  - {fileID: -6578517431380049472}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &4500546438378084686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: a8492415-ab96-4c65-aa98-66c853b2f6ed
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  isPlayerSpeaking: 0
+  text: 
+  audioSource: {fileID: 0}
+  animation: {fileID: 0}
+  children:
+  - 7d786d03-5e36-4630-b126-4b9c0a600064
+  rect:
+    serializedVersion: 2
+    x: 30
+    y: 11
+    width: 300
+    height: 125
