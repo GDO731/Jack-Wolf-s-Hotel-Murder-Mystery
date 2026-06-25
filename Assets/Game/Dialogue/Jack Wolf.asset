@@ -24,6 +24,29 @@ MonoBehaviour:
     y: 127
     width: 300
     height: 125
+--- !u!114 &-3350528203831829729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: 4ccd62f6-756f-4a61-88a7-49c7efcf0042
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  isPlayerSpeaking: 1
+  text: I should say something!
+  audioSource: {fileID: 0}
+  animation: {fileID: 0}
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 320
+    y: 293
+    width: 300
+    height: 125
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42,6 +65,7 @@ MonoBehaviour:
   - {fileID: -5631996152733900510}
   - {fileID: 7153244240155070347}
   - {fileID: 4473644026655363092}
+  - {fileID: -3350528203831829729}
   newNodeOffset: {x: 250, y: 0}
 --- !u!114 &4144062120373194903
 MonoBehaviour:
@@ -132,6 +156,7 @@ MonoBehaviour:
   animation: {fileID: 0}
   children:
   - a397f2e3-180f-4598-bdaf-7f9994d14a38
+  - 4ccd62f6-756f-4a61-88a7-49c7efcf0042
   rect:
     serializedVersion: 2
     x: -2

@@ -12,6 +12,8 @@ namespace Assets.Game.Scripts.Dialogue
         [SerializeField] Animation animation;
         [SerializeField] List<string> children = new List<string>();
         [SerializeField] Rect rect = new Rect(0, 0, DialogueConstants.DefaultNodeWidth, DialogueConstants.DefaultNodeHeight);
+        [SerializeField] string onEnterAction;
+        [SerializeField] string onExitAction;
 
         public Rect GetRect() => rect;
         public string GetText() => text;
@@ -19,6 +21,8 @@ namespace Assets.Game.Scripts.Dialogue
         public Animation GetAnimation() => animation;
         public List<string> GetChildren() => children;
         public bool IsPlayerSpeaking() => isPlayerSpeaking;
+        public string GetOnEnterAction() => onEnterAction;
+        public string GetOnExitAction() => onExitAction;
 
 
 #if UNITY_EDITOR
