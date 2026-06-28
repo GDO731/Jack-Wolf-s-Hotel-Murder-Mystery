@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 namespace Assets.Game.Scripts.Dialogue
 {
@@ -11,12 +12,13 @@ namespace Assets.Game.Scripts.Dialogue
         {
             if (dialogue == null) return false;
 
-            if (Input.GetMouseButtonDown(0))
+            if (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame)
             {
                 playerConversant.StartDialogue(this, dialogue);
             }
             return true;
         }
+
 
         public string GetName()
         {
