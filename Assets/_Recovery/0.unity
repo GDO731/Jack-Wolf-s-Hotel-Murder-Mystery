@@ -254,6 +254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d7102fa3a824c84da50e97bfae5d45b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Items.ItemPickup
+  radius: 3
   item: {fileID: 11400000, guid: b113796b1448ce84c9713a7b4ce7f078, type: 2}
 --- !u!1 &124076468
 GameObject:
@@ -627,6 +628,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d7102fa3a824c84da50e97bfae5d45b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Items.ItemPickup
+  radius: 3
   item: {fileID: 11400000, guid: d6892a761a4842249b5ba58a7b66e5ca, type: 2}
 --- !u!65 &561780036
 BoxCollider:
@@ -753,6 +755,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d7102fa3a824c84da50e97bfae5d45b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Items.ItemPickup
+  radius: 3
   item: {fileID: 11400000, guid: 017054fc98420f04ea8bf8b3d165e8f9, type: 2}
 --- !u!65 &753216273
 BoxCollider:
@@ -879,6 +882,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d7102fa3a824c84da50e97bfae5d45b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Items.ItemPickup
+  radius: 3
   item: {fileID: 11400000, guid: 428d03f19cddecb44aacfe744af8c2e1, type: 2}
 --- !u!65 &818858415
 BoxCollider:
@@ -1226,6 +1230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 738d49e012c330141b490da57d4f6fc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AIConversant
+  radius: 3
   dialogue: {fileID: 11400000, guid: 5219d2c691ace294abeaea94e7b3259c, type: 2}
   conversantName: Oliver Benning
   playerConversant: {fileID: 454951089}

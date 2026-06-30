@@ -1,21 +1,32 @@
+using Assets.Game.Scripts.Core;
+using Assets.Game.Scripts.Interaction;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 namespace Assets.Game.Scripts.Dialogue
 {
-    public class AIConversant : MonoBehaviour
+    public class AIConversant : Interactable
     {
         [SerializeField] Dialogue dialogue = null;
         [SerializeField] string conversantName;
+        [SerializeField] PlayerConversant playerConversant = null;
 
-        public bool HandleRaycast(PlayerConversant playerConversant)
+        public void Start()
         {
+            if (playerConversant == null) 
+            { 
+                playerConversant = GameObject.FindWithTag(TagConstants.PlayerTag)
+                    .GetComponent<PlayerConversant>();
+            }
+        }
+
+        public override bool Interact()
+        {
+            base.Interact();
+
             if (dialogue == null) return false;
 
-            if (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame)
-            {
-                playerConversant.StartDialogue(this, dialogue);
-            }
+            playerConversant.StartDialogue(this, dialogue);
+
             return true;
         }
 
