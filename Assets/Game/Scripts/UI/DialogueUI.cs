@@ -1,7 +1,9 @@
 using Assets.Game.Scripts.Core;
 using Assets.Game.Scripts.Dialogue;
+using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.UI;
 
 namespace Assets.Game.Scripts.UI
@@ -15,8 +17,7 @@ namespace Assets.Game.Scripts.UI
         [SerializeField] Transform choiceRoot;
         [SerializeField] GameObject aiResponse;
         [SerializeField] GameObject choiceButtonPrefab;
-
-        AudioSource audioSource;
+        [SerializeField] AudioSource audioSource;
 
         PlayerConversant playerConversant;
 
@@ -41,20 +42,21 @@ namespace Assets.Game.Scripts.UI
 
             if (playerConversant.IsChosing())
             {
-                BUildChoiceList();
+                BuildChoiceList();
             }
             else
             {
                 var dialogueNode = playerConversant.GetNode();
                 aiText.text = dialogueNode.GetText();
-                // dialogueNode.GetAudioSource().Play();
+
+                PlayClip(dialogueNode.GetAudioClip());
 
                 nextButton.gameObject.SetActive(playerConversant.HasNext());
             }
             
         }
 
-        private void BUildChoiceList()
+        private void BuildChoiceList()
         {
             foreach (Transform item in choiceRoot)
             {
@@ -66,14 +68,44 @@ namespace Assets.Game.Scripts.UI
                 var choiceInstance = Instantiate(choiceButtonPrefab, choiceRoot);
                 var textComponent = choiceInstance.GetComponentInChildren<TextMeshProUGUI>();
                 textComponent.text = choice.GetText();
-                // choice.GetAudioSource().Play();
+
 
                 var button = choiceInstance.GetComponentInChildren<Button>();
                 button.onClick.AddListener(() =>
                 {
+                    DisableAllChoiceButtons();
+                    PlayClip(choice.GetAudioClip());
+                    StartCoroutine(AdvanceAfterAudio());
                     playerConversant.SelectChoice(choice);
                 });
             }
+        }
+
+        private void PlayClip(AudioClip clip)
+        {
+            audioSource.Stop();
+            if (clip == null) return;
+            audioSource.clip = clip;
+            audioSource.Play();
+        }
+
+        private void DisableAllChoiceButtons()
+        {
+            foreach (Transform item in choiceRoot)
+            {
+                var btn = item.GetComponentInChildren<Button>();
+                if (btn != null)
+                {
+                    btn.interactable = false;
+                }
+            }
+        }
+
+        IEnumerator AdvanceAfterAudio()
+        {
+            yield return null;
+            yield return new WaitWhile(() => audioSource.isPlaying);
+            playerConversant.Next();
         }
     }
 }

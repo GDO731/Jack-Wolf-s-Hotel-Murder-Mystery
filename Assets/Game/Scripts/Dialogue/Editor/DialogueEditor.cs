@@ -187,11 +187,11 @@ namespace Assets.Game.Scripts.Dialogue
             GUILayout.BeginArea(node.GetRect(), style);
 
             var newText = EditorGUILayout.TextField(node.GetText());
-            var newAudioSource = (AudioSource)EditorGUILayout.ObjectField(node.GetAudioSource(), typeof(AudioSource), false);
+            var newAudioClip = (AudioClip)EditorGUILayout.ObjectField(node.GetAudioClip(), typeof(AudioClip), false);
             var newAnimation = (Animation)EditorGUILayout.ObjectField(node.GetAnimation(), typeof(Animation), false);
 
             node.SetText(newText);
-            node.SetAudioSource(newAudioSource);
+            node.SetAudioClip(newAudioClip);
             node.SetAnimation(newAnimation);
 
             GUILayout.BeginHorizontal();

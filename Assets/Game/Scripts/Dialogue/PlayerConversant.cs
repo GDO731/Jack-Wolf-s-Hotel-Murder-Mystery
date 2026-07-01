@@ -62,7 +62,6 @@ namespace Assets.Game.Scripts.Dialogue
             currentNode = chosenNode;
             TriggerEnterAction();
             isChoosing = false;
-            Next();
         }
 
         public void Next()

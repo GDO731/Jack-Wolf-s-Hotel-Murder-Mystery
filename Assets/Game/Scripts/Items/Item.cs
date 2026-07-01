@@ -11,7 +11,6 @@ namespace Assets.Game.Scripts.Items
 
         public virtual void Use()
         {
-            Debug.Log("Using" +  name);
         }
     }
 }

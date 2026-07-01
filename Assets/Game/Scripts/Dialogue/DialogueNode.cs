@@ -8,7 +8,7 @@ namespace Assets.Game.Scripts.Dialogue
     {
         [SerializeField] bool isPlayerSpeaking = false;
         [SerializeField] string text;
-        [SerializeField] AudioSource audioSource;
+        [SerializeField] AudioClip audioClip;
         [SerializeField] Animation animation;
         [SerializeField] List<string> children = new List<string>();
         [SerializeField] Rect rect = new Rect(0, 0, DialogueConstants.DefaultNodeWidth, DialogueConstants.DefaultNodeHeight);
@@ -17,7 +17,7 @@ namespace Assets.Game.Scripts.Dialogue
 
         public Rect GetRect() => rect;
         public string GetText() => text;
-        public AudioSource GetAudioSource() => audioSource;
+        public AudioClip GetAudioClip() => audioClip;
         public Animation GetAnimation() => animation;
         public List<string> GetChildren() => children;
         public bool IsPlayerSpeaking() => isPlayerSpeaking;
@@ -43,12 +43,12 @@ namespace Assets.Game.Scripts.Dialogue
             }
         }
 
-        public void SetAudioSource(AudioSource newAudioSource)
+        public void SetAudioClip(AudioClip newAudioClip)
         {
-            if(newAudioSource != audioSource)
+            if(newAudioClip != audioClip)
             {
                 Undo.RecordObject(this, "Update dialogue audio.");
-                audioSource = newAudioSource;
+                audioClip = newAudioClip;
                 EditorUtility.SetDirty(this);
             }
         }
@@ -83,7 +83,6 @@ namespace Assets.Game.Scripts.Dialogue
             isPlayerSpeaking = newIsPlayerSpeaking;
             EditorUtility.SetDirty(this);
         }
-
 #endif
     }
 }
