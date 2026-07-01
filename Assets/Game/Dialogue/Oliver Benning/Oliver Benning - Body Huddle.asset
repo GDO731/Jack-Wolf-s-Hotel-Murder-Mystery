@@ -1,5 +1,31 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5010235834287219342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: fd42f5cb-3d84-47da-ba4d-51e22808b539
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  isPlayerSpeaking: 0
+  text: (Strong Sigh) "Storms like this always bring down the phones and complicate
+    travel. We're completely isolated out here."
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 746
+    y: 250
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14,7 +40,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: MainGame::Assets.Game.Scripts.Dialogue.Dialogue
   nodes:
   - {fileID: 8216004505415477860}
+  - {fileID: 4798587740896948446}
+  - {fileID: -5010235834287219342}
   newNodeOffset: {x: 250, y: 0}
+--- !u!114 &4798587740896948446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: d8dcfcde-6c04-4295-99c0-9bfd0788828e
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  isPlayerSpeaking: 1
+  text: '"What do you mean by ''not now''?"'
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children:
+  - fd42f5cb-3d84-47da-ba4d-51e22808b539
+  rect:
+    serializedVersion: 2
+    x: 395
+    y: 250
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
 --- !u!114 &8216004505415477860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28,14 +82,15 @@ MonoBehaviour:
   m_Name: 9ad97e37-190f-48cc-9704-b112646b6877
   m_EditorClassIdentifier: MainGame::Assets.Game.Scripts.Dialogue.DialogueNode
   isPlayerSpeaking: 0
-  text: Alright Sir, we have a room ready for you, what name can I put it under?
+  text: '"Good God... This can''t be happening. Not now!"'
   audioClip: {fileID: 0}
   animation: {fileID: 0}
-  children: []
+  children:
+  - d8dcfcde-6c04-4295-99c0-9bfd0788828e
   rect:
     serializedVersion: 2
     x: 24
-    y: 248
+    y: 249
     width: 300
     height: 125
   onEnterAction: 

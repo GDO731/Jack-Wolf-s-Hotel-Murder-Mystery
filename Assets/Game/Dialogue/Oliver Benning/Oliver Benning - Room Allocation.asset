@@ -1,5 +1,57 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7641362107923875512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: be6a7405-f502-4167-a6f1-36af255a03c1
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  isPlayerSpeaking: 1
+  text: "(Polite) - \u201CNice place you have here. The architecture is nothing like
+    back home.\u201D"
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children:
+  - b10fd705-ec97-44e2-8544-83b6e5c6b2ff
+  rect:
+    serializedVersion: 2
+    x: 1114
+    y: 243
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-6111316288322339313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: 07e79289-e256-4395-a831-90214a18dc22
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  isPlayerSpeaking: 0
+  text: '"Very funny Mr Wolf.."'
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1472
+    y: 367
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
 --- !u!114 &-5631996152733900510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16,7 +68,9 @@ MonoBehaviour:
   text: Mr Wolf, here is your room key
   audioClip: {fileID: 0}
   animation: {fileID: 0}
-  children: []
+  children:
+  - be6a7405-f502-4167-a6f1-36af255a03c1
+  - 481097f0-dee9-4aab-ac6d-cd7532261d27
   rect:
     serializedVersion: 2
     x: 727
@@ -41,7 +95,62 @@ MonoBehaviour:
   - {fileID: 8216004505415477860}
   - {fileID: 4144062120373194903}
   - {fileID: -5631996152733900510}
+  - {fileID: -7641362107923875512}
+  - {fileID: 1092217393369523720}
+  - {fileID: -6111316288322339313}
+  - {fileID: 2595408306086665613}
   newNodeOffset: {x: 250, y: 0}
+--- !u!114 &1092217393369523720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: 481097f0-dee9-4aab-ac6d-cd7532261d27
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  isPlayerSpeaking: 1
+  text: (Sarcasm) - "Real busy Hotel you have here."
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children:
+  - 07e79289-e256-4395-a831-90214a18dc22
+  rect:
+    serializedVersion: 2
+    x: 1115
+    y: 367
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &2595408306086665613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: b10fd705-ec97-44e2-8544-83b6e5c6b2ff
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  isPlayerSpeaking: 0
+  text: '"Thank you, I appreciate the compliments"'
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1470
+    y: 228
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
 --- !u!114 &4144062120373194903
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: 9fc1a44c-1352-47eb-80e8-a3d516afb379
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   isPlayerSpeaking: 0
-  text: I'm fine
+  text: '"Quite frankly, its none of your business sir."'
   audioClip: {fileID: 0}
   animation: {fileID: 0}
   children:
   - 515943e1-ba4f-4d26-8437-1890997a40c4
   rect:
     serializedVersion: 2
-    x: 409
-    y: 149
+    x: 421
+    y: 141
     width: 300
     height: 125
   onEnterAction: 
@@ -56,7 +56,7 @@ MonoBehaviour:
   m_Name: a3c6c3f3-f0e1-4769-abab-5fc43eae49dc
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   isPlayerSpeaking: 1
-  text: Are you okay Ma'am? You seem pretty upset.
+  text: '"Are you okay Ma''am? You seem pretty upset."'
   audioClip: {fileID: 0}
   animation: {fileID: 0}
   children:
@@ -82,7 +82,7 @@ MonoBehaviour:
   m_Name: 515943e1-ba4f-4d26-8437-1890997a40c4
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   isPlayerSpeaking: 1
-  text: Alright, I just wanted to make sure
+  text: '"Alright, I just wanted to make sure you were alright."'
   audioClip: {fileID: 0}
   animation: {fileID: 0}
   children: []
