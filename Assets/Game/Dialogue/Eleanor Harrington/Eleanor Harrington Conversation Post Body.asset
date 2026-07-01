@@ -1,0 +1,288 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9019060193046454491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: 5ef0bb77-a92f-4ff3-beb0-baf93d7af32a
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  isPlayerSpeaking: 0
+  text: "\u201CHe threatened to ruin my family if I didn\u2019t cooperate.\u201D "
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children:
+  - cccc019e-7919-4c2f-a861-ca37e7139240
+  rect:
+    serializedVersion: 2
+    x: 753
+    y: 119
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-8651344490647118302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: 77de84af-1997-4deb-a50c-f6b5878968e8
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  isPlayerSpeaking: 0
+  text: "\u201CHe was pushy\u2026 kept pressuring me about deals and sleeping with
+    him. I kept turning him down.\u201D "
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children:
+  - fa3fea82-44b7-49ae-a647-ec92e45b5f6e
+  rect:
+    serializedVersion: 2
+    x: 756
+    y: 1
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-7633829492185715676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: 070b4804-16ca-4e5a-9098-fd2ff451a007
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  isPlayerSpeaking: 1
+  text: "(Accusatory) - \u201CYou don\u2019t seem very upset that he\u2019s dead.\u201D"
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children:
+  - 740a78d4-3bc6-4f4e-a283-948d3deec116
+  rect:
+    serializedVersion: 2
+    x: 367
+    y: 239
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-4952691588169735044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: cccc019e-7919-4c2f-a861-ca37e7139240
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  isPlayerSpeaking: 1
+  text: '"That''s awful I''m sorry you had to go throught that.'
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1138
+    y: 119
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-1455844958111061809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: fa3fea82-44b7-49ae-a647-ec92e45b5f6e
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  isPlayerSpeaking: 1
+  text: '"Would you say he was like this with everyone or just you?'
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children:
+  - bc07654d-18e3-4204-9551-f5aadc63f6cf
+  rect:
+    serializedVersion: 2
+    x: 1138
+    y: 1
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 625f302100e5f6b4799070d409f0967e, type: 3}
+  m_Name: Eleanor Harrington Conversation Post Body
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.Dialogue
+  nodes:
+  - {fileID: 302562495704591303}
+  - {fileID: 2990640503336401004}
+  - {fileID: 8256897866065923444}
+  - {fileID: -7633829492185715676}
+  - {fileID: -8651344490647118302}
+  - {fileID: -9019060193046454491}
+  - {fileID: 5688616242898869474}
+  - {fileID: -4952691588169735044}
+  - {fileID: -1455844958111061809}
+  - {fileID: 4750383124697657347}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &302562495704591303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: a3c6c3f3-f0e1-4769-abab-5fc43eae49dc
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  isPlayerSpeaking: 0
+  text: "This is all so dreadful\u2026 Gary could be very difficult, but I never
+    imagined anything like this.... "
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children:
+  - c57246ec-d47c-4458-836f-ce8a83945253
+  - 26b85422-30fe-4a63-87c7-f373573045a6
+  - 070b4804-16ca-4e5a-9098-fd2ff451a007
+  rect:
+    serializedVersion: 2
+    x: 36
+    y: 119
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &2990640503336401004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: c57246ec-d47c-4458-836f-ce8a83945253
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  isPlayerSpeaking: 1
+  text: "(Investigation) - \u201CI heard you arguing with him earlier. What was that
+    about\u201D"
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children:
+  - 5ef0bb77-a92f-4ff3-beb0-baf93d7af32a
+  rect:
+    serializedVersion: 2
+    x: 367
+    y: 119
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &4750383124697657347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: bc07654d-18e3-4204-9551-f5aadc63f6cf
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  isPlayerSpeaking: 0
+  text: '"I don''t quite know I''m sorry.."'
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1546
+    y: 1
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &5688616242898869474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: 740a78d4-3bc6-4f4e-a283-948d3deec116
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  isPlayerSpeaking: 0
+  text: '"How dare you! Of course I''m upset!" (Storms off)'
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 750
+    y: 241
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &8256897866065923444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: 26b85422-30fe-4a63-87c7-f373573045a6
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  isPlayerSpeaking: 1
+  text: "(Questioning) - \u201CWhat was your relationship with Gary?\u201D"
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children:
+  - 77de84af-1997-4deb-a50c-f6b5878968e8
+  rect:
+    serializedVersion: 2
+    x: 367
+    y: 1
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 

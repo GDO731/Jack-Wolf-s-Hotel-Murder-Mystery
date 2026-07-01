@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6578517431380049472
+--- !u!114 &-9019060193046454491
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,23 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
-  m_Name: 7d786d03-5e36-4630-b126-4b9c0a600064
+  m_Name: 5ef0bb77-a92f-4ff3-beb0-baf93d7af32a
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  isPlayerSpeaking: 1
-  text: "Observation - \u201CYou seem strangely calm around a fresh corpse\u201D"
+  isPlayerSpeaking: 0
+  text: "\u201CHe threatened to ruin my family if I didn\u2019t cooperate.\u201D "
   audioClip: {fileID: 0}
   animation: {fileID: 0}
   children:
-  - bb1e0c60-4271-4572-a515-79b53c01eb25
+  - cccc019e-7919-4c2f-a861-ca37e7139240
   rect:
     serializedVersion: 2
-    x: 374
-    y: 181
+    x: 753
+    y: 119
     width: 300
     height: 125
   onEnterAction: 
   onExitAction: 
---- !u!114 &-3642404422460705698
+--- !u!114 &-8651344490647118302
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -36,23 +36,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
-  m_Name: cae61f10-f720-43e0-b615-616ed8c1dc00
+  m_Name: 77de84af-1997-4deb-a50c-f6b5878968e8
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   isPlayerSpeaking: 0
-  text: Sir, if you think I killed this man, you are mistaken. I am too old to hurt
-    anyone in my age. I don't appreciate what you are insinuating. (Shambles off)
+  text: "\u201CHe was pushy\u2026 kept pressuring me about deals and sleeping with
+    him. I kept turning him down.\u201D "
   audioClip: {fileID: 0}
   animation: {fileID: 0}
-  children: []
+  children:
+  - fa3fea82-44b7-49ae-a647-ec92e45b5f6e
   rect:
     serializedVersion: 2
-    x: 740
-    y: 311
+    x: 756
+    y: 1
     width: 300
     height: 125
   onEnterAction: 
   onExitAction: 
---- !u!114 &-812625922332441018
+--- !u!114 &-7633829492185715676
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -62,17 +63,69 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
-  m_Name: daccf955-f227-4b81-b60c-9d5f035e6754
+  m_Name: 070b4804-16ca-4e5a-9098-fd2ff451a007
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   isPlayerSpeaking: 1
-  text: Thanks... I appreciate it
+  text: "(Accusatory) - \u201CYou don\u2019t seem very upset that he\u2019s dead.\u201D"
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children:
+  - 740a78d4-3bc6-4f4e-a283-948d3deec116
+  rect:
+    serializedVersion: 2
+    x: 367
+    y: 239
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-4952691588169735044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: cccc019e-7919-4c2f-a861-ca37e7139240
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  isPlayerSpeaking: 1
+  text: '"That''s awful I''m sorry you had to go throught that.'
   audioClip: {fileID: 0}
   animation: {fileID: 0}
   children: []
   rect:
     serializedVersion: 2
-    x: 1095
-    y: 181
+    x: 1138
+    y: 119
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-1455844958111061809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: fa3fea82-44b7-49ae-a647-ec92e45b5f6e
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  isPlayerSpeaking: 1
+  text: '"Would you say he was like this with everyone or just you?'
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children:
+  - bc07654d-18e3-4204-9551-f5aadc63f6cf
+  rect:
+    serializedVersion: 2
+    x: 1138
+    y: 1
     width: 300
     height: 125
   onEnterAction: 
@@ -87,20 +140,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 625f302100e5f6b4799070d409f0967e, type: 3}
-  m_Name: Ronnie Davies
+  m_Name: Eleanor Harrington Conversation Body Huddle
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.Dialogue
   nodes:
-  - {fileID: 4500546438378084686}
-  - {fileID: -6578517431380049472}
-  - {fileID: 8707171820934618802}
-  - {fileID: 7908136282156959560}
-  - {fileID: 766389892839670889}
-  - {fileID: 5541362398645264874}
-  - {fileID: -3642404422460705698}
-  - {fileID: 6252381086576060295}
-  - {fileID: -812625922332441018}
+  - {fileID: 302562495704591303}
+  - {fileID: 2990640503336401004}
+  - {fileID: 8256897866065923444}
+  - {fileID: -7633829492185715676}
+  - {fileID: -8651344490647118302}
+  - {fileID: -9019060193046454491}
+  - {fileID: 5688616242898869474}
+  - {fileID: -4952691588169735044}
+  - {fileID: -1455844958111061809}
+  - {fileID: 4750383124697657347}
   newNodeOffset: {x: 250, y: 0}
---- !u!114 &766389892839670889
+--- !u!114 &302562495704591303
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -110,54 +164,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
-  m_Name: d51ff27f-cf4a-4dc6-9545-7ce27d83bfba
+  m_Name: a3c6c3f3-f0e1-4769-abab-5fc43eae49dc
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   isPlayerSpeaking: 0
-  text: Everything I said is true, I went to tidy up the shed and found this man
-    in the mud.. It's a shame for someone as young as him, so much time gone.. (Weeze)
+  text: "This is all so dreadful\u2026 Gary could be very difficult, but I never
+    imagined anything like this.... "
   audioClip: {fileID: 0}
   animation: {fileID: 0}
   children:
-  - ed4bcd61-0793-49b9-af96-dc63dae1792c
+  - c57246ec-d47c-4458-836f-ce8a83945253
+  - 26b85422-30fe-4a63-87c7-f373573045a6
+  - 070b4804-16ca-4e5a-9098-fd2ff451a007
   rect:
     serializedVersion: 2
-    x: 752
-    y: 46
-    width: 300
-    height: 125
-  onEnterAction: 
-  onExitAction: 
---- !u!114 &4500546438378084686
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
-  m_Name: a8492415-ab96-4c65-aa98-66c853b2f6ed
-  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  isPlayerSpeaking: 0
-  text: "I heard a loud noise earlier\u2026 Thought it was the storm up to their
-    old tricks. I went to tidy up the shed\u2026 found him in the mud. Wrapped up
-    like rubbish."
-  audioClip: {fileID: 0}
-  animation: {fileID: 0}
-  children:
-  - 7d786d03-5e36-4630-b126-4b9c0a600064
-  - 9f33131e-ae94-4d3b-81f6-d258d5800458
-  - 09483cd0-c486-4b1f-a6e0-03e8c0ee0bda
-  rect:
-    serializedVersion: 2
-    x: 9
+    x: 36
     y: 119
     width: 300
     height: 125
   onEnterAction: 
   onExitAction: 
---- !u!114 &5541362398645264874
+--- !u!114 &2990640503336401004
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -167,24 +193,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
-  m_Name: bb1e0c60-4271-4572-a515-79b53c01eb25
+  m_Name: c57246ec-d47c-4458-836f-ce8a83945253
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  isPlayerSpeaking: 0
-  text: In my old age you see much death young man.. Time isn't kind to us as we
-    get old, you shouldn't waste it.
+  isPlayerSpeaking: 1
+  text: "(Investigation) - \u201CI heard you arguing with him earlier. What was that
+    about\u201D"
   audioClip: {fileID: 0}
   animation: {fileID: 0}
   children:
-  - daccf955-f227-4b81-b60c-9d5f035e6754
+  - 5ef0bb77-a92f-4ff3-beb0-baf93d7af32a
   rect:
     serializedVersion: 2
-    x: 746
-    y: 180
+    x: 367
+    y: 119
     width: 300
     height: 125
   onEnterAction: 
   onExitAction: 
---- !u!114 &6252381086576060295
+--- !u!114 &4750383124697657347
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -194,22 +220,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
-  m_Name: ed4bcd61-0793-49b9-af96-dc63dae1792c
+  m_Name: bc07654d-18e3-4204-9551-f5aadc63f6cf
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  isPlayerSpeaking: 1
-  text: Thank for the help, I appreciate you being honest with me.
+  isPlayerSpeaking: 0
+  text: '"I don''t quite know I''m sorry.."'
   audioClip: {fileID: 0}
   animation: {fileID: 0}
   children: []
   rect:
     serializedVersion: 2
-    x: 1099
-    y: 46
+    x: 1546
+    y: 1
     width: 300
     height: 125
   onEnterAction: 
   onExitAction: 
---- !u!114 &7908136282156959560
+--- !u!114 &5688616242898869474
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -219,24 +245,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
-  m_Name: 09483cd0-c486-4b1f-a6e0-03e8c0ee0bda
+  m_Name: 740a78d4-3bc6-4f4e-a283-948d3deec116
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  isPlayerSpeaking: 1
-  text: "Accusatory - \u201CYou heard screaming and found the body\u2026 That\u2019s
-    oddly convenient\u201D"
+  isPlayerSpeaking: 0
+  text: '"How dare you! Of course I''m upset!" (Storms off)'
   audioClip: {fileID: 0}
   animation: {fileID: 0}
-  children:
-  - cae61f10-f720-43e0-b615-616ed8c1dc00
+  children: []
   rect:
     serializedVersion: 2
-    x: 378
-    y: 313
+    x: 750
+    y: 241
     width: 300
     height: 125
   onEnterAction: 
   onExitAction: 
---- !u!114 &8707171820934618802
+--- !u!114 &8256897866065923444
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -246,18 +270,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
-  m_Name: 9f33131e-ae94-4d3b-81f6-d258d5800458
+  m_Name: 26b85422-30fe-4a63-87c7-f373573045a6
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   isPlayerSpeaking: 1
-  text: "Calm - \u201CTake your time. Tell me exactly what you saw?\u201D"
+  text: "(Questioning) - \u201CWhat was your relationship with Gary?\u201D"
   audioClip: {fileID: 0}
   animation: {fileID: 0}
   children:
-  - d51ff27f-cf4a-4dc6-9545-7ce27d83bfba
+  - 77de84af-1997-4deb-a50c-f6b5878968e8
   rect:
     serializedVersion: 2
-    x: 376
-    y: 46
+    x: 367
+    y: 1
     width: 300
     height: 125
   onEnterAction: 

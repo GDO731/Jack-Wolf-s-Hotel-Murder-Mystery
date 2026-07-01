@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-333090889048980423
+--- !u!114 &-5631996152733900510
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,18 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
-  m_Name: 9fc1a44c-1352-47eb-80e8-a3d516afb379
-  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  m_Name: a4de9f66-d727-45b6-8ac5-ae7abddd17c8
+  m_EditorClassIdentifier: MainGame::Assets.Game.Scripts.Dialogue.DialogueNode
   isPlayerSpeaking: 0
-  text: I'm fine
+  text: Mr Wolf, here is your room key
   audioClip: {fileID: 0}
   animation: {fileID: 0}
-  children:
-  - 515943e1-ba4f-4d26-8437-1890997a40c4
+  children: []
   rect:
     serializedVersion: 2
-    x: 409
-    y: 149
+    x: 727
+    y: 246
     width: 300
     height: 125
   onEnterAction: 
@@ -36,14 +35,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 625f302100e5f6b4799070d409f0967e, type: 3}
-  m_Name: Eleanor Harrington
-  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.Dialogue
+  m_Name: Oliver Benning - Room Allocation
+  m_EditorClassIdentifier: MainGame::Assets.Game.Scripts.Dialogue.Dialogue
   nodes:
-  - {fileID: 302562495704591303}
-  - {fileID: -333090889048980423}
-  - {fileID: 2193084828922142765}
+  - {fileID: 8216004505415477860}
+  - {fileID: 4144062120373194903}
+  - {fileID: -5631996152733900510}
   newNodeOffset: {x: 250, y: 0}
---- !u!114 &302562495704591303
+--- !u!114 &4144062120373194903
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -53,23 +52,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
-  m_Name: a3c6c3f3-f0e1-4769-abab-5fc43eae49dc
-  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  m_Name: a397f2e3-180f-4598-bdaf-7f9994d14a38
+  m_EditorClassIdentifier: MainGame::Assets.Game.Scripts.Dialogue.DialogueNode
   isPlayerSpeaking: 1
-  text: Are you okay Ma'am? You seem pretty upset.
+  text: Jack Wolf
   audioClip: {fileID: 0}
   animation: {fileID: 0}
   children:
-  - 9fc1a44c-1352-47eb-80e8-a3d516afb379
+  - a4de9f66-d727-45b6-8ac5-ae7abddd17c8
   rect:
     serializedVersion: 2
-    x: 42
-    y: 110
+    x: 357
+    y: 249
     width: 300
     height: 125
   onEnterAction: 
   onExitAction: 
---- !u!114 &2193084828922142765
+--- !u!114 &8216004505415477860
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -79,17 +78,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
-  m_Name: 515943e1-ba4f-4d26-8437-1890997a40c4
-  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  isPlayerSpeaking: 1
-  text: Alright, I just wanted to make sure
+  m_Name: 9ad97e37-190f-48cc-9704-b112646b6877
+  m_EditorClassIdentifier: MainGame::Assets.Game.Scripts.Dialogue.DialogueNode
+  isPlayerSpeaking: 0
+  text: Alright Sir, we have a room ready for you, what name can I put it under?
   audioClip: {fileID: 0}
   animation: {fileID: 0}
-  children: []
+  children:
+  - a397f2e3-180f-4598-bdaf-7f9994d14a38
   rect:
     serializedVersion: 2
-    x: 796
-    y: 210
+    x: 24
+    y: 248
     width: 300
     height: 125
   onEnterAction: 
