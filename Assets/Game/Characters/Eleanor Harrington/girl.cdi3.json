@@ -1,0 +1,46 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "Param",
+			"GroupId": "",
+			"Name": "eml"
+		},
+		{
+			"Id": "Param4",
+			"GroupId": "",
+			"Name": "blink"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "Part",
+			"Name": "FringeFolder 1"
+		},
+		{
+			"Id": "Part2",
+			"Name": "Folder 1"
+		},
+		{
+			"Id": "Part3",
+			"Name": "Folder 2"
+		},
+		{
+			"Id": "Part4",
+			"Name": "Folder 6"
+		},
+		{
+			"Id": "Part5",
+			"Name": "Folder 5"
+		},
+		{
+			"Id": "Part6",
+			"Name": "Folder 4"
+		},
+		{
+			"Id": "Part7",
+			"Name": "Folder 3"
+		}
+	]
+}
