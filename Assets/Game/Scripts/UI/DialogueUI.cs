@@ -49,7 +49,7 @@ namespace Assets.Game.Scripts.UI
                 var dialogueNode = playerConversant.GetNode();
                 aiText.text = dialogueNode.GetText();
 
-                PlayClip(dialogueNode.GetAudioClip());
+                // PlayClip(dialogueNode.GetAudioClip());
 
                 nextButton.gameObject.SetActive(playerConversant.HasNext());
             }
@@ -73,8 +73,8 @@ namespace Assets.Game.Scripts.UI
                 var button = choiceInstance.GetComponentInChildren<Button>();
                 button.onClick.AddListener(() =>
                 {
-                    DisableAllChoiceButtons();
-                    PlayClip(choice.GetAudioClip());
+                    // DisableAllChoiceButtons();
+                    // PlayClip(choice.GetAudioClip());
                     StartCoroutine(AdvanceAfterAudio());
                     playerConversant.SelectChoice(choice);
                 });
@@ -103,8 +103,11 @@ namespace Assets.Game.Scripts.UI
 
         IEnumerator AdvanceAfterAudio()
         {
-            yield return null;
-            yield return new WaitWhile(() => audioSource.isPlaying);
+            if(audioSource.isPlaying)
+            {
+                yield return null;
+                yield return new WaitWhile(() => audioSource.isPlaying);
+            }
             playerConversant.Next();
         }
     }

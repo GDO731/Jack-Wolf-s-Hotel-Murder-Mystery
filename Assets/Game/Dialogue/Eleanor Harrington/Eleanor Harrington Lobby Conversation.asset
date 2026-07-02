@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
   m_Name: 9fc1a44c-1352-47eb-80e8-a3d516afb379
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  isPlayerSpeaking: 0
+  character: 0
   text: '"Quite frankly, its none of your business sir."'
   audioClip: {fileID: 0}
   animation: {fileID: 0}
@@ -55,7 +55,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
   m_Name: a3c6c3f3-f0e1-4769-abab-5fc43eae49dc
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  isPlayerSpeaking: 1
+  character: 3
   text: '"Are you okay Ma''am? You seem pretty upset."'
   audioClip: {fileID: 0}
   animation: {fileID: 0}
@@ -81,7 +81,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
   m_Name: 515943e1-ba4f-4d26-8437-1890997a40c4
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  isPlayerSpeaking: 1
+  character: 3
   text: '"Alright, I just wanted to make sure you were alright."'
   audioClip: {fileID: 0}
   animation: {fileID: 0}

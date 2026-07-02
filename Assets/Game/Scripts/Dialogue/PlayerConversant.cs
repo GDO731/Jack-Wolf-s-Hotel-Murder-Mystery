@@ -1,3 +1,4 @@
+using Assets.Game.Scripts.Dialogue.Enums.Attributes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -121,7 +122,7 @@ namespace Assets.Game.Scripts.Dialogue
             }
             else
             {
-                return currentConversant.GetName();
+                return StringValueAttribute.GetStringValue(currentNode.GetCharacter());
             }
         }
     }

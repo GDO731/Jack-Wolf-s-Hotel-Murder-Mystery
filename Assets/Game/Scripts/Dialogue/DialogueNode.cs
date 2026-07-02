@@ -1,3 +1,4 @@
+using Assets.Game.Scripts.Dialogue.Enums;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
@@ -6,7 +7,7 @@ namespace Assets.Game.Scripts.Dialogue
 {
     public class DialogueNode: ScriptableObject
     {
-        [SerializeField] bool isPlayerSpeaking = false;
+        [SerializeField] Character character;
         [SerializeField] string text;
         [SerializeField] AudioClip audioClip;
         [SerializeField] Animation animation;
@@ -20,10 +21,9 @@ namespace Assets.Game.Scripts.Dialogue
         public AudioClip GetAudioClip() => audioClip;
         public Animation GetAnimation() => animation;
         public List<string> GetChildren() => children;
-        public bool IsPlayerSpeaking() => isPlayerSpeaking;
+        public Character GetCharacter() => character;
         public string GetOnEnterAction() => onEnterAction;
         public string GetOnExitAction() => onExitAction;
-
 
 #if UNITY_EDITOR
         public void SetPosition(Vector2 newPosition)
@@ -77,10 +77,10 @@ namespace Assets.Game.Scripts.Dialogue
             EditorUtility.SetDirty(this);
         }
 
-        public void SetPlayerSpeaking(bool newIsPlayerSpeaking)
+        public void SetCharacer(Character character)
         {
             Undo.RecordObject(this, "Change speaker.");
-            isPlayerSpeaking = newIsPlayerSpeaking;
+            this.character = character;
             EditorUtility.SetDirty(this);
         }
 #endif

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
   m_Name: a4de9f66-d727-45b6-8ac5-ae7abddd17c8
   m_EditorClassIdentifier: MainGame::Assets.Game.Scripts.Dialogue.DialogueNode
-  isPlayerSpeaking: 0
+  character: 1
   text: Only one single room, we should have one available for you sir. I'll go see
     if we do, please wait here.
   audioClip: {fileID: 0}
@@ -20,8 +20,8 @@ MonoBehaviour:
   children: []
   rect:
     serializedVersion: 2
-    x: 626
-    y: 127
+    x: 761
+    y: 282
     width: 300
     height: 125
   onEnterAction: 
@@ -55,7 +55,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
   m_Name: a397f2e3-180f-4598-bdaf-7f9994d14a38
   m_EditorClassIdentifier: MainGame::Assets.Game.Scripts.Dialogue.DialogueNode
-  isPlayerSpeaking: 1
+  character: 0
   text: 'Thank you, I only need a room till the storm passes. I didn''t expect this
     kind of weather today. '
   audioClip: {fileID: 0}
@@ -64,8 +64,8 @@ MonoBehaviour:
   - a4de9f66-d727-45b6-8ac5-ae7abddd17c8
   rect:
     serializedVersion: 2
-    x: 275
-    y: 117
+    x: 390
+    y: 278
     width: 300
     height: 125
   onEnterAction: 
@@ -82,7 +82,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
   m_Name: 9ad97e37-190f-48cc-9704-b112646b6877
   m_EditorClassIdentifier: MainGame::Assets.Game.Scripts.Dialogue.DialogueNode
-  isPlayerSpeaking: 0
+  character: 1
   text: 'Welcome to the Seron Hotel, good thing you stopped when you did! This storm
     is getting worse by the hour. '
   audioClip: {fileID: 0}
@@ -91,8 +91,8 @@ MonoBehaviour:
   - a397f2e3-180f-4598-bdaf-7f9994d14a38
   rect:
     serializedVersion: 2
-    x: -70
-    y: 107
+    x: -1
+    y: 328
     width: 300
     height: 125
   onEnterAction: 

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
   m_Name: be6a7405-f502-4167-a6f1-36af255a03c1
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  isPlayerSpeaking: 1
+  character: 0
   text: "(Polite) - \u201CNice place you have here. The architecture is nothing like
     back home.\u201D"
   audioClip: {fileID: 0}
@@ -39,7 +39,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
   m_Name: 07e79289-e256-4395-a831-90214a18dc22
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  isPlayerSpeaking: 0
+  character: 1
   text: '"Very funny Mr Wolf.."'
   audioClip: {fileID: 0}
   animation: {fileID: 0}
@@ -64,7 +64,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
   m_Name: a4de9f66-d727-45b6-8ac5-ae7abddd17c8
   m_EditorClassIdentifier: MainGame::Assets.Game.Scripts.Dialogue.DialogueNode
-  isPlayerSpeaking: 0
+  character: 1
   text: Mr Wolf, here is your room key
   audioClip: {fileID: 0}
   animation: {fileID: 0}
@@ -112,7 +112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
   m_Name: 481097f0-dee9-4aab-ac6d-cd7532261d27
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  isPlayerSpeaking: 1
+  character: 0
   text: (Sarcasm) - "Real busy Hotel you have here."
   audioClip: {fileID: 0}
   animation: {fileID: 0}
@@ -138,7 +138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
   m_Name: b10fd705-ec97-44e2-8544-83b6e5c6b2ff
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  isPlayerSpeaking: 0
+  character: 1
   text: '"Thank you, I appreciate the compliments"'
   audioClip: {fileID: 0}
   animation: {fileID: 0}
@@ -163,7 +163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
   m_Name: a397f2e3-180f-4598-bdaf-7f9994d14a38
   m_EditorClassIdentifier: MainGame::Assets.Game.Scripts.Dialogue.DialogueNode
-  isPlayerSpeaking: 1
+  character: 0
   text: Jack Wolf
   audioClip: {fileID: 0}
   animation: {fileID: 0}
@@ -189,7 +189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
   m_Name: 9ad97e37-190f-48cc-9704-b112646b6877
   m_EditorClassIdentifier: MainGame::Assets.Game.Scripts.Dialogue.DialogueNode
-  isPlayerSpeaking: 0
+  character: 1
   text: Alright Sir, we have a room ready for you, what name can I put it under?
   audioClip: {fileID: 0}
   animation: {fileID: 0}
@@ -198,7 +198,7 @@ MonoBehaviour:
   rect:
     serializedVersion: 2
     x: 24
-    y: 248
+    y: 249
     width: 300
     height: 125
   onEnterAction: 

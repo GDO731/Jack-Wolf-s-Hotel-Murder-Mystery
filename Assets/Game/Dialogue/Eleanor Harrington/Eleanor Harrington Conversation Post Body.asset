@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
   m_Name: 5ef0bb77-a92f-4ff3-beb0-baf93d7af32a
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  isPlayerSpeaking: 0
+  character: 3
   text: "\u201CHe threatened to ruin my family if I didn\u2019t cooperate.\u201D "
   audioClip: {fileID: 0}
   animation: {fileID: 0}
@@ -38,7 +38,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
   m_Name: 77de84af-1997-4deb-a50c-f6b5878968e8
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  isPlayerSpeaking: 0
+  character: 3
   text: "\u201CHe was pushy\u2026 kept pressuring me about deals and sleeping with
     him. I kept turning him down.\u201D "
   audioClip: {fileID: 0}
@@ -65,7 +65,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
   m_Name: 070b4804-16ca-4e5a-9098-fd2ff451a007
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  isPlayerSpeaking: 1
+  character: 0
   text: "(Accusatory) - \u201CYou don\u2019t seem very upset that he\u2019s dead.\u201D"
   audioClip: {fileID: 0}
   animation: {fileID: 0}
@@ -91,7 +91,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
   m_Name: cccc019e-7919-4c2f-a861-ca37e7139240
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  isPlayerSpeaking: 1
+  character: 0
   text: '"That''s awful I''m sorry you had to go throught that.'
   audioClip: {fileID: 0}
   animation: {fileID: 0}
@@ -116,7 +116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
   m_Name: fa3fea82-44b7-49ae-a647-ec92e45b5f6e
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  isPlayerSpeaking: 1
+  character: 0
   text: '"Would you say he was like this with everyone or just you?'
   audioClip: {fileID: 0}
   animation: {fileID: 0}
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
   m_Name: a3c6c3f3-f0e1-4769-abab-5fc43eae49dc
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  isPlayerSpeaking: 0
+  character: 3
   text: "This is all so dreadful\u2026 Gary could be very difficult, but I never
     imagined anything like this.... "
   audioClip: {fileID: 0}
@@ -195,7 +195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
   m_Name: c57246ec-d47c-4458-836f-ce8a83945253
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  isPlayerSpeaking: 1
+  character: 0
   text: "(Investigation) - \u201CI heard you arguing with him earlier. What was that
     about\u201D"
   audioClip: {fileID: 0}
@@ -222,7 +222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
   m_Name: bc07654d-18e3-4204-9551-f5aadc63f6cf
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  isPlayerSpeaking: 0
+  character: 3
   text: '"I don''t quite know I''m sorry.."'
   audioClip: {fileID: 0}
   animation: {fileID: 0}
@@ -247,7 +247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
   m_Name: 740a78d4-3bc6-4f4e-a283-948d3deec116
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  isPlayerSpeaking: 0
+  character: 3
   text: '"How dare you! Of course I''m upset!" (Storms off)'
   audioClip: {fileID: 0}
   animation: {fileID: 0}
@@ -272,7 +272,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
   m_Name: 26b85422-30fe-4a63-87c7-f373573045a6
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  isPlayerSpeaking: 1
+  character: 0
   text: "(Questioning) - \u201CWhat was your relationship with Gary?\u201D"
   audioClip: {fileID: 0}
   animation: {fileID: 0}

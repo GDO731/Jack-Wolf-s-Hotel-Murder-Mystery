@@ -1,3 +1,6 @@
+using Assets.Game.Scripts.Core;
+using Assets.Game.Scripts.Dialogue.Enums;
+using Assets.Game.Scripts.Dialogue.Enums.Attributes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -45,7 +48,7 @@ namespace Assets.Game.Scripts.Dialogue
         {
             foreach (var node in GetAllChildren(currentNode))
             {
-                if (node.IsPlayerSpeaking())
+                if (node.GetCharacter() == Character.Player)
                 {
                     yield return node;
                 }
@@ -56,7 +59,7 @@ namespace Assets.Game.Scripts.Dialogue
         {
             foreach (var node in GetAllChildren(currentNode))
             {
-                if (!node.IsPlayerSpeaking())
+                if (node.GetCharacter() != Character.Player)
                 {
                     yield return node;
                 }
@@ -89,7 +92,6 @@ namespace Assets.Game.Scripts.Dialogue
             if (parent != null)
             {
                 parent.AddChild(newNode.name);
-                newNode.SetPlayerSpeaking(!parent.IsPlayerSpeaking());
                 newNode.SetPosition(parent.GetRect().position + newNodeOffset);
             }
 

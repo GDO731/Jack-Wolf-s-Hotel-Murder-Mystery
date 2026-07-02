@@ -1,3 +1,6 @@
+using Assets.Game.Scripts.Core;
+using Assets.Game.Scripts.Dialogue.Enums;
+using Assets.Game.Scripts.Dialogue.Enums.Attributes;
 using System;
 using UnityEditor;
 using UnityEditor.Callbacks;
@@ -180,7 +183,7 @@ namespace Assets.Game.Scripts.Dialogue
         private void DrawNode(DialogueNode node)
         {
             var style = nodeStyle;
-            if(node.IsPlayerSpeaking())
+            if(node.GetCharacter() == Character.Player)
             {
                 style = playerNodeStyle;
             }

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
   m_Name: 7d786d03-5e36-4630-b126-4b9c0a600064
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  isPlayerSpeaking: 1
+  character: 0
   text: "Observation - \u201CYou seem strangely calm around a fresh corpse\u201D"
   audioClip: {fileID: 0}
   animation: {fileID: 0}
@@ -38,7 +38,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
   m_Name: cae61f10-f720-43e0-b615-616ed8c1dc00
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  isPlayerSpeaking: 0
+  character: 2
   text: Sir, if you think I killed this man, you are mistaken. I am too old to hurt
     anyone in my age. I don't appreciate what you are insinuating. (Shambles off)
   audioClip: {fileID: 0}
@@ -64,7 +64,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
   m_Name: daccf955-f227-4b81-b60c-9d5f035e6754
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  isPlayerSpeaking: 1
+  character: 0
   text: Thanks... I appreciate it
   audioClip: {fileID: 0}
   animation: {fileID: 0}
@@ -112,7 +112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
   m_Name: d51ff27f-cf4a-4dc6-9545-7ce27d83bfba
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  isPlayerSpeaking: 0
+  character: 2
   text: Everything I said is true, I went to tidy up the shed and found this man
     in the mud.. It's a shame for someone as young as him, so much time gone.. (Weeze)
   audioClip: {fileID: 0}
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
   m_Name: a8492415-ab96-4c65-aa98-66c853b2f6ed
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  isPlayerSpeaking: 0
+  character: 2
   text: "I heard a loud noise earlier\u2026 Thought it was the storm up to their
     old tricks. I went to tidy up the shed\u2026 found him in the mud. Wrapped up
     like rubbish."
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
   m_Name: bb1e0c60-4271-4572-a515-79b53c01eb25
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  isPlayerSpeaking: 0
+  character: 2
   text: In my old age you see much death young man.. Time isn't kind to us as we
     get old, you shouldn't waste it.
   audioClip: {fileID: 0}
@@ -196,7 +196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
   m_Name: ed4bcd61-0793-49b9-af96-dc63dae1792c
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  isPlayerSpeaking: 1
+  character: 0
   text: Thank for the help, I appreciate you being honest with me.
   audioClip: {fileID: 0}
   animation: {fileID: 0}
@@ -221,7 +221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
   m_Name: 09483cd0-c486-4b1f-a6e0-03e8c0ee0bda
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  isPlayerSpeaking: 1
+  character: 0
   text: "Accusatory - \u201CYou heard screaming and found the body\u2026 That\u2019s
     oddly convenient\u201D"
   audioClip: {fileID: 0}
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
   m_Name: 9f33131e-ae94-4d3b-81f6-d258d5800458
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  isPlayerSpeaking: 1
+  character: 0
   text: "Calm - \u201CTake your time. Tell me exactly what you saw?\u201D"
   audioClip: {fileID: 0}
   animation: {fileID: 0}

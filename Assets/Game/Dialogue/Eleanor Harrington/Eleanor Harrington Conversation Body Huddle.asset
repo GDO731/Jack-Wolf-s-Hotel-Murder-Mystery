@@ -30,6 +30,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
   m_Name: a3c6c3f3-f0e1-4769-abab-5fc43eae49dc
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 3
   isPlayerSpeaking: 0
   text: '"Is that Gary?"'
   audioClip: {fileID: 0}
@@ -56,6 +57,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
   m_Name: 7bc637a3-b2f5-41b3-b192-798daebf88c5
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 3
   isPlayerSpeaking: 0
   text: '"I need to call my father... (runs off)"'
   audioClip: {fileID: 0}
@@ -81,6 +83,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
   m_Name: c57246ec-d47c-4458-836f-ce8a83945253
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 0
   isPlayerSpeaking: 1
   text: '"I''m afraid so Ma''am. I''m sorry you had to see this."'
   audioClip: {fileID: 0}
@@ -107,6 +110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
   m_Name: bc07654d-18e3-4204-9551-f5aadc63f6cf
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 3
   isPlayerSpeaking: 0
   text: '"I don''t quite know I''m sorry.."'
   audioClip: {fileID: 0}
