@@ -151124,6 +151124,83 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4963403227186156, guid: 0fe0e783d777ad444b4a15328d824d20, type: 3}
   m_PrefabInstance: {fileID: 1528591967}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1528836329
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6051419076414018024, guid: 2570acd2e6afdd245b63eabbf41aed72, type: 3}
+      propertyPath: VelocityModule.y.scalar
+      value: -40
+      objectReference: {fileID: 0}
+    - target: {fileID: 6051419076414018024, guid: 2570acd2e6afdd245b63eabbf41aed72, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 6524464233669492487, guid: 2570acd2e6afdd245b63eabbf41aed72, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 6524464233669492487, guid: 2570acd2e6afdd245b63eabbf41aed72, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 6524464233669492487, guid: 2570acd2e6afdd245b63eabbf41aed72, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 8050164521505759312, guid: 2570acd2e6afdd245b63eabbf41aed72, type: 3}
+      propertyPath: m_Name
+      value: Weather Controller
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437003950017582547, guid: 2570acd2e6afdd245b63eabbf41aed72, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.2749
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437003950017582547, guid: 2570acd2e6afdd245b63eabbf41aed72, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.40626
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437003950017582547, guid: 2570acd2e6afdd245b63eabbf41aed72, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.55862
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437003950017582547, guid: 2570acd2e6afdd245b63eabbf41aed72, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437003950017582547, guid: 2570acd2e6afdd245b63eabbf41aed72, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437003950017582547, guid: 2570acd2e6afdd245b63eabbf41aed72, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437003950017582547, guid: 2570acd2e6afdd245b63eabbf41aed72, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437003950017582547, guid: 2570acd2e6afdd245b63eabbf41aed72, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437003950017582547, guid: 2570acd2e6afdd245b63eabbf41aed72, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437003950017582547, guid: 2570acd2e6afdd245b63eabbf41aed72, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2570acd2e6afdd245b63eabbf41aed72, type: 3}
 --- !u!1001 &1529010534
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -215108,6 +215185,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6556307556716546217}
+  - component: {fileID: 7094977339320261178}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -215115,6 +215193,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7094977339320261178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7094977339320261177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5b69f77996c942429425bee6be1ba75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerWeatherAudio
+  playerCollider: {fileID: 453084649831460811}
+  outdoorSnapshot: {fileID: 24500006, guid: 83079a0fa7e13b44b904ba18a8cc640a, type: 2}
+  indoorSnapshot: {fileID: -3889654724565258046, guid: 83079a0fa7e13b44b904ba18a8cc640a, type: 2}
+  transitionTime: 1.5
+  weatherBlockLayer:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!114 &7130084150922735717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -215571,3 +215668,4 @@ SceneRoots:
   - {fileID: 471324334}
   - {fileID: 1895930075}
   - {fileID: 6556307556716546217}
+  - {fileID: 1528836329}
