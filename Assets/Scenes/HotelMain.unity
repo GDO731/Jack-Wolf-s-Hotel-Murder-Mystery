@@ -62600,6 +62600,62 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4863549634787430, guid: 04fb1161a540e7d4486270d7b1d9e4e8, type: 3}
   m_PrefabInstance: {fileID: 648532397}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &649062113
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 649062114}
+  - component: {fileID: 649062115}
+  m_Layer: 0
+  m_Name: ThunderManagement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &649062114
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 649062113}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1561762135}
+  m_Father: {fileID: 733489754}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &649062115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 649062113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c41fc9d559462744f83ac7724cd9cb4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ThunderAndLightning
+  thunderSource: {fileID: 1561762136}
+  thunderClips:
+  - {fileID: 8300000, guid: bad70f9de0e600d4c89336792d63de05, type: 3}
+  - {fileID: 8300000, guid: 69544b8e7dd08ff4ebe4fbb86ee6eb96, type: 3}
+  - {fileID: 8300000, guid: 90e795584e281d44aad77fef60cc3880, type: 3}
+  - {fileID: 8300000, guid: 301345a14b5b08f4caa210c5b8f56c62, type: 3}
+  directionalLight: {fileID: 225510751}
+  flashIntensity: 2.5
+  flashDuration: 0.1
+  minTimeBetweenThunder: 15
+  maxTimeBetweenThunder: 45
 --- !u!1001 &649610813
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -72241,6 +72297,7 @@ Transform:
   m_Children:
   - {fileID: 1169863699}
   - {fileID: 1501804528}
+  - {fileID: 649062114}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &734535214
@@ -153588,8 +153645,6 @@ GameObject:
   - component: {fileID: 1501804530}
   - component: {fileID: 1501804529}
   - component: {fileID: 1501804536}
-  - component: {fileID: 1501804535}
-  - component: {fileID: 1501804537}
   m_Layer: 6
   m_Name: Hotel Rain Colliders
   m_TagString: Untagged
@@ -153738,27 +153793,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 13.58442, y: 14.383132, z: 30.808895}
   m_Center: {x: -1.187078, y: 4.3349223, z: -16.831167}
---- !u!65 &1501804535
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1501804527}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 18.427914, y: 9, z: 5.2911057}
-  m_Center: {x: -1.223341, y: 0.5, z: -1.6938579}
 --- !u!65 &1501804536
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -153780,24 +153814,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.5262127, y: 11.487595, z: 28.160152}
   m_Center: {x: -24.22831, y: 2.8871536, z: -18.155539}
---- !u!114 &1501804537
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1501804527}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5b69f77996c942429425bee6be1ba75, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::WeatherAudioZoneController
-  outdoorSnapshot: {fileID: 24500006, guid: 83079a0fa7e13b44b904ba18a8cc640a, type: 2}
-  indoorSnapshot: {fileID: -3889654724565258046, guid: 83079a0fa7e13b44b904ba18a8cc640a, type: 2}
-  transitionTime: 1.5
-  weatherBlockLayer:
-    serializedVersion: 2
-    m_Bits: 64
 --- !u!1001 &1502523997
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -160120,6 +160136,135 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4739229653127608, guid: b9d83caab0cda57408c929e18a3f7f0b, type: 3}
   m_PrefabInstance: {fileID: 1561730742}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1561762134
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1561762135}
+  - component: {fileID: 1561762136}
+  m_Layer: 0
+  m_Name: Thunder Source
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1561762135
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561762134}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 649062114}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1561762136
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561762134}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &1561876662
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -221734,6 +221879,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6556307556716546217}
+  - component: {fileID: 7094977339320261178}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -221741,6 +221887,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7094977339320261178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7094977339320261177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5b69f77996c942429425bee6be1ba75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WeatherAudioZone
+  playerCollider: {fileID: 453084649831460811}
+  outdoorSnapshot: {fileID: 24500006, guid: 83079a0fa7e13b44b904ba18a8cc640a, type: 2}
+  indoorSnapshot: {fileID: -3889654724565258046, guid: 83079a0fa7e13b44b904ba18a8cc640a, type: 2}
+  transitionTime: 1.5
+  weatherBlockLayer:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!114 &7130084150922735717
 MonoBehaviour:
   m_ObjectHideFlags: 0
