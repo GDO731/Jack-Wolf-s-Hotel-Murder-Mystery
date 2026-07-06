@@ -4,13 +4,18 @@ using UnityEngine.Audio;
 public class ThunderAndLightning : MonoBehaviour
 {
     [Header("Thunder Audio")]
-    public AudioSource thunderSource;
+    public AudioSource thunderSource; // Seperate Thunder Audio Source
     public AudioClip[] thunderClips; // Ability to add multiple clips for randomness
 
     [Header("Timing")]
     // Adjustable Lightning Timing
     public float minTimeBetweenThunder = 15f;
     public float maxTimeBetweenThunder = 45f;
+
+    [Header("Indoor Muffling")]
+    public AudioMixerSnapshot outdoorSnapshot;
+    public AudioMixerSnapshot indoorSnapshot;
+
 
     private float nextThunderTime;
 
@@ -21,8 +26,12 @@ public class ThunderAndLightning : MonoBehaviour
 
     void Update()
     {
+        // Check if player is indoors
+        bool isIndoors = Physics.CheckSphere(transform.position, 1.5f, LayerMask.GetMask("WeatherBlock"));
+
         if (Time.time >= nextThunderTime)
         {
+            // Call Thunder Function
             TriggerThunder();
 
             // Schedule next thunder time
