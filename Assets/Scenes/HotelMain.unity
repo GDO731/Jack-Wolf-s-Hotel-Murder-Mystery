@@ -47032,7 +47032,7 @@ Transform:
   m_GameObject: {fileID: 470602228}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -16.1, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -62651,11 +62651,10 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 69544b8e7dd08ff4ebe4fbb86ee6eb96, type: 3}
   - {fileID: 8300000, guid: 90e795584e281d44aad77fef60cc3880, type: 3}
   - {fileID: 8300000, guid: 301345a14b5b08f4caa210c5b8f56c62, type: 3}
-  directionalLight: {fileID: 225510751}
-  flashIntensity: 2.5
-  flashDuration: 0.1
   minTimeBetweenThunder: 15
   maxTimeBetweenThunder: 45
+  outdoorSnapshot: {fileID: 24500006, guid: 83079a0fa7e13b44b904ba18a8cc640a, type: 2}
+  indoorSnapshot: {fileID: -3889654724565258046, guid: 83079a0fa7e13b44b904ba18a8cc640a, type: 2}
 --- !u!1001 &649610813
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -160162,7 +160161,7 @@ Transform:
   m_GameObject: {fileID: 1561762134}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -1.34, y: 7.27, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -160177,7 +160176,7 @@ AudioSource:
   m_GameObject: {fileID: 1561762134}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 7329446187788358871, guid: 83079a0fa7e13b44b904ba18a8cc640a, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
