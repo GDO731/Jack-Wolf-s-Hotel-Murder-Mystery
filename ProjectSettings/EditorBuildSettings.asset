@@ -4,6 +4,15 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MenuSplash.unity
+    guid: f65b4e38fa888694ab5f35c2e69706c4
+  - enabled: 1
+    path: Assets/Scenes/MenuMain.unity
+    guid: 943d4f7e95d5d0e4692bf0b4aa223792
+  - enabled: 1
+    path: Assets/Scenes/HotelMain.unity
+    guid: dda52f1b21df39c459a6b2eafa31df9d
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 4419d82f33d36e848b3ed5af4c8da37e, type: 3}
