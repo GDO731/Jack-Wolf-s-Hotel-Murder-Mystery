@@ -92,7 +92,7 @@ MonoBehaviour:
   m_Name: cccc019e-7919-4c2f-a861-ca37e7139240
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
-  text: '"That''s awful I''m sorry you had to go throught that.'
+  text: '"That''s awful I''m sorry you had to go through that.'
   audioClip: {fileID: 0}
   animation: {fileID: 0}
   children: []
@@ -167,8 +167,8 @@ MonoBehaviour:
   m_Name: a3c6c3f3-f0e1-4769-abab-5fc43eae49dc
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 3
-  text: "This is all so dreadful\u2026 Gary could be very difficult, but I never
-    imagined anything like this.... "
+  text: "\"This is all so dreadful\u2026 Gary could be very difficult, but I never
+    imagined anything like this....\""
   audioClip: {fileID: 0}
   animation: {fileID: 0}
   children:
@@ -196,8 +196,8 @@ MonoBehaviour:
   m_Name: c57246ec-d47c-4458-836f-ce8a83945253
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
-  text: "(Investigation) - \u201CI heard you arguing with him earlier. What was that
-    about\u201D"
+  text: "(Question about Argument) - \u201CI heard you arguing with him earlier.
+    What was that about\u201D"
   audioClip: {fileID: 0}
   animation: {fileID: 0}
   children:
@@ -254,8 +254,8 @@ MonoBehaviour:
   children: []
   rect:
     serializedVersion: 2
-    x: 750
-    y: 241
+    x: 738
+    y: 239
     width: 300
     height: 125
   onEnterAction: 
@@ -273,15 +273,15 @@ MonoBehaviour:
   m_Name: 26b85422-30fe-4a63-87c7-f373573045a6
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
-  text: "(Questioning) - \u201CWhat was your relationship with Gary?\u201D"
+  text: "(Question about Gary) - \u201CWhat was your relationship with Gary?\u201D"
   audioClip: {fileID: 0}
   animation: {fileID: 0}
   children:
   - 77de84af-1997-4deb-a50c-f6b5878968e8
   rect:
     serializedVersion: 2
-    x: 367
-    y: 1
+    x: 379
+    y: 4
     width: 300
     height: 125
   onEnterAction: 

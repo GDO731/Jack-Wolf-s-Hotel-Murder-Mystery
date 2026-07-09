@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: a4de9f66-d727-45b6-8ac5-ae7abddd17c8
   m_EditorClassIdentifier: MainGame::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 1
-  text: Only one single room, we should have one available for you sir. I'll go see
-    if we do, please wait here.
+  text: '"Only one single room, we should have one available for you sir. I''ll go
+    see if we do, please wait here."'
   audioClip: {fileID: 0}
   animation: {fileID: 0}
   children: []
@@ -56,8 +56,8 @@ MonoBehaviour:
   m_Name: a397f2e3-180f-4598-bdaf-7f9994d14a38
   m_EditorClassIdentifier: MainGame::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
-  text: 'Thank you, I only need a room till the storm passes. I didn''t expect this
-    kind of weather today. '
+  text: '"Thank you, I only need a room till the storm passes. I didn''t expect this
+    kind of weather today."'
   audioClip: {fileID: 0}
   animation: {fileID: 0}
   children:
@@ -83,8 +83,8 @@ MonoBehaviour:
   m_Name: 9ad97e37-190f-48cc-9704-b112646b6877
   m_EditorClassIdentifier: MainGame::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 1
-  text: 'Welcome to the Seron Hotel, good thing you stopped when you did! This storm
-    is getting worse by the hour. '
+  text: '"Welcome to the Seron Hotel, good thing you stopped when you did! This storm
+    is getting worse by the hour."'
   audioClip: {fileID: 0}
   animation: {fileID: 0}
   children:
