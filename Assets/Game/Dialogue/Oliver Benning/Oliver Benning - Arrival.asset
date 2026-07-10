@@ -25,7 +25,7 @@ MonoBehaviour:
     width: 300
     height: 125
   onEnterAction: 
-  onExitAction: 
+  onExitAction: SwitchCamera
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0

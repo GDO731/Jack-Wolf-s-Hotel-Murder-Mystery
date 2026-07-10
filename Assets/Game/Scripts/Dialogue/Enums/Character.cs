@@ -12,6 +12,8 @@ namespace Assets.Game.Scripts.Dialogue.Enums
         [StringValue("Ronnie Davis")]
         RonnieDavis,
         [StringValue("Eleanor Harrington")]
-        EleanorHarrington
+        EleanorHarrington,
+        [StringValue("Gary Wilkins")]
+        GaryWilkins
     }
 }
