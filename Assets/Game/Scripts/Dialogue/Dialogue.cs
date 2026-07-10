@@ -1,6 +1,4 @@
-using Assets.Game.Scripts.Core;
 using Assets.Game.Scripts.Dialogue.Enums;
-using Assets.Game.Scripts.Dialogue.Enums.Attributes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,7 +17,17 @@ namespace Assets.Game.Scripts.Dialogue
 
         Dictionary<string, DialogueNode> nodeLookup = new Dictionary<string, DialogueNode>();
 
+        private void OnEnable()
+        {
+            BuildNodeLookup();
+        }
+
         private void OnValidate()
+        {
+            BuildNodeLookup();
+        }
+
+        private void BuildNodeLookup()
         {
             nodeLookup.Clear();
             foreach (var node in GetAllNodes())

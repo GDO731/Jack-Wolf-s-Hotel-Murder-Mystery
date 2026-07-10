@@ -1,9 +1,7 @@
-using Assets.Game.Scripts.Core;
 using Assets.Game.Scripts.Dialogue;
 using System.Collections;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Audio;
 using UnityEngine.UI;
 
 namespace Assets.Game.Scripts.UI
@@ -18,12 +16,10 @@ namespace Assets.Game.Scripts.UI
         [SerializeField] GameObject aiResponse;
         [SerializeField] GameObject choiceButtonPrefab;
         [SerializeField] AudioSource audioSource;
-
-        PlayerConversant playerConversant;
+        [SerializeField] PlayerConversant playerConversant;
 
         void Start()
         {
-            playerConversant = GameObject.FindGameObjectWithTag(TagConstants.PlayerTag).GetComponent<PlayerConversant>();
             playerConversant.onConversationUpdated += UpdateDialogue;
             nextButton.onClick.AddListener(() => playerConversant.Next());
             quitButton.onClick.AddListener(() => playerConversant.Quit());
@@ -39,6 +35,8 @@ namespace Assets.Game.Scripts.UI
             conversantName.text = playerConversant.GetCurrentConversantName();
             aiResponse.SetActive(!playerConversant.IsChosing());
             choiceRoot.gameObject.SetActive(playerConversant.IsChosing());
+
+            quitButton.interactable = !playerConversant.HasNext();
 
             if (playerConversant.IsChosing())
             {

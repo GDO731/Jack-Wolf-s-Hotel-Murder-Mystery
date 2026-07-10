@@ -1,3 +1,4 @@
+using Assets.Game.Scripts.Dialogue.Enums;
 using Assets.Game.Scripts.Dialogue.Enums.Attributes;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,6 @@ namespace Assets.Game.Scripts.Dialogue
 {
     public class PlayerConversant : MonoBehaviour
     {
-        [SerializeField] string playerName;
 
         Dialogue currentDialogue;
         DialogueNode currentNode = null;
@@ -63,6 +63,7 @@ namespace Assets.Game.Scripts.Dialogue
             currentNode = chosenNode;
             TriggerEnterAction();
             isChoosing = false;
+            onConversationUpdated();
         }
 
         public void Next()
@@ -118,7 +119,7 @@ namespace Assets.Game.Scripts.Dialogue
         {
             if (isChoosing)
             {
-                return playerName;
+                return StringValueAttribute.GetStringValue(Character.Player);
             }
             else
             {

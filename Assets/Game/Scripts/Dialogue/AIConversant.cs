@@ -1,4 +1,6 @@
 using Assets.Game.Scripts.Core;
+using Assets.Game.Scripts.Dialogue.Enums;
+using Assets.Game.Scripts.Dialogue.Enums.Attributes;
 using Assets.Game.Scripts.Interaction;
 using UnityEngine;
 
@@ -7,7 +9,7 @@ namespace Assets.Game.Scripts.Dialogue
     public class AIConversant : Interactable
     {
         [SerializeField] Dialogue dialogue = null;
-        [SerializeField] string conversantName;
+        [SerializeField] Character conversant;
         [SerializeField] PlayerConversant playerConversant = null;
 
         public void Start()
@@ -33,7 +35,7 @@ namespace Assets.Game.Scripts.Dialogue
 
         public string GetName()
         {
-            return conversantName;
+            return StringValueAttribute.GetStringValue(conversant);
         }
     }
 }
