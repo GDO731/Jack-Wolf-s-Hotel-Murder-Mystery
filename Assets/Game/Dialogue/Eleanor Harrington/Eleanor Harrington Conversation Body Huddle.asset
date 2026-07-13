@@ -15,7 +15,6 @@ MonoBehaviour:
   nodes:
   - {fileID: 302562495704591303}
   - {fileID: 2990640503336401004}
-  - {fileID: 4750383124697657347}
   - {fileID: 1951218336024216975}
   newNodeOffset: {x: 250, y: 0}
 --- !u!114 &302562495704591303
@@ -31,7 +30,6 @@ MonoBehaviour:
   m_Name: a3c6c3f3-f0e1-4769-abab-5fc43eae49dc
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 3
-  isPlayerSpeaking: 0
   text: '"Is that Gary?"'
   audioClip: {fileID: 0}
   animation: {fileID: 0}
@@ -58,7 +56,6 @@ MonoBehaviour:
   m_Name: 7bc637a3-b2f5-41b3-b192-798daebf88c5
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 3
-  isPlayerSpeaking: 0
   text: '"I need to call my father... (runs off)"'
   audioClip: {fileID: 0}
   animation: {fileID: 0}
@@ -84,7 +81,6 @@ MonoBehaviour:
   m_Name: c57246ec-d47c-4458-836f-ce8a83945253
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
-  isPlayerSpeaking: 1
   text: '"I''m afraid so Ma''am. I''m sorry you had to see this."'
   audioClip: {fileID: 0}
   animation: {fileID: 0}
@@ -94,32 +90,6 @@ MonoBehaviour:
     serializedVersion: 2
     x: 367
     y: 119
-    width: 300
-    height: 125
-  onEnterAction: 
-  onExitAction: 
---- !u!114 &4750383124697657347
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
-  m_Name: bc07654d-18e3-4204-9551-f5aadc63f6cf
-  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  character: 3
-  isPlayerSpeaking: 0
-  text: '"I don''t quite know I''m sorry.."'
-  audioClip: {fileID: 0}
-  animation: {fileID: 0}
-  children: []
-  rect:
-    serializedVersion: 2
-    x: 1546
-    y: 1
     width: 300
     height: 125
   onEnterAction: 

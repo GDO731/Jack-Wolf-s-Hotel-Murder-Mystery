@@ -1,5 +1,30 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6407996414356514089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: 84a87c88-b962-446f-9fd4-4a6731a07f4e
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 0
+  text: 
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 996
+    y: 250
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
 --- !u!114 &-5010235834287219342
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17,7 +42,8 @@ MonoBehaviour:
     travel. We're completely isolated out here."
   audioClip: {fileID: 0}
   animation: {fileID: 0}
-  children: []
+  children:
+  - 84a87c88-b962-446f-9fd4-4a6731a07f4e
   rect:
     serializedVersion: 2
     x: 746
@@ -42,6 +68,7 @@ MonoBehaviour:
   - {fileID: 8216004505415477860}
   - {fileID: 4798587740896948446}
   - {fileID: -5010235834287219342}
+  - {fileID: -6407996414356514089}
   newNodeOffset: {x: 250, y: 0}
 --- !u!114 &4798587740896948446
 MonoBehaviour:

@@ -65,7 +65,7 @@ MonoBehaviour:
   m_Name: a4de9f66-d727-45b6-8ac5-ae7abddd17c8
   m_EditorClassIdentifier: MainGame::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 1
-  text: Mr Wolf, here is your room key
+  text: '"Mr Wolf, here is your room key"'
   audioClip: {fileID: 0}
   animation: {fileID: 0}
   children:
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_Name: a397f2e3-180f-4598-bdaf-7f9994d14a38
   m_EditorClassIdentifier: MainGame::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
-  text: Jack Wolf
+  text: '"Jack Wolf"'
   audioClip: {fileID: 0}
   animation: {fileID: 0}
   children:
@@ -198,7 +198,7 @@ MonoBehaviour:
   rect:
     serializedVersion: 2
     x: 24
-    y: 249
+    y: 248
     width: 300
     height: 125
   onEnterAction: 
