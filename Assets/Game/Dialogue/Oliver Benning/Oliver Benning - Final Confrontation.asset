@@ -1,0 +1,317 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7802641187625857431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: 5acc4915-4223-4766-bfb2-09b680b11f23
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 0
+  text: "\u201CYou\u2019re no better than he was now. How do you think you would
+    feel about that? About what you\u2019ve become?\u201D"
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1636
+    y: 236
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-6515532468136122579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: 528a4370-2791-48bb-80a0-15573c0e392f
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 1
+  text: "\u201CPlease, don\u2019t take me in. I did it for her\u2026 She deserved
+    justice!\u201D"
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children:
+  - 5acc4915-4223-4766-bfb2-09b680b11f23
+  rect:
+    serializedVersion: 2
+    x: 1272
+    y: 234
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-5933813413542100588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: 9cbdc032-a473-4d91-9877-563f6fdfb94b
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 0
+  text: "(Mercy) - \u201CGo. Leave before the storm clears. Don\u2019t come back.\u201D "
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children:
+  - e141fe41-13f8-4ff8-82d4-a26a3781e3ab
+  rect:
+    serializedVersion: 2
+    x: 911
+    y: 436
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-3136669886888173465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: f89a7599-d77e-4b9d-a4e9-f0e7af492780
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 1
+  text: "\u201CHe\u2019s the criminal not me! He destroyed my life!\u201D"
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children:
+  - 9ecb6cbe-895a-465f-938f-4546696d38f7
+  rect:
+    serializedVersion: 2
+    x: 1275
+    y: 29
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-2016706117875757435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: e141fe41-13f8-4ff8-82d4-a26a3781e3ab
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 1
+  text: "\u201CBut...\u201D"
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children:
+  - a9579085-2d52-4040-8c6c-2514d0a8c5fe
+  rect:
+    serializedVersion: 2
+    x: 1270
+    y: 436
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-1937755528180960528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: 9ecb6cbe-895a-465f-938f-4546696d38f7
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 0
+  text: "\u201CYou still murdered this man in cold blood!\u201D"
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1621
+    y: 27
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-661837232254204605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: 22f4700e-d703-4b02-aea0-8c8e76c986dc
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 0
+  text: "(Justice) - \u201CI understand why you did it, but I still have to take
+    you in.\u201D"
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children:
+  - 528a4370-2791-48bb-80a0-15573c0e392f
+  rect:
+    serializedVersion: 2
+    x: 916
+    y: 233
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 625f302100e5f6b4799070d409f0967e, type: 3}
+  m_Name: Oliver Benning - Final Confrontation
+  m_EditorClassIdentifier: MainGame::Assets.Game.Scripts.Dialogue.Dialogue
+  nodes:
+  - {fileID: 8216004505415477860}
+  - {fileID: 4821159685554527}
+  - {fileID: -5933813413542100588}
+  - {fileID: -661837232254204605}
+  - {fileID: 3382283388444790715}
+  - {fileID: -3136669886888173465}
+  - {fileID: -1937755528180960528}
+  - {fileID: -6515532468136122579}
+  - {fileID: -7802641187625857431}
+  - {fileID: -2016706117875757435}
+  - {fileID: 7419768714246190271}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &4821159685554527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: 2d9d61a0-949b-4115-9cc3-f45a819bd86a
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 1
+  text: "\"He murdered my wife fourteen years ago\u2026He got away with it. Then
+    he came back here\u2026 Smiling! I couldn\u2019t let that stand!\u201D"
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children:
+  - 9cbdc032-a473-4d91-9877-563f6fdfb94b
+  - 22f4700e-d703-4b02-aea0-8c8e76c986dc
+  - 88952d88-803f-4e37-868d-c3622d6117e2
+  rect:
+    serializedVersion: 2
+    x: 448
+    y: 244
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &3382283388444790715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: 88952d88-803f-4e37-868d-c3622d6117e2
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 0
+  text: "(Law) - \u201CI\u2019m placing you under arrest, this ends now.\u201D"
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children:
+  - f89a7599-d77e-4b9d-a4e9-f0e7af492780
+  rect:
+    serializedVersion: 2
+    x: 927
+    y: 27
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &7419768714246190271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: a9579085-2d52-4040-8c6c-2514d0a8c5fe
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 0
+  text: "\u201CDon\u2019t make me change my mind\u201D"
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1674
+    y: 436
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &8216004505415477860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: 9ad97e37-190f-48cc-9704-b112646b6877
+  m_EditorClassIdentifier: MainGame::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 0
+  text: "\u201CIt was you, Oliver. The blood in the basement. The watch in your drawer.
+    You killed him.\u201D"
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children:
+  - 2d9d61a0-949b-4115-9cc3-f45a819bd86a
+  rect:
+    serializedVersion: 2
+    x: -16
+    y: 244
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
