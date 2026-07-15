@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9186441780614238053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: 7abdcdd4-b7ca-463d-b0fd-6db24388c252
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 0
+  text: "\u201CThat\u2019s the problem, you became him!\""
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 756
+    y: 315
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 625f302100e5f6b4799070d409f0967e, type: 3}
+  m_Name: jack Wolf - Justice Ending
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.Dialogue
+  nodes:
+  - {fileID: 2990640503336401004}
+  - {fileID: 1951218336024216975}
+  - {fileID: -9186441780614238053}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &1951218336024216975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: 7bc637a3-b2f5-41b3-b192-798daebf88c5
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 1
+  text: "\u201CPlease I did it for her!\u201D"
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children:
+  - 7abdcdd4-b7ca-463d-b0fd-6db24388c252
+  rect:
+    serializedVersion: 2
+    x: 383
+    y: 210
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &2990640503336401004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: c57246ec-d47c-4458-836f-ce8a83945253
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 0
+  text: "(Long Sigh) \u201CEven if the law failed you Oliver, I can\u2019t let you
+    just walk away \u201D "
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children:
+  - 7bc637a3-b2f5-41b3-b192-798daebf88c5
+  rect:
+    serializedVersion: 2
+    x: -10
+    y: 203
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
