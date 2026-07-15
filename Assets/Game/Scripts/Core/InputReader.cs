@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using System;
+using UnityEngine.EventSystems;
 
 namespace Assets.Game.Scripts.Core
 {
@@ -50,6 +51,8 @@ namespace Assets.Game.Scripts.Core
 
         public void OnInteract(InputAction.CallbackContext ctx)
         {
+            if (EventSystem.current.IsPointerOverGameObject())
+                return;
             if (ctx.performed) InteractEvent?.Invoke();
         }
 
