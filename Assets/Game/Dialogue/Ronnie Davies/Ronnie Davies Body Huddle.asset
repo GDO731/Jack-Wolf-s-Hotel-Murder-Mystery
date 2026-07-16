@@ -100,6 +100,7 @@ MonoBehaviour:
   - {fileID: -3642404422460705698}
   - {fileID: 6252381086576060295}
   - {fileID: -812625922332441018}
+  - {fileID: 6010589412941982990}
   newNodeOffset: {x: 250, y: 0}
 --- !u!114 &766389892839670889
 MonoBehaviour:
@@ -152,8 +153,8 @@ MonoBehaviour:
   - 09483cd0-c486-4b1f-a6e0-03e8c0ee0bda
   rect:
     serializedVersion: 2
-    x: 9
-    y: 118
+    x: 50
+    y: 154
     width: 300
     height: 125
   onEnterAction: 
@@ -181,6 +182,32 @@ MonoBehaviour:
     serializedVersion: 2
     x: 746
     y: 180
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &6010589412941982990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: 946fd035-4744-4a7b-9e27-f320ed8d2fa7
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 0
+  text: "\u201CDid you see anything\u2026 Ronnie?\u201D"
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children:
+  - a8492415-ab96-4c65-aa98-66c853b2f6ed
+  rect:
+    serializedVersion: 2
+    x: 50
+    y: 345
     width: 300
     height: 125
   onEnterAction: 

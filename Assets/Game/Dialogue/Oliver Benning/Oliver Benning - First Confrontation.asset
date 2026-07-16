@@ -255,8 +255,8 @@ MonoBehaviour:
   - de037ae9-a1bb-41be-a2eb-8a5366e0061d
   rect:
     serializedVersion: 2
-    x: -16
-    y: 244
+    x: 138
+    y: 250
     width: 300
     height: 125
   onEnterAction: 

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-7641362107923875512
+--- !u!114 &-8714421206388016538
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,23 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
-  m_Name: be6a7405-f502-4167-a6f1-36af255a03c1
+  m_Name: 464d2ed7-130e-4edf-b674-95d04d56c6c4
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
-  text: "\u201CThank you, Mr Benning.\u201D"
+  text: "\u201CCan someone please call the police and let them know there has been
+    a murder? In the meantime we need to figure out what happened.\u201D"
   audioClip: {fileID: 0}
   animation: {fileID: 0}
-  children:
-  - 801bd348-248a-42fd-830b-6e78bd25bc7e
+  children: []
   rect:
     serializedVersion: 2
-    x: 1114
-    y: 243
+    x: 1767
+    y: 250
     width: 300
     height: 125
   onEnterAction: 
   onExitAction: 
---- !u!114 &-5631996152733900510
+--- !u!114 &-8604757609245094258
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -36,70 +36,71 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
-  m_Name: a4de9f66-d727-45b6-8ac5-ae7abddd17c8
-  m_EditorClassIdentifier: MainGame::Assets.Game.Scripts.Dialogue.DialogueNode
+  m_Name: 537a14ea-42e8-4de3-b94a-5745c7f2f788
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 2
+  text: "\u201CPoor young soul\u2026\u201D"
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children:
+  - 464d2ed7-130e-4edf-b674-95d04d56c6c4
+  rect:
+    serializedVersion: 2
+    x: 1385
+    y: 250
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-2485389464586274118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: 234534e5-a8f8-43c5-8076-3732b407fb79
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 0
+  text: "\"I\u2019m a homicide detective (shows badge), so no one touches anything.
+    The scene needs to be as uncontaminated as possible. \""
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children:
+  - 226797c3-e482-4263-8003-1e68b6c5e9d8
+  rect:
+    serializedVersion: 2
+    x: 690
+    y: 249
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-2458182363495366055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: 23855927-6dae-4aff-bac9-89e243b34962
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 1
-  text: '"Mr Wolf, here is your room key"'
+  text: "\"Sir, I don\u2019t think\u2026\""
   audioClip: {fileID: 0}
   animation: {fileID: 0}
   children:
-  - be6a7405-f502-4167-a6f1-36af255a03c1
+  - 234534e5-a8f8-43c5-8076-3732b407fb79
   rect:
     serializedVersion: 2
-    x: 727
-    y: 246
-    width: 300
-    height: 125
-  onEnterAction: 
-  onExitAction: 
---- !u!114 &-2390598697628812335
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
-  m_Name: dd9bdda4-1724-40c4-b231-a311098149e1
-  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  character: 0
-  text: '"Real busy Hotel you have here."'
-  audioClip: {fileID: 0}
-  animation: {fileID: 0}
-  children:
-  - 86c2da7a-e1ee-4e9d-9a15-a9a4acb97670
-  rect:
-    serializedVersion: 2
-    x: 1855
-    y: 374
-    width: 300
-    height: 125
-  onEnterAction: 
-  onExitAction: 
---- !u!114 &-258312972426209235
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
-  m_Name: 001261a9-79c3-42a3-992d-c04c6590e34a
-  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  character: 0
-  text: "\u201CNice place you have here. The architecture is nothing like back home.\u201D"
-  audioClip: {fileID: 0}
-  animation: {fileID: 0}
-  children:
-  - 217b1e55-6484-40a4-ad99-8d63773fc3e3
-  rect:
-    serializedVersion: 2
-    x: 1866
-    y: 244
+    x: 355
+    y: 249
     width: 300
     height: 125
   onEnterAction: 
@@ -114,20 +115,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 625f302100e5f6b4799070d409f0967e, type: 3}
-  m_Name: Oliver Benning - Room Allocation
+  m_Name: Body Discovery All Cast
   m_EditorClassIdentifier: MainGame::Assets.Game.Scripts.Dialogue.Dialogue
   nodes:
   - {fileID: 8216004505415477860}
-  - {fileID: 4144062120373194903}
-  - {fileID: -5631996152733900510}
-  - {fileID: -7641362107923875512}
-  - {fileID: 830399794324531903}
-  - {fileID: -258312972426209235}
-  - {fileID: 8658163274539363327}
-  - {fileID: -2390598697628812335}
-  - {fileID: 1044700334370515492}
+  - {fileID: -2458182363495366055}
+  - {fileID: -2485389464586274118}
+  - {fileID: 4036708770154330022}
+  - {fileID: -8604757609245094258}
+  - {fileID: -8714421206388016538}
   newNodeOffset: {x: 250, y: 0}
---- !u!114 &830399794324531903
+--- !u!114 &4036708770154330022
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -137,70 +135,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
-  m_Name: 801bd348-248a-42fd-830b-6e78bd25bc7e
+  m_Name: 226797c3-e482-4263-8003-1e68b6c5e9d8
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  character: 1
-  text: "\u201CPlease call me Oliver.\u201D"
+  character: 3
+  text: "\"I can\u2019t believe this is happening!\""
   audioClip: {fileID: 0}
   animation: {fileID: 0}
   children:
-  - 001261a9-79c3-42a3-992d-c04c6590e34a
-  - dd9bdda4-1724-40c4-b231-a311098149e1
+  - 537a14ea-42e8-4de3-b94a-5745c7f2f788
   rect:
     serializedVersion: 2
-    x: 1460
-    y: 244
-    width: 300
-    height: 125
-  onEnterAction: 
-  onExitAction: 
---- !u!114 &1044700334370515492
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
-  m_Name: 86c2da7a-e1ee-4e9d-9a15-a9a4acb97670
-  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  character: 1
-  text: '"Very funny Mr Wolf.."'
-  audioClip: {fileID: 0}
-  animation: {fileID: 0}
-  children: []
-  rect:
-    serializedVersion: 2
-    x: 2236
-    y: 377
-    width: 300
-    height: 125
-  onEnterAction: 
-  onExitAction: 
---- !u!114 &4144062120373194903
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
-  m_Name: a397f2e3-180f-4598-bdaf-7f9994d14a38
-  m_EditorClassIdentifier: MainGame::Assets.Game.Scripts.Dialogue.DialogueNode
-  character: 0
-  text: '"Jack Wolf"'
-  audioClip: {fileID: 0}
-  animation: {fileID: 0}
-  children:
-  - a4de9f66-d727-45b6-8ac5-ae7abddd17c8
-  rect:
-    serializedVersion: 2
-    x: 357
-    y: 249
+    x: 1027
+    y: 248
     width: 300
     height: 125
   onEnterAction: 
@@ -217,41 +163,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
   m_Name: 9ad97e37-190f-48cc-9704-b112646b6877
   m_EditorClassIdentifier: MainGame::Assets.Game.Scripts.Dialogue.DialogueNode
-  character: 1
-  text: '"Alright Sir, we have a room ready for you, what name can I put it under?"'
+  character: 0
+  text: "\"Everyone don\u2019t touch the body!\""
   audioClip: {fileID: 0}
   animation: {fileID: 0}
   children:
-  - a397f2e3-180f-4598-bdaf-7f9994d14a38
+  - 23855927-6dae-4aff-bac9-89e243b34962
   rect:
     serializedVersion: 2
     x: 24
     y: 248
-    width: 300
-    height: 125
-  onEnterAction: 
-  onExitAction: 
---- !u!114 &8658163274539363327
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
-  m_Name: 217b1e55-6484-40a4-ad99-8d63773fc3e3
-  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  character: 1
-  text: '"Thank you, I appreciate the compliments"'
-  audioClip: {fileID: 0}
-  animation: {fileID: 0}
-  children: []
-  rect:
-    serializedVersion: 2
-    x: 2240
-    y: 241
     width: 300
     height: 125
   onEnterAction: 
