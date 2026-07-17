@@ -13,14 +13,15 @@ MonoBehaviour:
   m_Name: 84a87c88-b962-446f-9fd4-4a6731a07f4e
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
-  text: 
+  text: "\"Why didn\u2019t you say anything?\""
   audioClip: {fileID: 0}
   animation: {fileID: 0}
-  children: []
+  children:
+  - 39703f37-8e9d-4a5f-8d15-be751d1cf693
   rect:
     serializedVersion: 2
-    x: 286
-    y: 473
+    x: 1141
+    y: 251
     width: 300
     height: 125
   onEnterAction: 
@@ -52,6 +53,32 @@ MonoBehaviour:
     height: 125
   onEnterAction: 
   onExitAction: 
+--- !u!114 &-2872031282488735988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: 39703f37-8e9d-4a5f-8d15-be751d1cf693
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 1
+  text: "\"I didn\u2019t want people to panic.\""
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children:
+  - 29f8207b-8f87-45b4-aedb-6ae2dd7474c0
+  rect:
+    serializedVersion: 2
+    x: 1499
+    y: 249
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69,6 +96,8 @@ MonoBehaviour:
   - {fileID: 4798587740896948446}
   - {fileID: -5010235834287219342}
   - {fileID: -6407996414356514089}
+  - {fileID: -2872031282488735988}
+  - {fileID: 5887314411082794369}
   newNodeOffset: {x: 250, y: 0}
 --- !u!114 &4798587740896948446
 MonoBehaviour:
@@ -92,6 +121,31 @@ MonoBehaviour:
     serializedVersion: 2
     x: 395
     y: 250
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &5887314411082794369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: 29f8207b-8f87-45b4-aedb-6ae2dd7474c0
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 0
+  text: "\"That\u2019s a fair point.\u201D"
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1860
+    y: 251
     width: 300
     height: 125
   onEnterAction: 
