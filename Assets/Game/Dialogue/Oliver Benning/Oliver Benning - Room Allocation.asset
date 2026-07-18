@@ -173,12 +173,12 @@ MonoBehaviour:
   children: []
   rect:
     serializedVersion: 2
-    x: 2236
-    y: 377
+    x: 2223
+    y: 394
     width: 300
     height: 125
   onEnterAction: 
-  onExitAction: 
+  onExitAction: RoomAccessGranted
 --- !u!114 &4144062120373194903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -255,4 +255,4 @@ MonoBehaviour:
     width: 300
     height: 125
   onEnterAction: 
-  onExitAction: 
+  onExitAction: RoomAccessGranted

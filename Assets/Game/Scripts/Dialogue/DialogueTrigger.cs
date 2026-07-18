@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
+
 namespace Assets.Game.Scripts.Dialogue
 {
     public class DialogueTrigger : MonoBehaviour
