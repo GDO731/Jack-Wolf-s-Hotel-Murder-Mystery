@@ -13,6 +13,7 @@ namespace Assets.Game.Scripts.Core
         public event Action CrouchEvent;
         public event Action InteractEvent;
         public event Action InventoryEvent;
+        public event Action InstructionsEvent;
 
         public Vector2 MoveValue { get; private set; }
         public Vector2 LookValue { get; private set; }
@@ -59,6 +60,11 @@ namespace Assets.Game.Scripts.Core
         public void OnInventory(InputAction.CallbackContext ctx)
         {
             if (ctx.performed) InventoryEvent?.Invoke();
+        }
+
+        public void OnInstructions(InputAction.CallbackContext ctx)
+        {
+            if (ctx.performed) InstructionsEvent?.Invoke();
         }
     }
 }

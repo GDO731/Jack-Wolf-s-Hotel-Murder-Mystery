@@ -16,8 +16,12 @@ namespace Assets.Game.Scripts.Core
             inputReader = GetComponent<InputReader>();
         }
 
-        void OnEnable() => inputReader.InteractEvent += OnInteract;
-        void OnDisable() => inputReader.InteractEvent -= OnInteract;
+        void OnEnable() {
+            inputReader.InteractEvent += OnInteract;
+        } 
+        void OnDisable() { 
+            inputReader.InteractEvent -= OnInteract;
+        } 
 
         void OnInteract()
         {
