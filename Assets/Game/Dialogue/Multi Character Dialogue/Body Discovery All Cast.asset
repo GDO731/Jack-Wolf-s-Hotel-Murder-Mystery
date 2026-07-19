@@ -25,7 +25,7 @@ MonoBehaviour:
     width: 300
     height: 125
   onEnterAction: 
-  onExitAction: 
+  onExitAction: Garden
 --- !u!114 &-8604757609245094258
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -19630,7 +19630,7 @@ GameObject:
   - component: {fileID: 6244010688839871447}
   - component: {fileID: 999338466995997172}
   m_Layer: 0
-  m_Name: Magic circle
+  m_Name: WalkInTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

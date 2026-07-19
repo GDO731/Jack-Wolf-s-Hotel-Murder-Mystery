@@ -67,7 +67,7 @@ MonoBehaviour:
     width: 300
     height: 125
   onEnterAction: 
-  onExitAction: 
+  onExitAction: BodyHuddle
 --- !u!114 &2990640503336401004
 MonoBehaviour:
   m_ObjectHideFlags: 0
