@@ -13,10 +13,8 @@ namespace Assets.Game.Scripts.Core
 
         private void OnTriggerEnter(Collider other)
         {
-            Debug.Log("Here");
             if (hasFired && triggerOnce) return;
             if (!other.CompareTag(TagConstants.PlayerTag)) return;
-            Debug.Log("Here2");
             onTrigger.Invoke();
             hasFired = true;
         }
