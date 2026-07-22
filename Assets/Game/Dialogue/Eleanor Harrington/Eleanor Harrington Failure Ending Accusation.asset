@@ -21,8 +21,8 @@ MonoBehaviour:
   children: []
   rect:
     serializedVersion: 2
-    x: 421
-    y: 141
+    x: 722
+    y: 138
     width: 300
     height: 125
   onEnterAction: 
@@ -42,6 +42,8 @@ MonoBehaviour:
   nodes:
   - {fileID: 302562495704591303}
   - {fileID: -333090889048980423}
+  - {fileID: 1841314817573441880}
+  - {fileID: 5173626369856222732}
   newNodeOffset: {x: 250, y: 0}
 --- !u!114 &302562495704591303
 MonoBehaviour:
@@ -65,8 +67,61 @@ MonoBehaviour:
   - 9fc1a44c-1352-47eb-80e8-a3d516afb379
   rect:
     serializedVersion: 2
-    x: 42
-    y: 110
+    x: 393
+    y: 139
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &1841314817573441880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: e27b1653-f182-460f-9566-17c6c352432f
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 0
+  text: '"Accuse Eleanor"'
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children:
+  - a3c6c3f3-f0e1-4769-abab-5fc43eae49dc
+  - cd88f3ed-25c6-4689-a934-2f3eee7171f4
+  - c32c8dae-5b47-4041-b8bf-13051a293bf1
+  rect:
+    serializedVersion: 2
+    x: 54
+    y: 145
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &5173626369856222732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: cd88f3ed-25c6-4689-a934-2f3eee7171f4
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 0
+  text: '"I need to collect more evidence" (Decide Later)'
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 393
+    y: 299
     width: 300
     height: 125
   onEnterAction: 

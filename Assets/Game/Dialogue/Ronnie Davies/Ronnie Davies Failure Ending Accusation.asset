@@ -1,5 +1,30 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5874773924461671245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: 9bfadda9-c524-4767-a529-d9938bf3fd1f
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 0
+  text: '"I need to collect more evidence" (Decide Later)'
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 434
+    y: 285
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15,7 +40,36 @@ MonoBehaviour:
   nodes:
   - {fileID: 4500546438378084686}
   - {fileID: 8707171820934618802}
+  - {fileID: 1933499317288218564}
+  - {fileID: -5874773924461671245}
   newNodeOffset: {x: 250, y: 0}
+--- !u!114 &1933499317288218564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: c32c8dae-5b47-4041-b8bf-13051a293bf1
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 0
+  text: '"Accuse Ronnie"'
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children:
+  - a8492415-ab96-4c65-aa98-66c853b2f6ed
+  - 9bfadda9-c524-4767-a529-d9938bf3fd1f
+  rect:
+    serializedVersion: 2
+    x: 50
+    y: 117
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
 --- !u!114 &4500546438378084686
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37,8 +91,8 @@ MonoBehaviour:
   - 9f33131e-ae94-4d3b-81f6-d258d5800458
   rect:
     serializedVersion: 2
-    x: 8
-    y: 117
+    x: 440
+    y: 115
     width: 300
     height: 125
   onEnterAction: 
@@ -63,7 +117,7 @@ MonoBehaviour:
   children: []
   rect:
     serializedVersion: 2
-    x: 383
+    x: 838
     y: 114
     width: 300
     height: 125
