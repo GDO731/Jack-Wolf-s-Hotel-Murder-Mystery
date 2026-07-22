@@ -79,6 +79,31 @@ MonoBehaviour:
     height: 125
   onEnterAction: 
   onExitAction: 
+--- !u!114 &-4833564230929596595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: 760263ae-8869-4e16-8e89-8b585119d573
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 0
+  text: '"I need to collect more evidence" (Decide Later)'
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 313
+    y: 266
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
 --- !u!114 &-3136669886888173465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -207,6 +232,8 @@ MonoBehaviour:
   - {fileID: -7802641187625857431}
   - {fileID: -2016706117875757435}
   - {fileID: 7419768714246190271}
+  - {fileID: 2690955573801063453}
+  - {fileID: -4833564230929596595}
   newNodeOffset: {x: 250, y: 0}
 --- !u!114 &4821159685554527
 MonoBehaviour:
@@ -231,8 +258,35 @@ MonoBehaviour:
   - 88952d88-803f-4e37-868d-c3622d6117e2
   rect:
     serializedVersion: 2
-    x: 448
-    y: 244
+    x: 630
+    y: 111
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &2690955573801063453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: d63795be-2d4e-40f9-9c2c-2be16ffe7ecb
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 0
+  text: '"Accuse Oliver"'
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children:
+  - 9ad97e37-190f-48cc-9704-b112646b6877
+  - 760263ae-8869-4e16-8e89-8b585119d573
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 109
     width: 300
     height: 125
   onEnterAction: 
@@ -309,8 +363,8 @@ MonoBehaviour:
   - 2d9d61a0-949b-4115-9cc3-f45a819bd86a
   rect:
     serializedVersion: 2
-    x: -16
-    y: 244
+    x: 320
+    y: 113
     width: 300
     height: 125
   onEnterAction: 
