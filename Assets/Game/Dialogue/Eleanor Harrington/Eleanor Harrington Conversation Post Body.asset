@@ -92,7 +92,7 @@ MonoBehaviour:
   m_Name: cccc019e-7919-4c2f-a861-ca37e7139240
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
-  text: '"That''s awful I''m sorry you had to go through that.'
+  text: '"That''s awful. I''m sorry you had to go through that.'
   audioClip: {fileID: 0}
   animation: {fileID: 0}
   children: []
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_Name: bc07654d-18e3-4204-9551-f5aadc63f6cf
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 3
-  text: '"I don''t quite know I''m sorry.."'
+  text: '"I don''t quite know, I''m sorry.."'
   audioClip: {fileID: 0}
   animation: {fileID: 0}
   children: []

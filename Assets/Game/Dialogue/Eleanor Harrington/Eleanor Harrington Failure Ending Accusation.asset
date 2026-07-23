@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 9fc1a44c-1352-47eb-80e8-a3d516afb379
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 3
-  text: "\u201DBlunt force trauma, Detective. There were  no cuts on his body whatsoever.
+  text: "\u201DBlunt force trauma, Detective. There were no cuts on his body whatsoever.
     You\u2019re a rather poor excuse for a detective if you can\u2019t get basic
     facts right!\u201D"
   audioClip: {fileID: 0}
@@ -59,8 +59,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
   text: "\u201CIt was you, Eleanor. You slit Gary\u2019s throat with your letter
-    opener. The blood in your room and bow near the body is plenty evidence to point
-    to it. You murdered him because of his advances on you!\u201D "
+    opener. The blood in your room and the bow near the body are plenty of evidence
+    to point to it. You murdered him because of his advances on you!\u201D "
   audioClip: {fileID: 0}
   animation: {fileID: 0}
   children:

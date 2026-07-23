@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
   text: "\u201CCan someone please call the police and let them know there has been
-    a murder? In the meantime we need to figure out what happened.\u201D"
+    a murder? In the meantime, we need to figure out what happened.\u201D"
   audioClip: {fileID: 0}
   animation: {fileID: 0}
   children: []
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_Name: 9ad97e37-190f-48cc-9704-b112646b6877
   m_EditorClassIdentifier: MainGame::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
-  text: "\"Everyone don\u2019t touch the body!\""
+  text: "\"Everyone, don\u2019t touch the body!\""
   audioClip: {fileID: 0}
   animation: {fileID: 0}
   children:

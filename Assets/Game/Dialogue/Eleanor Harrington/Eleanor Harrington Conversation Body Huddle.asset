@@ -37,7 +37,7 @@ MonoBehaviour:
   - c57246ec-d47c-4458-836f-ce8a83945253
   rect:
     serializedVersion: 2
-    x: 36
+    x: 37
     y: 119
     width: 300
     height: 125
@@ -81,7 +81,7 @@ MonoBehaviour:
   m_Name: c57246ec-d47c-4458-836f-ce8a83945253
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
-  text: '"I''m afraid so Ma''am. I''m sorry you had to see this."'
+  text: '"I''m afraid so, Ma''am. I''m sorry you had to see this."'
   audioClip: {fileID: 0}
   animation: {fileID: 0}
   children:
@@ -89,7 +89,7 @@ MonoBehaviour:
   rect:
     serializedVersion: 2
     x: 420
-    y: 124
+    y: 123
     width: 300
     height: 125
   onEnterAction: 

@@ -55,7 +55,7 @@ MonoBehaviour:
   m_Name: 7bc637a3-b2f5-41b3-b192-798daebf88c5
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 1
-  text: "\u201CPlease I did it for her!\u201D"
+  text: "\u201CPlease, I did it for her!\u201D"
   audioClip: {fileID: 0}
   animation: {fileID: 0}
   children:
@@ -81,7 +81,7 @@ MonoBehaviour:
   m_Name: c57246ec-d47c-4458-836f-ce8a83945253
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
-  text: "(Long Sigh) \u201CEven if the law failed you Oliver, I can\u2019t let you
+  text: "(Long Sigh) \u201CEven if the law failed you, Oliver, I can\u2019t let you
     just walk away \u201D "
   audioClip: {fileID: 0}
   animation: {fileID: 0}

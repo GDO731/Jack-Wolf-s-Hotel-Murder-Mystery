@@ -20,7 +20,7 @@ MonoBehaviour:
   children: []
   rect:
     serializedVersion: 2
-    x: 1636
+    x: 1637
     y: 236
     width: 300
     height: 125
@@ -117,7 +117,7 @@ MonoBehaviour:
   m_Name: f89a7599-d77e-4b9d-a4e9-f0e7af492780
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 1
-  text: "\u201CHe\u2019s the criminal not me! He destroyed my life!\u201D"
+  text: "\u201CHe\u2019s the criminal, not me! He destroyed my life!\u201D"
   audioClip: {fileID: 0}
   animation: {fileID: 0}
   children:
@@ -304,7 +304,7 @@ MonoBehaviour:
   m_Name: 88952d88-803f-4e37-868d-c3622d6117e2
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
-  text: "(Law) - \u201CI\u2019m placing you under arrest, this ends now.\u201D"
+  text: "(Law) - \u201CI\u2019m placing you under arrest. This ends now.\u201D"
   audioClip: {fileID: 0}
   animation: {fileID: 0}
   children:

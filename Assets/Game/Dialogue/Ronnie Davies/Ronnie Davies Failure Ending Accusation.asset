@@ -83,7 +83,7 @@ MonoBehaviour:
   m_Name: a8492415-ab96-4c65-aa98-66c853b2f6ed
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
-  text: "\u201CIt was you, Ronnie. Using your tools you murdered him! Being a past
+  text: "\u201CIt was you, Ronnie. Using your tools, you murdered him! Being a past
     criminal gives you plenty of motivation!\u201D"
   audioClip: {fileID: 0}
   animation: {fileID: 0}

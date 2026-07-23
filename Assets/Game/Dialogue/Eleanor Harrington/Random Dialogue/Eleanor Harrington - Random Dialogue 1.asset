@@ -28,7 +28,7 @@ MonoBehaviour:
   m_Name: 9ad97e37-190f-48cc-9704-b112646b6877
   m_EditorClassIdentifier: MainGame::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 3
-  text: "\u201CI hope you know what you are doing Detective\u201D "
+  text: "\u201CI hope you know what you are doing, Detective.\u201D"
   audioClip: {fileID: 0}
   animation: {fileID: 0}
   children: []

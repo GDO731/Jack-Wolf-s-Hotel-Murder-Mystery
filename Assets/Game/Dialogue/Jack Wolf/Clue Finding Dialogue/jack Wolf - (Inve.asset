@@ -28,7 +28,7 @@ MonoBehaviour:
   m_Name: c57246ec-d47c-4458-836f-ce8a83945253
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
-  text: "\u201CThese tools could be used as a murder weapon, no blood but they are
+  text: "\u201CThese tools could be used as a murder weapon, no blood, but they are
     dirty\u2026\u201D"
   audioClip: {fileID: 0}
   animation: {fileID: 0}

@@ -73,7 +73,7 @@ MonoBehaviour:
   rect:
     serializedVersion: 2
     x: 1095
-    y: 181
+    y: 180
     width: 300
     height: 125
   onEnterAction: 
@@ -172,8 +172,8 @@ MonoBehaviour:
   m_Name: bb1e0c60-4271-4572-a515-79b53c01eb25
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 2
-  text: '"In my old age, you see many deaths young man.. Time isn''t kind to us as
-    we get old, you shouldn''t waste it."'
+  text: '"In my old age, you see many deaths, young man.. Time isn''t kind to us
+    as we get older; you shouldn''t waste it."'
   audioClip: {fileID: 0}
   animation: {fileID: 0}
   children:
@@ -206,7 +206,7 @@ MonoBehaviour:
   - a8492415-ab96-4c65-aa98-66c853b2f6ed
   rect:
     serializedVersion: 2
-    x: 50
+    x: 51
     y: 345
     width: 300
     height: 125
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_Name: ed4bcd61-0793-49b9-af96-dc63dae1792c
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
-  text: '"Thank you for the help, I appreciate you being honest with me."'
+  text: '"Thank you for the help. I appreciate you being honest with me."'
   audioClip: {fileID: 0}
   animation: {fileID: 0}
   children: []

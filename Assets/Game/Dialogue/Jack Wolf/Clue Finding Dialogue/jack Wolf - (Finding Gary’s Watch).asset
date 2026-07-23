@@ -28,7 +28,7 @@ MonoBehaviour:
   m_Name: c57246ec-d47c-4458-836f-ce8a83945253
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
-  text: "\u201CA watch\u2026 It has Gary\u2019s name engraved in the back, why does
+  text: "\u201CA watch\u2026 It has Gary\u2019s name engraved in the back. Why does
     Oliver have it?\u201D "
   audioClip: {fileID: 0}
   animation: {fileID: 0}

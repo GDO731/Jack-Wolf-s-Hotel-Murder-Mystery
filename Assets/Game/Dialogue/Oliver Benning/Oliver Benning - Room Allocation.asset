@@ -149,7 +149,7 @@ MonoBehaviour:
   rect:
     serializedVersion: 2
     x: 1460
-    y: 244
+    y: 243
     width: 300
     height: 125
   onEnterAction: 
@@ -167,7 +167,7 @@ MonoBehaviour:
   m_Name: 86c2da7a-e1ee-4e9d-9a15-a9a4acb97670
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 1
-  text: '"Very funny Mr Wolf.."'
+  text: '"Very funny, Mr Wolf."'
   audioClip: {fileID: 0}
   animation: {fileID: 0}
   children: []
@@ -218,7 +218,7 @@ MonoBehaviour:
   m_Name: 9ad97e37-190f-48cc-9704-b112646b6877
   m_EditorClassIdentifier: MainGame::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 1
-  text: '"Alright Sir, we have a room ready for you, what name can I put it under?"'
+  text: '"Alright, Sir, we have a room ready for you. What name can I put it under?"'
   audioClip: {fileID: 0}
   animation: {fileID: 0}
   children:

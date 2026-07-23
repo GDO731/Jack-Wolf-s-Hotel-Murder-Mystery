@@ -73,7 +73,7 @@ MonoBehaviour:
   - 67a717f5-b4ca-4a05-9666-78e8f6f95f92
   rect:
     serializedVersion: 2
-    x: 857
+    x: 858
     y: 85
     width: 300
     height: 125
@@ -92,15 +92,15 @@ MonoBehaviour:
   m_Name: 67a717f5-b4ca-4a05-9666-78e8f6f95f92
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
-  text: "\u201CDon\u2019t worry Mr. Benning, I have no intention of prying more than
-    I need.\u201D "
+  text: "\u201CDon\u2019t worry, Mr. Benning, I have no intention of prying more
+    than I need.\u201D "
   audioClip: {fileID: 0}
   animation: {fileID: 0}
   children: []
   rect:
     serializedVersion: 2
     x: 1259
-    y: 86
+    y: 85
     width: 300
     height: 125
   onEnterAction: 
@@ -245,7 +245,7 @@ MonoBehaviour:
   m_Name: 9ad97e37-190f-48cc-9704-b112646b6877
   m_EditorClassIdentifier: MainGame::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 1
-  text: "\u201CI never liked that man, he was so cruel to that poor Eleanor\u2026
+  text: "\u201CI never liked that man; he was so cruel to that poor Eleanor\u2026
     If you asked me, she had every reason to want him gone.\u201D"
   audioClip: {fileID: 0}
   animation: {fileID: 0}

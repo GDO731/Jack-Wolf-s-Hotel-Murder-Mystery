@@ -29,7 +29,7 @@ MonoBehaviour:
   m_Name: a3c6c3f3-f0e1-4769-abab-5fc43eae49dc
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 3
-  text: '"For the last time Mr. Wilkins, I have no interest in you or your offer!"'
+  text: '"For the last time, Mr. Wilkins, I have no interest in you or your offer!"'
   audioClip: {fileID: 0}
   animation: {fileID: 0}
   children:

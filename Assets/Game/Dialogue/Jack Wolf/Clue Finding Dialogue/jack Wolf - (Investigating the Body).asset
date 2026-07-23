@@ -28,7 +28,7 @@ MonoBehaviour:
   m_Name: c57246ec-d47c-4458-836f-ce8a83945253
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
-  text: "\u201CHis head is smashed in, this wasn\u2019t clean. Someone must\u2019ve
+  text: "\u201CHis head is smashed in; this wasn\u2019t clean. Someone must\u2019ve
     hated him.\u201D"
   audioClip: {fileID: 0}
   animation: {fileID: 0}
@@ -36,7 +36,7 @@ MonoBehaviour:
   rect:
     serializedVersion: 2
     x: 197
-    y: 270
+    y: 269
     width: 300
     height: 125
   onEnterAction: 

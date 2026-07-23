@@ -28,7 +28,7 @@ MonoBehaviour:
   m_Name: c57246ec-d47c-4458-836f-ce8a83945253
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
-  text: "\u201CWhatever is down here it smells like bleach, someone tried to hide
+  text: "\u201CWhatever is down here, it smells like bleach. Someone tried to hide
     something.\u201D "
   audioClip: {fileID: 0}
   animation: {fileID: 0}

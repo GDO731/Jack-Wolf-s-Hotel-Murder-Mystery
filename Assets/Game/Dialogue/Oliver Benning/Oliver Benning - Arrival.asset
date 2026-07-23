@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: a4de9f66-d727-45b6-8ac5-ae7abddd17c8
   m_EditorClassIdentifier: MainGame::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 1
-  text: '"Only one single room, we should have one available for you sir. I''ll go
-    see if we do, please wait here."'
+  text: '"Only one single room, we should have one available for you, sir. I''ll
+    go see if we do, please wait here."'
   audioClip: {fileID: 0}
   animation: {fileID: 0}
   children: []
