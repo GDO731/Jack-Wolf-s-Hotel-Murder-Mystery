@@ -15,7 +15,7 @@ MonoBehaviour:
   character: 0
   text: "\u201CCan someone please call the police and let them know there has been
     a murder? In the meantime, we need to figure out what happened.\u201D"
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: e4c7581263193a14184e56137b4fc3f6, type: 3}
   animation: {fileID: 0}
   children: []
   rect:
@@ -67,7 +67,7 @@ MonoBehaviour:
   character: 0
   text: "\"I\u2019m a homicide detective (shows badge), so no one touches anything.
     The scene needs to be as uncontaminated as possible. \""
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: f3bc5f22cd1ff204fb58c312ca156317, type: 3}
   animation: {fileID: 0}
   children:
   - 226797c3-e482-4263-8003-1e68b6c5e9d8
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: MainGame::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
   text: "\"Everyone, don\u2019t touch the body!\""
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: f613caf2a7cde7744b024e05eab15726, type: 3}
   animation: {fileID: 0}
   children:
   - 23855927-6dae-4aff-bac9-89e243b34962

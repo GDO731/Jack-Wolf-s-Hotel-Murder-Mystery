@@ -61,7 +61,7 @@ MonoBehaviour:
   text: "\u201CIt was you, Eleanor. You slit Gary\u2019s throat with your letter
     opener. The blood in your room and the bow near the body are plenty of evidence
     to point to it. You murdered him because of his advances on you!\u201D "
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 288205afedceea14d9cd59bbce5bd5cf, type: 3}
   animation: {fileID: 0}
   children:
   - 9fc1a44c-1352-47eb-80e8-a3d516afb379
@@ -115,7 +115,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
   text: '"I need to collect more evidence" (Decide Later)'
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 46800bbcc88fbea40a4eddf0c2d4fdd4, type: 3}
   animation: {fileID: 0}
   children: []
   rect:

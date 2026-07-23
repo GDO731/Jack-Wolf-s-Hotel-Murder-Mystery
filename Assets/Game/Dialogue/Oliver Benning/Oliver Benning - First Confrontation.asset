@@ -40,7 +40,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
   text: "(Investigate Oliver) - \u201CMr Benning, may I see your keys?\u201D"
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: e86d543ebd708494c9a8f4f5a712d462, type: 3}
   animation: {fileID: 0}
   children:
   - 55842987-7b35-4e30-b5c9-7a79d7ef58be
@@ -94,13 +94,13 @@ MonoBehaviour:
   character: 0
   text: "\u201CDon\u2019t worry, Mr. Benning, I have no intention of prying more
     than I need.\u201D "
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 3b318d3997aaa2346baca661988ed313, type: 3}
   animation: {fileID: 0}
   children: []
   rect:
     serializedVersion: 2
     x: 1259
-    y: 85
+    y: 86
     width: 300
     height: 125
   onEnterAction: 
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
   text: "(Investigate Eleanor) - \u201CTell me more about Gary and Eleanor.\u201D"
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 77c7bf7dcaaaee54d8ffea9dd460eb82, type: 3}
   animation: {fileID: 0}
   children:
   - ea2f3d60-378c-407e-9601-fbb8e231b1dd
@@ -168,7 +168,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
   text: "\u201CInteresting, thank you for letting me know.\u201D "
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: bf402a25c0c1602438887a45e7c1ecca, type: 3}
   animation: {fileID: 0}
   children: []
   rect:
@@ -193,7 +193,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
   text: "(Challenge) - \u201CYou seem oddly quick to point fingers, Mr Benning\u201D"
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: c8a7af8739171914c9794675fdf19175, type: 3}
   animation: {fileID: 0}
   children:
   - 51530302-bd68-4156-9e3c-73f4a7fd6657

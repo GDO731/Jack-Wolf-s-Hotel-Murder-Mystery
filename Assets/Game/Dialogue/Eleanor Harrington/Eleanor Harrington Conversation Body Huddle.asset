@@ -82,7 +82,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
   text: '"I''m afraid so, Ma''am. I''m sorry you had to see this."'
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 0d01629b0c4aaeb4daf64dc7cd0da3cf, type: 3}
   animation: {fileID: 0}
   children:
   - 7bc637a3-b2f5-41b3-b192-798daebf88c5

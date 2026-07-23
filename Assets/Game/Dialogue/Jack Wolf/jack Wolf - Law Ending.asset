@@ -31,7 +31,7 @@ MonoBehaviour:
   character: 0
   text: "\u201CI understand why you did it, Oliver. I really do, but murdering him
     makes you no better a man.\u201D"
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 1f7ae9ee1ac778240bf1bf83f033a44a, type: 3}
   animation: {fileID: 0}
   children:
   - c57246ec-d47c-4458-836f-ce8a83945253

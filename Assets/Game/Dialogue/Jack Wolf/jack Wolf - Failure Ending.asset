@@ -29,7 +29,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
   text: "\u201CI failed\u2026 Whoever did this\u2026 They\u2019re still out there\u2026\u201D "
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 50e023ec504f08f4a835f73f89c3222e, type: 3}
   animation: {fileID: 0}
   children: []
   rect:

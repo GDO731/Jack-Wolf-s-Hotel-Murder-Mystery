@@ -30,7 +30,7 @@ MonoBehaviour:
   character: 0
   text: "\u201CA watch\u2026 It has Gary\u2019s name engraved in the back. Why does
     Oliver have it?\u201D "
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 63b4590b9c5e74d43be9c6d17b4e2e32, type: 3}
   animation: {fileID: 0}
   children: []
   rect:

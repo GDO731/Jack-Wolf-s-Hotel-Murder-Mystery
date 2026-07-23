@@ -30,7 +30,7 @@ MonoBehaviour:
   character: 0
   text: "\u201COliver\u2019s wife was murdered here years ago\u2026 Can\u2019t imagine
     how he feels.\u201D"
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 9c21caa5a5a2e1840a4d90be38dc2915, type: 3}
   animation: {fileID: 0}
   children: []
   rect:

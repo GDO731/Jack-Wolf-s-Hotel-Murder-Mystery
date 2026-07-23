@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
   text: "\u201CThank you, Mr Benning.\u201D"
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: e6c000bec09f58040919f75ab9c001fb, type: 3}
   animation: {fileID: 0}
   children:
   - 801bd348-248a-42fd-830b-6e78bd25bc7e
@@ -66,14 +66,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
   text: '"Real busy Hotel you have here."'
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 6e288e13b43763643b2778fea68f739b, type: 3}
   animation: {fileID: 0}
   children:
   - 86c2da7a-e1ee-4e9d-9a15-a9a4acb97670
   rect:
     serializedVersion: 2
-    x: 1855
-    y: 374
+    x: 1854
+    y: 375
     width: 300
     height: 125
   onEnterAction: 
@@ -92,14 +92,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
   text: "\u201CNice place you have here. The architecture is nothing like back home.\u201D"
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: cdc6c7429940acf4a901f34f4f07e42d, type: 3}
   animation: {fileID: 0}
   children:
   - 217b1e55-6484-40a4-ad99-8d63773fc3e3
   rect:
     serializedVersion: 2
     x: 1866
-    y: 244
+    y: 243
     width: 300
     height: 125
   onEnterAction: 
@@ -193,7 +193,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: MainGame::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
   text: '"Jack Wolf"'
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: f4b3330503f773d48adf5ccf50ed1ecc, type: 3}
   animation: {fileID: 0}
   children:
   - a4de9f66-d727-45b6-8ac5-ae7abddd17c8

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
   text: '"I need to collect more evidence" (Decide Later)'
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 46800bbcc88fbea40a4eddf0c2d4fdd4, type: 3}
   animation: {fileID: 0}
   children: []
   rect:
@@ -85,7 +85,7 @@ MonoBehaviour:
   character: 0
   text: "\u201CIt was you, Ronnie. Using your tools, you murdered him! Being a past
     criminal gives you plenty of motivation!\u201D"
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: c3c1902785edca24bad4721caf8a750d, type: 3}
   animation: {fileID: 0}
   children:
   - 9f33131e-ae94-4d3b-81f6-d258d5800458

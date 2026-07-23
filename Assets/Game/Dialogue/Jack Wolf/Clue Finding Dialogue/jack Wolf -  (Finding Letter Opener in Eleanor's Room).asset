@@ -30,7 +30,7 @@ MonoBehaviour:
   character: 0
   text: "\u201CA letter opener, this could be used to kill someone. It\u2019s sharp
     enough to cause some damage.\u201D"
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 15776994298d32249a4a9ee9a2240884, type: 3}
   animation: {fileID: 0}
   children: []
   rect:

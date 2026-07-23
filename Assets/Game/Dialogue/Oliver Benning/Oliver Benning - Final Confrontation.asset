@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: 5acc4915-4223-4766-bfb2-09b680b11f23
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
-  text: "\u201CYou\u2019re no better than he was now. How do you think you would
+  text: "\u201CYou\u2019re no better than he was now. How do you think she would
     feel about that? About what you\u2019ve become?\u201D"
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 0c65ea633cebf0342bbcadf04d50307a, type: 3}
   animation: {fileID: 0}
   children: []
   rect:
@@ -67,7 +67,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
   text: "(Mercy) - \u201CGo. Leave before the storm clears. Don\u2019t come back.\u201D "
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: c963e124a0227d646bf238345e8dc8b2, type: 3}
   animation: {fileID: 0}
   children:
   - e141fe41-13f8-4ff8-82d4-a26a3781e3ab
@@ -93,7 +93,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
   text: '"I need to collect more evidence" (Decide Later)'
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 46800bbcc88fbea40a4eddf0c2d4fdd4, type: 3}
   animation: {fileID: 0}
   children: []
   rect:
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
   text: "\u201CYou still murdered this man in cold blood!\u201D"
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: bd583c3e43148614c80b6486bcf87160, type: 3}
   animation: {fileID: 0}
   children: []
   rect:
@@ -196,7 +196,7 @@ MonoBehaviour:
   character: 0
   text: "(Justice) - \u201CI understand why you did it, but I still have to take
     you in.\u201D"
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: c6dbf21eabc81b449bf6dace2adc2450, type: 3}
   animation: {fileID: 0}
   children:
   - 528a4370-2791-48bb-80a0-15573c0e392f
@@ -305,7 +305,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
   text: "(Law) - \u201CI\u2019m placing you under arrest. This ends now.\u201D"
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 189e041572793e8448da6d715c9ffcd5, type: 3}
   animation: {fileID: 0}
   children:
   - f89a7599-d77e-4b9d-a4e9-f0e7af492780
@@ -331,7 +331,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
   text: "\u201CDon\u2019t make me change my mind\u201D"
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: f78b68dd38a26674e8bae1b2b486e66c, type: 3}
   animation: {fileID: 0}
   children: []
   rect:
@@ -357,7 +357,7 @@ MonoBehaviour:
   character: 0
   text: "\u201CIt was you, Oliver. The blood in the basement. The watch in your drawer.
     You killed him.\u201D"
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: f47d467cff2ac7141aec1a6f3de72ab8, type: 3}
   animation: {fileID: 0}
   children:
   - 2d9d61a0-949b-4115-9cc3-f45a819bd86a

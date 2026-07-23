@@ -30,7 +30,7 @@ MonoBehaviour:
   character: 0
   text: "\u201CThese tools could be used as a murder weapon, no blood, but they are
     dirty\u2026\u201D"
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: c110eac581c6b6e47bdb5ca039401c1e, type: 3}
   animation: {fileID: 0}
   children: []
   rect:

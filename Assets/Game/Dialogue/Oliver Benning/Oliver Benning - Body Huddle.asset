@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
   text: "\"Why didn\u2019t you say anything?\""
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 765dbb2d000b592408a938c2ea2159c8, type: 3}
   animation: {fileID: 0}
   children:
   - 39703f37-8e9d-4a5f-8d15-be751d1cf693
@@ -113,7 +113,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
   text: '"What do you mean by ''not now''?"'
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: d910129b0b300da43964e82351df3059, type: 3}
   animation: {fileID: 0}
   children:
   - fd42f5cb-3d84-47da-ba4d-51e22808b539
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
   text: "\"That\u2019s a fair point.\u201D"
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 2bd8be62cc29de2469341dc19da410c6, type: 3}
   animation: {fileID: 0}
   children: []
   rect:

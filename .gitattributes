@@ -1,0 +1,15 @@
+# Handle line endings properly for Unity
+* text=auto
+
+# Unity YAML/text assets - force LF (Unity prefers this)
+*.meta text eol=lf
+*.asset text eol=lf
+*.unity text eol=lf
+*.prefab text eol=lf
+*.mat text eol=lf
+*.anim text eol=lf
+*.controller text eol=lf
+*.overrideController text eol=lf
+
+# C# scripts
+*.cs text eol=lf

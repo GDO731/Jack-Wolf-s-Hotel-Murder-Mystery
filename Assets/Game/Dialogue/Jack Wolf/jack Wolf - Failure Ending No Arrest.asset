@@ -29,7 +29,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
   text: "\u201CI just let a killer walk free\u2026 What have I done?\u201D"
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: a78529c0a29e2824891d965a3cabbed0, type: 3}
   animation: {fileID: 0}
   children: []
   rect:

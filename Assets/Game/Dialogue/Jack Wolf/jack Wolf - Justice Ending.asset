@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
   text: "\u201CThat\u2019s the problem, you became him!\""
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 4e97f8a735fcd724baaf7951d30d37b3, type: 3}
   animation: {fileID: 0}
   children: []
   rect:
@@ -83,7 +83,7 @@ MonoBehaviour:
   character: 0
   text: "(Long Sigh) \u201CEven if the law failed you, Oliver, I can\u2019t let you
     just walk away \u201D "
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 1bf6f9bd7eaaa5946a7ed383d6696ebb, type: 3}
   animation: {fileID: 0}
   children:
   - 7bc637a3-b2f5-41b3-b192-798daebf88c5

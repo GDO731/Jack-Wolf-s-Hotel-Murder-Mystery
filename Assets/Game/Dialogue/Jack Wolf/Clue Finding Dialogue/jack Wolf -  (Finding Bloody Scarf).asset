@@ -29,7 +29,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
   text: "\u201CBlood on Eleanor\u2019s scarf\u2026 It could be Gary\u2019s.\u201D"
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 9e22e7a98061f6a4a8a1eba6fe6effa4, type: 3}
   animation: {fileID: 0}
   children: []
   rect:

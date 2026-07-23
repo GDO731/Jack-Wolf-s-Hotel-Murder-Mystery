@@ -29,7 +29,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
   text: "\u201CPlenty of items thrown around; someone had a struggle.\u201D "
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 382dd1e71c370ac44980d436a73a2b20, type: 3}
   animation: {fileID: 0}
   children: []
   rect:

@@ -29,7 +29,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
   text: "\u201CWho\u2019s this woman in this picture with Oliver?\u201D "
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 03fef9460f4afd247a29a57d91b32cf2, type: 3}
   animation: {fileID: 0}
   children: []
   rect:

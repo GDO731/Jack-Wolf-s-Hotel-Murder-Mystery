@@ -67,7 +67,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
   text: "(Accusatory) - \u201CYou don\u2019t seem very upset that he\u2019s dead.\u201D"
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 4e47ef8e275297448a461dbeb7b7c5b7, type: 3}
   animation: {fileID: 0}
   children:
   - 740a78d4-3bc6-4f4e-a283-948d3deec116
@@ -93,7 +93,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
   text: '"That''s awful. I''m sorry you had to go through that.'
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: e68dafeac8eec6640801beb5e1cee861, type: 3}
   animation: {fileID: 0}
   children: []
   rect:
@@ -118,7 +118,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
   text: '"Would you say he was like this with everyone or just you?'
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 86529dde8eb53e14dbd315e54aadd156, type: 3}
   animation: {fileID: 0}
   children:
   - bc07654d-18e3-4204-9551-f5aadc63f6cf
@@ -198,7 +198,7 @@ MonoBehaviour:
   character: 0
   text: "(Question about Argument) - \u201CI heard you arguing with him earlier.
     What was that about\u201D"
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 4284657932a4f4646b2bf37848874e6a, type: 3}
   animation: {fileID: 0}
   children:
   - 5ef0bb77-a92f-4ff3-beb0-baf93d7af32a
@@ -274,7 +274,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
   text: "(Question about Gary) - \u201CWhat was your relationship with Gary?\u201D"
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 5afc2738affa4284aaafca5e01e0f690, type: 3}
   animation: {fileID: 0}
   children:
   - 77de84af-1997-4deb-a50c-f6b5878968e8

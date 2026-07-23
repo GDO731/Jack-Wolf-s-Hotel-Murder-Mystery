@@ -58,7 +58,7 @@ MonoBehaviour:
   character: 0
   text: '"Thank you, I only need a room till the storm passes. I didn''t expect this
     kind of weather today."'
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: db172adeb32a01b48b001fa7d300c624, type: 3}
   animation: {fileID: 0}
   children:
   - a4de9f66-d727-45b6-8ac5-ae7abddd17c8

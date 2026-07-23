@@ -30,7 +30,7 @@ MonoBehaviour:
   character: 0
   text: "\u201CHis head is smashed in; this wasn\u2019t clean. Someone must\u2019ve
     hated him.\u201D"
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: fb6eaeb622a070940bcdd3cdf82f0a4f, type: 3}
   animation: {fileID: 0}
   children: []
   rect:
