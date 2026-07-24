@@ -42,9 +42,6 @@ public class SyntyPackageHelper
                 configs.Add(config);
             }
         }
-
-        Debug.Log($"Loaded {configs.Count} ExamplePackConfig assets");
-
         return configs.ToArray();
     }
 
