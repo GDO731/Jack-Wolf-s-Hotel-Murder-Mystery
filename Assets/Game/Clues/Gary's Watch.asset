@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Gary's Watch
   m_EditorClassIdentifier: Assembly-CSharp::Item
   name: Gary's Watch
-  icon: {fileID: 21300000, guid: e0cf7491e3cd59346854430c51c00707, type: 3}
+  icon: {fileID: 21300000, guid: 333b1b10745ae924b89594cd1c777ae2, type: 3}
   detription: "A watch\u2026 It has Gary\u2019s name engraved in the back, why does
     Oliver have it?"

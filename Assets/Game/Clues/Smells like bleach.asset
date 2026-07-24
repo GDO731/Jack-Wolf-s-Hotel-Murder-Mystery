@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd37d129ce527d544970b9cb6bded7be, type: 3}
   m_Name: Smells like bleach
   m_EditorClassIdentifier: Assembly-CSharp::Item
-  name: Smells like bleach
-  icon: {fileID: 21300000, guid: e0cf7491e3cd59346854430c51c00707, type: 3}
+  name: Bleach
+  icon: {fileID: 21300000, guid: fb33501bf01e6dd4f91061c05683b11a, type: 3}
   detription: Whatever is down here it smells like bleach, someone tried to hide
     something.

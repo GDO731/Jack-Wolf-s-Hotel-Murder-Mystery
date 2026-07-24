@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Body
   m_EditorClassIdentifier: Assembly-CSharp::Item
   name: Body
-  icon: {fileID: 21300000, guid: e0cf7491e3cd59346854430c51c00707, type: 3}
+  icon: {fileID: 21300000, guid: dcaedb5a7f97521449a1580e89e5219e, type: 3}
   detription: "His head is smashed in, this wasn\u2019t clean. Someone must\u2019ve
     hated him."

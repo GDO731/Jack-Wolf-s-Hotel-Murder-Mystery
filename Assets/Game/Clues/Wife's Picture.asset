@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fd37d129ce527d544970b9cb6bded7be, type: 3}
-  m_Name: Wife Picture
+  m_Name: Wife's Picture
   m_EditorClassIdentifier: Assembly-CSharp::Item
-  name: Picture of Oliver with a woman.
-  icon: {fileID: 21300000, guid: e0cf7491e3cd59346854430c51c00707, type: 3}
+  name: Picture of a woman
+  icon: {fileID: 21300000, guid: f4cd087fb3f6f204eb6ec93f1057c43b, type: 3}
   detription: "Who\u2019s this woman in this picture with Oliver?"

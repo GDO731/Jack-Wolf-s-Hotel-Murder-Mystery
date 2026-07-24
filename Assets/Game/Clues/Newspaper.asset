@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd37d129ce527d544970b9cb6bded7be, type: 3}
   m_Name: Newspaper
   m_EditorClassIdentifier: Assembly-CSharp::Item
-  name: Newspaper article about Wife's Murder
-  icon: {fileID: 21300000, guid: e0cf7491e3cd59346854430c51c00707, type: 3}
+  name: Newspaper
+  icon: {fileID: 21300000, guid: 4de5200b4f0e5694680d1f8f1ade2314, type: 3}
   detription: "Oliver\u2019s wife was murdered here years ago\u2026 Can\u2019t imagine
     how he feels."

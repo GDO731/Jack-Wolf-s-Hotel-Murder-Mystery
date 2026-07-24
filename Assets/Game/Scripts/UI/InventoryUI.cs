@@ -14,7 +14,7 @@ namespace Assets.Game.Scripts.UI
 
         Inventory.Inventory inventory;
         InventorySlot[] slots;
-
+        
         void Start()
         {
             inventory = Inventory.Inventory.instance;
