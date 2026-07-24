@@ -6800,6 +6800,88 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4668091236682690, guid: 7bb2e6789034167419d49e254ffa7604, type: 3}
   m_PrefabInstance: {fileID: 55458704}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &55512302
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 997904805}
+    m_Modifications:
+    - target: {fileID: 2504947436317352108, guid: 4a28191c098a0044f8dcef997baaae89, type: 3}
+      propertyPath: item
+      value: 
+      objectReference: {fileID: 11400000, guid: 928f74fc2e260bf479a82e873087d6b5, type: 2}
+    - target: {fileID: 5860360723489736540, guid: 4a28191c098a0044f8dcef997baaae89, type: 3}
+      propertyPath: dialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 9dc646a35b6ac3c4387453fdbaa362d4, type: 2}
+    - target: {fileID: 5860360723489736540, guid: 4a28191c098a0044f8dcef997baaae89, type: 3}
+      propertyPath: playerConversant
+      value: 
+      objectReference: {fileID: 7685886780605269300}
+    - target: {fileID: 7994333910793871607, guid: 4a28191c098a0044f8dcef997baaae89, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.20000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 7994333910793871607, guid: 4a28191c098a0044f8dcef997baaae89, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.20000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 7994333910793871607, guid: 4a28191c098a0044f8dcef997baaae89, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.1541346
+      objectReference: {fileID: 0}
+    - target: {fileID: 7994333910793871607, guid: 4a28191c098a0044f8dcef997baaae89, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.292
+      objectReference: {fileID: 0}
+    - target: {fileID: 7994333910793871607, guid: 4a28191c098a0044f8dcef997baaae89, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.70288
+      objectReference: {fileID: 0}
+    - target: {fileID: 7994333910793871607, guid: 4a28191c098a0044f8dcef997baaae89, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7994333910793871607, guid: 4a28191c098a0044f8dcef997baaae89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7994333910793871607, guid: 4a28191c098a0044f8dcef997baaae89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00000023841858
+      objectReference: {fileID: 0}
+    - target: {fileID: 7994333910793871607, guid: 4a28191c098a0044f8dcef997baaae89, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7994333910793871607, guid: 4a28191c098a0044f8dcef997baaae89, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7994333910793871607, guid: 4a28191c098a0044f8dcef997baaae89, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7994333910793871607, guid: 4a28191c098a0044f8dcef997baaae89, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8508279083203165372, guid: 4a28191c098a0044f8dcef997baaae89, type: 3}
+      propertyPath: m_Name
+      value: Tools in Ronnie's room
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4a28191c098a0044f8dcef997baaae89, type: 3}
+--- !u!4 &55512303 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7994333910793871607, guid: 4a28191c098a0044f8dcef997baaae89, type: 3}
+  m_PrefabInstance: {fileID: 55512302}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &55545111
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -125181,6 +125263,7 @@ Transform:
   - {fileID: 815572109}
   - {fileID: 973327784}
   - {fileID: 785779526}
+  - {fileID: 55512303}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &998455526
