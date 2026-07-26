@@ -15,7 +15,7 @@ namespace Assets.Game.Scripts.Dialogue
         [SerializeField] Rect rect = new Rect(0, 0, DialogueConstants.DefaultNodeWidth, DialogueConstants.DefaultNodeHeight);
         [SerializeField] string onEnterAction;
         [SerializeField] string onExitAction;
-
+        [SerializeField] float delay = 0f;
         public Rect GetRect() => rect;
         public string GetText() => text;
         public AudioClip GetAudioClip() => audioClip;
@@ -24,6 +24,8 @@ namespace Assets.Game.Scripts.Dialogue
         public Character GetCharacter() => character;
         public string GetOnEnterAction() => onEnterAction;
         public string GetOnExitAction() => onExitAction;
+        public float GetDelay() => delay;
+
 
 #if UNITY_EDITOR
         public void SetPosition(Vector2 newPosition)
@@ -82,6 +84,16 @@ namespace Assets.Game.Scripts.Dialogue
             Undo.RecordObject(this, "Change speaker.");
             this.character = character;
             EditorUtility.SetDirty(this);
+        }
+
+        public void SetDelay(float newDelay)
+        {
+            if (newDelay != delay)
+            {
+                Undo.RecordObject(this, "Change dialogue delay.");
+                delay = newDelay;
+                EditorUtility.SetDirty(this);
+            }
         }
 #endif
     }

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-333090889048980423
+--- !u!114 &-7859706650881172568
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
-  m_Name: 9fc1a44c-1352-47eb-80e8-a3d516afb379
+  m_Name: 1383ce25-ee1e-48bc-a525-ef0e9666f81a
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 3
   text: "\u201DBlunt force trauma, Detective. There were no cuts on his body whatsoever.
@@ -18,15 +18,74 @@ MonoBehaviour:
     facts right!\u201D"
   audioClip: {fileID: 0}
   animation: {fileID: 0}
-  children: []
+  children:
+  - 5c0cafba-0bdd-4df4-9d67-2c6fa0398747
   rect:
     serializedVersion: 2
-    x: 722
-    y: 138
+    x: 779
+    y: 99
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: Ending
+  delay: 0
+--- !u!114 &-7574697169761630469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: 8e268d17-6b03-44c6-91d9-1f80ab4f57c3
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 0
+  text: "\u201CIt was you, Eleanor. You slit Gary\u2019s throat with your letter
+    opener. The blood in your room and the bow near the body are plenty of evidence
+    to point to it. You murdered him because of his advances on you!\u201D "
+  audioClip: {fileID: 8300000, guid: 288205afedceea14d9cd59bbce5bd5cf, type: 3}
+  animation: {fileID: 0}
+  children:
+  - 1383ce25-ee1e-48bc-a525-ef0e9666f81a
+  rect:
+    serializedVersion: 2
+    x: 426
+    y: 107
     width: 300
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0
+--- !u!114 &-1946053633997104147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: 41cbe87a-6ae1-4ac6-9f9e-7ec16fd4d897
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 0
+  text: '"Accuse Eleanor"'
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children:
+  - 8e268d17-6b03-44c6-91d9-1f80ab4f57c3
+  - 82fadf8d-1981-4cfa-809b-0a41b9a91b60
+  rect:
+    serializedVersion: 2
+    x: 85
+    y: 162
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
+  delay: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40,12 +99,15 @@ MonoBehaviour:
   m_Name: Eleanor Harrington Failure Ending Accusation
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.Dialogue
   nodes:
-  - {fileID: 302562495704591303}
-  - {fileID: -333090889048980423}
-  - {fileID: 1841314817573441880}
-  - {fileID: 5173626369856222732}
+  - {fileID: -1946053633997104147}
+  - {fileID: -7574697169761630469}
+  - {fileID: 266676155699639012}
+  - {fileID: -7859706650881172568}
+  - {fileID: 2459543531364616450}
+  - {fileID: 2318915289946124730}
+  - {fileID: 7811749189189563780}
   newNodeOffset: {x: 250, y: 0}
---- !u!114 &302562495704591303
+--- !u!114 &266676155699639012
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -55,74 +117,99 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
-  m_Name: a3c6c3f3-f0e1-4769-abab-5fc43eae49dc
-  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  character: 0
-  text: "\u201CIt was you, Eleanor. You slit Gary\u2019s throat with your letter
-    opener. The blood in your room and the bow near the body are plenty of evidence
-    to point to it. You murdered him because of his advances on you!\u201D "
-  audioClip: {fileID: 8300000, guid: 288205afedceea14d9cd59bbce5bd5cf, type: 3}
-  animation: {fileID: 0}
-  children:
-  - 9fc1a44c-1352-47eb-80e8-a3d516afb379
-  rect:
-    serializedVersion: 2
-    x: 393
-    y: 139
-    width: 300
-    height: 125
-  onEnterAction: 
-  onExitAction: 
---- !u!114 &1841314817573441880
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
-  m_Name: e27b1653-f182-460f-9566-17c6c352432f
-  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  character: 0
-  text: '"Accuse Eleanor"'
-  audioClip: {fileID: 0}
-  animation: {fileID: 0}
-  children:
-  - a3c6c3f3-f0e1-4769-abab-5fc43eae49dc
-  - cd88f3ed-25c6-4689-a934-2f3eee7171f4
-  - c32c8dae-5b47-4041-b8bf-13051a293bf1
-  rect:
-    serializedVersion: 2
-    x: 54
-    y: 145
-    width: 300
-    height: 125
-  onEnterAction: 
-  onExitAction: 
---- !u!114 &5173626369856222732
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
-  m_Name: cd88f3ed-25c6-4689-a934-2f3eee7171f4
+  m_Name: 82fadf8d-1981-4cfa-809b-0a41b9a91b60
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
   text: '"I need to collect more evidence" (Decide Later)'
   audioClip: {fileID: 8300000, guid: 46800bbcc88fbea40a4eddf0c2d4fdd4, type: 3}
   animation: {fileID: 0}
-  children: []
+  children:
+  - 0dc204fd-c30b-4d22-a8b2-fac7b3b0c3aa
+  - 0110f1e1-dd32-4f49-84ef-566ad49025d5
   rect:
     serializedVersion: 2
-    x: 393
-    y: 299
+    x: 434
+    y: 280
     width: 300
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0
+--- !u!114 &2318915289946124730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: 0dc204fd-c30b-4d22-a8b2-fac7b3b0c3aa
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 3
+  text: "\u201CMy family will hear about this!\u201D"
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 804
+    y: 379
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
+  delay: 0
+--- !u!114 &2459543531364616450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: 5c0cafba-0bdd-4df4-9d67-2c6fa0398747
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 0
+  text: "\u201CI failed\u2026 Whoever did this\u2026 They\u2019re still out there\u2026\u201D"
+  audioClip: {fileID: 8300000, guid: 50e023ec504f08f4a835f73f89c3222e, type: 3}
+  animation: {fileID: 0}
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1147
+    y: 93
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: DisplayMenu
+  delay: 2
+--- !u!114 &7811749189189563780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: 0110f1e1-dd32-4f49-84ef-566ad49025d5
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 3
+  text: "\u201CI hope you know what you are doing Detective\u201D"
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 805
+    y: 245
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
+  delay: 0

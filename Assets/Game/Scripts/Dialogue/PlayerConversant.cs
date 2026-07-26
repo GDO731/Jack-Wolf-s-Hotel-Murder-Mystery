@@ -1,6 +1,7 @@
 using Assets.Game.Scripts.Dialogue.Enums;
 using Assets.Game.Scripts.Dialogue.Enums.Attributes;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -69,7 +70,7 @@ namespace Assets.Game.Scripts.Dialogue
         public void Next()
         {
             int numPlayerResponses = currentDialogue.GetPlayerChildren(currentNode).Count();
-            if (numPlayerResponses > 0) 
+            if (numPlayerResponses > 1) 
             {
                 isChoosing = true;
                 TriggerExitAction();
@@ -77,9 +78,26 @@ namespace Assets.Game.Scripts.Dialogue
                 return;
             }
 
-            var children = currentDialogue.GetAIChildren(currentNode).ToArray();
-            TriggerExitAction();
-            currentNode = children.FirstOrDefault();
+            if(HasNext())
+            {
+                var childrenNodes = currentDialogue.GetAllChildren(currentNode);
+                var index = UnityEngine.Random.Range(0, childrenNodes.Count());
+                var nextNode = childrenNodes.ToList()[index];
+                TriggerExitAction();
+                if (nextNode.GetDelay() > 0)
+                {
+                    StartCoroutine(AdvanceAfterDelay(nextNode));
+                }
+                else
+                {
+                    AdvanceToNextDialogue(nextNode);
+                }
+            }
+        }
+
+        private void AdvanceToNextDialogue(DialogueNode nextNode)
+        {
+            currentNode = nextNode;
             TriggerEnterAction();
             onConversationUpdated();
         }
@@ -87,6 +105,18 @@ namespace Assets.Game.Scripts.Dialogue
         public bool HasNext()
         {
             return currentDialogue.GetAllChildren(currentNode).Count() > 0;
+        }
+
+        public string GetCurrentConversantName()
+        {
+            if (isChoosing)
+            {
+                return StringValueAttribute.GetStringValue(Character.Player);
+            }
+            else
+            {
+                return StringValueAttribute.GetStringValue(currentNode.GetCharacter());
+            }
         }
 
         private void TriggerEnterAction()
@@ -115,16 +145,10 @@ namespace Assets.Game.Scripts.Dialogue
             }
         }
 
-        public string GetCurrentConversantName()
+        private IEnumerator AdvanceAfterDelay(DialogueNode nextNode)
         {
-            if (isChoosing)
-            {
-                return StringValueAttribute.GetStringValue(Character.Player);
-            }
-            else
-            {
-                return StringValueAttribute.GetStringValue(currentNode.GetCharacter());
-            }
+            yield return new WaitForSeconds(nextNode.GetDelay());
+            AdvanceToNextDialogue(nextNode);
         }
     }
 }

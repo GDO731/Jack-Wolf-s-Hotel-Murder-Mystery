@@ -1,18 +1,27 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
 namespace Assets.Game.Scripts.Dialogue
 {
+    [System.Serializable]
+    public class DialogueAction
+    {
+        public string action;
+        public UnityEvent onTrigger;
+    }
     public class DialogueTrigger : MonoBehaviour
     {
-        [SerializeField] string action;
-        [SerializeField] UnityEvent onTrigger;
+        [SerializeField] List<DialogueAction> dialogueActions = new List<DialogueAction>();
 
         public void Trigger(string actionToTrigger)
         {
-           if(actionToTrigger == action)
+            foreach (var dialogueAction in dialogueActions)
             {
-                onTrigger.Invoke();
+                if (dialogueAction.action == actionToTrigger)
+                {
+                    dialogueAction.onTrigger.Invoke();
+                }
             }
         }
     }

@@ -17,7 +17,8 @@ MonoBehaviour:
     feel about that? About what you\u2019ve become?\u201D"
   audioClip: {fileID: 8300000, guid: 0c65ea633cebf0342bbcadf04d50307a, type: 3}
   animation: {fileID: 0}
-  children: []
+  children:
+  - fe9d9155-30f8-48c7-8980-6f10ba5bb6c2
   rect:
     serializedVersion: 2
     x: 1637
@@ -25,7 +26,36 @@ MonoBehaviour:
     width: 300
     height: 125
   onEnterAction: 
+  onExitAction: Ending
+  delay: 0
+--- !u!114 &-7740619218858528743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: fe9d9155-30f8-48c7-8980-6f10ba5bb6c2
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 0
+  text: "\u201CEven if the law failed you Oliver, I can\u2019t let you just walk
+    away \u201D "
+  audioClip: {fileID: 8300000, guid: 1bf6f9bd7eaaa5946a7ed383d6696ebb, type: 3}
+  animation: {fileID: 0}
+  children:
+  - d4f2989c-65d0-435d-a103-e688d0f1f439
+  rect:
+    serializedVersion: 2
+    x: 1997
+    y: 238
+    width: 300
+    height: 125
+  onEnterAction: 
   onExitAction: 
+  delay: 2
 --- !u!114 &-6515532468136122579
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53,6 +83,7 @@ MonoBehaviour:
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0
 --- !u!114 &-5933813413542100588
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73,12 +104,13 @@ MonoBehaviour:
   - e141fe41-13f8-4ff8-82d4-a26a3781e3ab
   rect:
     serializedVersion: 2
-    x: 911
-    y: 436
+    x: 956
+    y: 434
     width: 300
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0
 --- !u!114 &-4833564230929596595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95,15 +127,99 @@ MonoBehaviour:
   text: '"I need to collect more evidence" (Decide Later)'
   audioClip: {fileID: 8300000, guid: 46800bbcc88fbea40a4eddf0c2d4fdd4, type: 3}
   animation: {fileID: 0}
-  children: []
+  children:
+  - 9ad3c7c2-a044-4eef-8076-ab0dc805b54d
+  - 457931a3-3451-41ec-9148-827393a8b86e
   rect:
     serializedVersion: 2
     x: 313
-    y: 266
+    y: 265
     width: 300
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0
+--- !u!114 &-4413604307836392506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: 1b4172b2-2d46-4417-a166-5cb8e192b29f
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 0
+  text: "\u201CI understand why you did it Oliver. I really do, but murdering him
+    makes you no better of a man.\u201D"
+  audioClip: {fileID: 8300000, guid: 1f7ae9ee1ac778240bf1bf83f033a44a, type: 3}
+  animation: {fileID: 0}
+  children:
+  - c63996b4-db3a-4926-bfc0-94592b3d7d86
+  rect:
+    serializedVersion: 2
+    x: 1985
+    y: 19
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
+  delay: 2
+--- !u!114 &-4179405598072826457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: 9ad3c7c2-a044-4eef-8076-ab0dc805b54d
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 1
+  text: "\u201CEveryone is already worried, Detective, please try not to make it
+    worse.\u201D"
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 618
+    y: 261
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
+  delay: 0
+--- !u!114 &-3793590857159517061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: cef20f1e-7d02-4c38-9b1f-472347b54548
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 0
+  text: "\u201CThat\u2019s the problem, you became him!\u201D "
+  audioClip: {fileID: 8300000, guid: 4e97f8a735fcd724baaf7951d30d37b3, type: 3}
+  animation: {fileID: 0}
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 2679
+    y: 233
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: DisplayMenu
+  delay: 0
 --- !u!114 &-3136669886888173465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -130,6 +246,7 @@ MonoBehaviour:
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0
 --- !u!114 &-2016706117875757435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -156,6 +273,7 @@ MonoBehaviour:
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0
 --- !u!114 &-1937755528180960528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -172,7 +290,8 @@ MonoBehaviour:
   text: "\u201CYou still murdered this man in cold blood!\u201D"
   audioClip: {fileID: 8300000, guid: bd583c3e43148614c80b6486bcf87160, type: 3}
   animation: {fileID: 0}
-  children: []
+  children:
+  - 1b4172b2-2d46-4417-a166-5cb8e192b29f
   rect:
     serializedVersion: 2
     x: 1621
@@ -180,7 +299,8 @@ MonoBehaviour:
     width: 300
     height: 125
   onEnterAction: 
-  onExitAction: 
+  onExitAction: Ending
+  delay: 0
 --- !u!114 &-661837232254204605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -202,12 +322,13 @@ MonoBehaviour:
   - 528a4370-2791-48bb-80a0-15573c0e392f
   rect:
     serializedVersion: 2
-    x: 916
-    y: 233
+    x: 961
+    y: 235
     width: 300
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -221,6 +342,8 @@ MonoBehaviour:
   m_Name: Oliver Benning - Final Confrontation
   m_EditorClassIdentifier: MainGame::Assets.Game.Scripts.Dialogue.Dialogue
   nodes:
+  - {fileID: 2690955573801063453}
+  - {fileID: -4833564230929596595}
   - {fileID: 8216004505415477860}
   - {fileID: 4821159685554527}
   - {fileID: -5933813413542100588}
@@ -232,8 +355,14 @@ MonoBehaviour:
   - {fileID: -7802641187625857431}
   - {fileID: -2016706117875757435}
   - {fileID: 7419768714246190271}
-  - {fileID: 2690955573801063453}
-  - {fileID: -4833564230929596595}
+  - {fileID: -4413604307836392506}
+  - {fileID: 6101051822662894138}
+  - {fileID: -7740619218858528743}
+  - {fileID: 3100930507828105802}
+  - {fileID: -3793590857159517061}
+  - {fileID: 7137320071454206991}
+  - {fileID: -4179405598072826457}
+  - {fileID: 4481554609577549411}
   newNodeOffset: {x: 250, y: 0}
 --- !u!114 &4821159685554527
 MonoBehaviour:
@@ -264,6 +393,7 @@ MonoBehaviour:
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0
 --- !u!114 &2690955573801063453
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -291,6 +421,34 @@ MonoBehaviour:
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0
+--- !u!114 &3100930507828105802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: d4f2989c-65d0-435d-a103-e688d0f1f439
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 1
+  text: "\u201CPlease I did it for her!\u201D (Yelling)"
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children:
+  - cef20f1e-7d02-4c38-9b1f-472347b54548
+  rect:
+    serializedVersion: 2
+    x: 2333
+    y: 233
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
+  delay: 0
 --- !u!114 &3382283388444790715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -311,12 +469,91 @@ MonoBehaviour:
   - f89a7599-d77e-4b9d-a4e9-f0e7af492780
   rect:
     serializedVersion: 2
-    x: 927
-    y: 27
+    x: 958
+    y: 31
     width: 300
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0
+--- !u!114 &4481554609577549411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: 457931a3-3451-41ec-9148-827393a8b86e
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 1
+  text: "\u201CI just want this to end, please hurry Detective\u201D"
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 621
+    y: 399
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: 
+  delay: 0
+--- !u!114 &6101051822662894138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: c63996b4-db3a-4926-bfc0-94592b3d7d86
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 1
+  text: "\u201CI know\u2026\u201D (Whispered) "
+  audioClip: {fileID: 0}
+  animation: {fileID: 0}
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 2312
+    y: 20
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: DisplayMenu
+  delay: 0
+--- !u!114 &7137320071454206991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: e7fc268f-fa30-4538-8f3c-5b53ef57bee4
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 0
+  text: "\u201CI just let a killer walk free\u2026 What have I done?\u201D"
+  audioClip: {fileID: 8300000, guid: a78529c0a29e2824891d965a3cabbed0, type: 3}
+  animation: {fileID: 0}
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 2021
+    y: 433
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: DisplayMenu
+  delay: 2
 --- !u!114 &7419768714246190271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -333,7 +570,8 @@ MonoBehaviour:
   text: "\u201CDon\u2019t make me change my mind\u201D"
   audioClip: {fileID: 8300000, guid: f78b68dd38a26674e8bae1b2b486e66c, type: 3}
   animation: {fileID: 0}
-  children: []
+  children:
+  - e7fc268f-fa30-4538-8f3c-5b53ef57bee4
   rect:
     serializedVersion: 2
     x: 1674
@@ -341,7 +579,8 @@ MonoBehaviour:
     width: 300
     height: 125
   onEnterAction: 
-  onExitAction: 
+  onExitAction: Ending
+  delay: 0
 --- !u!114 &8216004505415477860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -369,3 +608,4 @@ MonoBehaviour:
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0
