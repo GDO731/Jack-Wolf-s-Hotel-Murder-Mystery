@@ -19626,6 +19626,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Items.ItemPickup
   radius: 3
   item: {fileID: 11400000, guid: b113796b1448ce84c9713a7b4ce7f078, type: 2}
+  audioClip: {fileID: 8300000, guid: 472dbd568f5fd794e887467e59602fa5, type: 3}
 --- !u!114 &5860360723489736540
 MonoBehaviour:
   m_ObjectHideFlags: 0

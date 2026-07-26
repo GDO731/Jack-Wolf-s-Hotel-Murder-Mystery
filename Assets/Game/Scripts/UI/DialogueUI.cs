@@ -1,3 +1,4 @@
+using Assets.Game.Scripts.Core;
 using Assets.Game.Scripts.Dialogue;
 using System.Collections;
 using TMPro;
@@ -15,8 +16,8 @@ namespace Assets.Game.Scripts.UI
         [SerializeField] Transform choiceRoot;
         [SerializeField] GameObject aiResponse;
         [SerializeField] GameObject choiceButtonPrefab;
-        [SerializeField] AudioSource audioSource;
         [SerializeField] PlayerConversant playerConversant;
+        [SerializeField] AudioSource audioSource;
 
         void Start()
         {
@@ -50,7 +51,7 @@ namespace Assets.Game.Scripts.UI
                 var audioClip = dialogueNode.GetAudioClip();
                 if(audioClip != null)
                 {
-                    PlayClip(audioClip);
+                    SoundManager.instance.PlayClip(audioSource, audioClip);
                 }
 
                 nextButton.gameObject.SetActive(playerConversant.HasNext());
@@ -79,7 +80,7 @@ namespace Assets.Game.Scripts.UI
                     if (audioClip != null)
                     {
                         DisableAllChoiceButtons();
-                        PlayClip(audioClip);
+                        SoundManager.instance.PlayClip(audioSource, audioClip);
                     }
                     
                     StartCoroutine(AdvanceAfterAudio());
@@ -88,13 +89,6 @@ namespace Assets.Game.Scripts.UI
             }
         }
 
-        private void PlayClip(AudioClip clip)
-        {
-            audioSource.Stop();
-            if (clip == null) return;
-            audioSource.clip = clip;
-            audioSource.Play();
-        }
 
         private void DisableAllChoiceButtons()
         {
