@@ -52,7 +52,7 @@ MonoBehaviour:
     width: 300
     height: 125
   onEnterAction: 
-  onExitAction: DisplayMenu
+  onExitAction: Load Menu
   delay: 2
 --- !u!114 &11400000
 MonoBehaviour:

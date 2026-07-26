@@ -26,6 +26,7 @@ MonoBehaviour:
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0
 --- !u!114 &-5631996152733900510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52,6 +53,7 @@ MonoBehaviour:
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0
 --- !u!114 &-2390598697628812335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78,6 +80,7 @@ MonoBehaviour:
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0
 --- !u!114 &-258312972426209235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -104,6 +107,7 @@ MonoBehaviour:
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -154,6 +158,7 @@ MonoBehaviour:
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0
 --- !u!114 &1044700334370515492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -178,7 +183,8 @@ MonoBehaviour:
     width: 300
     height: 125
   onEnterAction: 
-  onExitAction: RoomAccessGranted
+  onExitAction: Room Access Granted
+  delay: 0
 --- !u!114 &4144062120373194903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -205,6 +211,7 @@ MonoBehaviour:
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0
 --- !u!114 &8216004505415477860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -231,6 +238,7 @@ MonoBehaviour:
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0
 --- !u!114 &8658163274539363327
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -251,8 +259,9 @@ MonoBehaviour:
   rect:
     serializedVersion: 2
     x: 2240
-    y: 241
+    y: 242
     width: 300
     height: 125
   onEnterAction: 
-  onExitAction: RoomAccessGranted
+  onExitAction: Room Access Granted
+  delay: 0

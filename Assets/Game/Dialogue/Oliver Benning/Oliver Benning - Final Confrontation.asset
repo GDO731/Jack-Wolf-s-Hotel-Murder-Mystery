@@ -218,7 +218,7 @@ MonoBehaviour:
     width: 300
     height: 125
   onEnterAction: 
-  onExitAction: DisplayMenu
+  onExitAction: Load Menu
   delay: 0
 --- !u!114 &-3136669886888173465
 MonoBehaviour:
@@ -526,7 +526,7 @@ MonoBehaviour:
     width: 300
     height: 125
   onEnterAction: 
-  onExitAction: DisplayMenu
+  onExitAction: Load Menu
   delay: 0
 --- !u!114 &7137320071454206991
 MonoBehaviour:
@@ -552,7 +552,7 @@ MonoBehaviour:
     width: 300
     height: 125
   onEnterAction: 
-  onExitAction: DisplayMenu
+  onExitAction: Load Menu
   delay: 2
 --- !u!114 &7419768714246190271
 MonoBehaviour:

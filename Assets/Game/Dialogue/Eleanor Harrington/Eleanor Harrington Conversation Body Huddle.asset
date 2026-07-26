@@ -43,6 +43,7 @@ MonoBehaviour:
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0
 --- !u!114 &1951218336024216975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67,7 +68,8 @@ MonoBehaviour:
     width: 300
     height: 125
   onEnterAction: 
-  onExitAction: BodyHuddle
+  onExitAction: Body Huddle
+  delay: 0
 --- !u!114 &2990640503336401004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -94,3 +96,4 @@ MonoBehaviour:
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0
