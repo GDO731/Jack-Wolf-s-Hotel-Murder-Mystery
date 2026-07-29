@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using Assets.Game.Scripts.Core;
 using Assets.Game.Scripts.Dialogue;
+using Assets.Game.Scripts.UI;
+
 
 #if ENABLE_INPUT_SYSTEM
 using UnityEngine.InputSystem;
@@ -56,6 +58,10 @@ namespace StarterAssets
         [Tooltip("How far in degrees can you move the camera down")]
         public float BottomClamp = -90.0f;
 
+        [Header("Inventory")]
+        [Tooltip("Inventory Panel")]
+        public GameObject Inventory;
+
         // cinemachine
         private float _cinemachineTargetPitch;
 
@@ -107,6 +113,7 @@ namespace StarterAssets
             _controller = GetComponent<CharacterController>();
             _input = GetComponent<InputReader>();
             _playerConversant = GetComponent<PlayerConversant>();
+
 #if ENABLE_INPUT_SYSTEM
             _playerInput = GetComponent<PlayerInput>();
 #else
@@ -139,6 +146,7 @@ namespace StarterAssets
         private bool IsUIActive()
         {
             if (_playerConversant != null && _playerConversant.IsActive()) return true;
+            if (Inventory != null && Inventory.activeSelf) return true;
             return false;
         }
 

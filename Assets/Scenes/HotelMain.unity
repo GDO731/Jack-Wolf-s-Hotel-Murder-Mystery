@@ -273980,6 +273980,7 @@ MonoBehaviour:
   CinemachineCameraTarget: {fileID: 5242107655179671194}
   TopClamp: 89
   BottomClamp: -89
+  Inventory: {fileID: 315373092}
 --- !u!143 &453084649831460811
 CharacterController:
   m_ObjectHideFlags: 0
