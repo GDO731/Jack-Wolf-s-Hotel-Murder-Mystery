@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8108578103114201184}
   - component: {fileID: 4350757924857763754}
   - component: {fileID: 2735306825173805217}
+  - component: {fileID: 9044212083010084469}
   m_Layer: 0
   m_Name: Gary Wilkins
   m_TagString: Untagged
@@ -125,10 +126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd3ff7ad7eb72b14990e4c169e273a80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueTrigger
-  action: SwitchCamera
-  onTrigger:
-    m_PersistentCalls:
-      m_Calls: []
+  dialogueActions: []
 --- !u!114 &8108578103114201184
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -177,6 +175,20 @@ CapsuleCollider:
   m_Height: 27.52
   m_Direction: 1
   m_Center: {x: 0.90200675, y: 0, z: 0}
+--- !u!114 &9044212083010084469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2625803381039551862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64283265e412d4349b3819d0c6a8fb89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Core.SpriteSwap
+  spriteRenderer: {fileID: 3386292642016570875}
+  image: {fileID: 0}
 --- !u!1001 &4504505753597956947
 PrefabInstance:
   m_ObjectHideFlags: 0

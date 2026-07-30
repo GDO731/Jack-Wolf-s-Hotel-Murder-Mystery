@@ -156,7 +156,7 @@ MonoBehaviour:
     y: 243
     width: 300
     height: 125
-  onEnterAction: 
+  onEnterAction: Sprite Swap 01
   onExitAction: 
   delay: 0
 --- !u!114 &1044700334370515492
@@ -182,7 +182,7 @@ MonoBehaviour:
     y: 394
     width: 300
     height: 125
-  onEnterAction: 
+  onEnterAction: Sprite Swap 02
   onExitAction: Room Access Granted
   delay: 0
 --- !u!114 &4144062120373194903
@@ -262,6 +262,6 @@ MonoBehaviour:
     y: 242
     width: 300
     height: 125
-  onEnterAction: 
+  onEnterAction: Reset Sprite
   onExitAction: Room Access Granted
   delay: 0

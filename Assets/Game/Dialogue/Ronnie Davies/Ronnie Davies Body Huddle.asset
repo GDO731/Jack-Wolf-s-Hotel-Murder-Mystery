@@ -48,11 +48,11 @@ MonoBehaviour:
   children: []
   rect:
     serializedVersion: 2
-    x: 740
-    y: 311
+    x: 744
+    y: 312
     width: 300
     height: 125
-  onEnterAction: 
+  onEnterAction: Sprite Spwap 03
   onExitAction: Body Huddle
   delay: 0
 --- !u!114 &-812625922332441018
@@ -130,7 +130,7 @@ MonoBehaviour:
     y: 46
     width: 300
     height: 125
-  onEnterAction: 
+  onEnterAction: Sprite Spwap 01
   onExitAction: 
   delay: 0
 --- !u!114 &4500546438378084686
@@ -157,8 +157,8 @@ MonoBehaviour:
   - 09483cd0-c486-4b1f-a6e0-03e8c0ee0bda
   rect:
     serializedVersion: 2
-    x: 50
-    y: 154
+    x: 71
+    y: 123
     width: 300
     height: 125
   onEnterAction: 
@@ -189,7 +189,7 @@ MonoBehaviour:
     y: 180
     width: 300
     height: 125
-  onEnterAction: 
+  onEnterAction: Sprite Spwap 02
   onExitAction: 
   delay: 0
 --- !u!114 &6010589412941982990
@@ -212,8 +212,8 @@ MonoBehaviour:
   - a8492415-ab96-4c65-aa98-66c853b2f6ed
   rect:
     serializedVersion: 2
-    x: 51
-    y: 345
+    x: 57
+    y: 429
     width: 300
     height: 125
   onEnterAction: 

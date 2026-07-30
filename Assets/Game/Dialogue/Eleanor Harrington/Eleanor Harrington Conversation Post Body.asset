@@ -20,12 +20,13 @@ MonoBehaviour:
   - cccc019e-7919-4c2f-a861-ca37e7139240
   rect:
     serializedVersion: 2
-    x: 753
-    y: 119
+    x: 754
+    y: 118
     width: 300
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0
 --- !u!114 &-8651344490647118302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53,6 +54,7 @@ MonoBehaviour:
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0
 --- !u!114 &-7633829492185715676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79,6 +81,7 @@ MonoBehaviour:
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0
 --- !u!114 &-4952691588169735044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -104,6 +107,7 @@ MonoBehaviour:
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0
 --- !u!114 &-1455844958111061809
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -130,6 +134,7 @@ MonoBehaviour:
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -183,6 +188,7 @@ MonoBehaviour:
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0
 --- !u!114 &2990640503336401004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -210,6 +216,7 @@ MonoBehaviour:
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0
 --- !u!114 &4750383124697657347
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -235,6 +242,7 @@ MonoBehaviour:
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0
 --- !u!114 &5688616242898869474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -254,12 +262,13 @@ MonoBehaviour:
   children: []
   rect:
     serializedVersion: 2
-    x: 738
-    y: 239
+    x: 745
+    y: 253
     width: 300
     height: 125
-  onEnterAction: 
-  onExitAction: 
+  onEnterAction: Sprite Swap
+  onExitAction: Disable
+  delay: 0
 --- !u!114 &8256897866065923444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -280,9 +289,10 @@ MonoBehaviour:
   - 77de84af-1997-4deb-a50c-f6b5878968e8
   rect:
     serializedVersion: 2
-    x: 379
-    y: 4
+    x: 391
+    y: -4
     width: 300
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0

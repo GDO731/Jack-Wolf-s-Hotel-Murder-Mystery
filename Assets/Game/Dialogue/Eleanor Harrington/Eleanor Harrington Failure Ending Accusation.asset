@@ -26,7 +26,7 @@ MonoBehaviour:
     y: 99
     width: 300
     height: 125
-  onEnterAction: 
+  onEnterAction: Sprite Swap 01
   onExitAction: Ending
   delay: 0
 --- !u!114 &-7574697169761630469
@@ -184,9 +184,9 @@ MonoBehaviour:
     y: 93
     width: 300
     height: 125
-  onEnterAction: 
+  onEnterAction: Sprite Swap 02
   onExitAction: Load Menu
-  delay: 2
+  delay: 0
 --- !u!114 &7811749189189563780
 MonoBehaviour:
   m_ObjectHideFlags: 0

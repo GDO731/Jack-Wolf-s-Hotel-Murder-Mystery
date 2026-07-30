@@ -24,8 +24,9 @@ MonoBehaviour:
     y: 282
     width: 300
     height: 125
-  onEnterAction: 
+  onEnterAction: Sprite Swap
   onExitAction: Arrival
+  delay: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70,6 +71,7 @@ MonoBehaviour:
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0
 --- !u!114 &8216004505415477860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91,9 +93,10 @@ MonoBehaviour:
   - a397f2e3-180f-4598-bdaf-7f9994d14a38
   rect:
     serializedVersion: 2
-    x: -1
-    y: 328
+    x: 34
+    y: 291
     width: 300
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0

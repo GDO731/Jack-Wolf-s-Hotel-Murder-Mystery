@@ -300,6 +300,7 @@ GameObject:
   - component: {fileID: 885243026453252297}
   - component: {fileID: 755789056051994787}
   - component: {fileID: 2741393022499965019}
+  - component: {fileID: 8025828258620360482}
   m_Layer: 0
   m_Name: Eleanor Harrington
   m_TagString: Untagged
@@ -410,22 +411,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd3ff7ad7eb72b14990e4c169e273a80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueTrigger
-  action: CameraSwitch
-  onTrigger:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Assets.Game.Scripts.Core.CameraSwitcher, Assembly-CSharp
-        m_MethodName: ReturnToFollowCamera
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+  dialogueActions: []
 --- !u!114 &885243026453252297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -474,3 +460,17 @@ CapsuleCollider:
   m_Height: 27.792093
   m_Direction: 1
   m_Center: {x: -0.5290531, y: 0.08466244, z: -0.017273424}
+--- !u!114 &8025828258620360482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8169142310560970901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64283265e412d4349b3819d0c6a8fb89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Core.SpriteSwap
+  spriteRenderer: {fileID: 1828046711816600013}
+  image: {fileID: 0}

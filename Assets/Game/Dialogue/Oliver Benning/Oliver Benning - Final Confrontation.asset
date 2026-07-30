@@ -55,7 +55,7 @@ MonoBehaviour:
     height: 125
   onEnterAction: 
   onExitAction: 
-  delay: 2
+  delay: 0
 --- !u!114 &-6515532468136122579
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -166,7 +166,7 @@ MonoBehaviour:
     height: 125
   onEnterAction: 
   onExitAction: 
-  delay: 2
+  delay: 0
 --- !u!114 &-4179405598072826457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -218,7 +218,7 @@ MonoBehaviour:
     width: 300
     height: 125
   onEnterAction: 
-  onExitAction: Load Menu
+  onExitAction: Load Menu 01
   delay: 0
 --- !u!114 &-3136669886888173465
 MonoBehaviour:
@@ -526,7 +526,7 @@ MonoBehaviour:
     width: 300
     height: 125
   onEnterAction: 
-  onExitAction: Load Menu
+  onExitAction: Load Menu 01
   delay: 0
 --- !u!114 &7137320071454206991
 MonoBehaviour:
@@ -552,8 +552,8 @@ MonoBehaviour:
     width: 300
     height: 125
   onEnterAction: 
-  onExitAction: Load Menu
-  delay: 2
+  onExitAction: Load Menu 02
+  delay: 0
 --- !u!114 &7419768714246190271
 MonoBehaviour:
   m_ObjectHideFlags: 0
