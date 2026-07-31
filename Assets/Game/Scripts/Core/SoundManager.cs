@@ -6,17 +6,28 @@ namespace Assets.Game.Scripts.Core
     {
         public static SoundManager instance;
 
+        [SerializeField] AudioSource defaultAudioSource;
+
         private void Awake()
         {
             instance = this;
         }
 
-        public void PlayClip(AudioSource audioSource, AudioClip audioClip)
+        public void PlayClip(AudioClip audioClip ,AudioSource audioSource = null)
         {
+            if ((audioSource == null))
+            {
+                audioSource = defaultAudioSource;
+            }
             audioSource.Stop();
             if (audioClip == null) return;
             audioSource.clip = audioClip;
             audioSource.Play();
+        }
+
+        public void PlayClip(AudioClip audioClip)
+        {
+            PlayClip(audioClip, null);
         }
     }
 }

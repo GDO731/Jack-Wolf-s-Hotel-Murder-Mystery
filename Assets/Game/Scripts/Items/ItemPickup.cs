@@ -9,8 +9,9 @@ namespace Assets.Game.Scripts.Items
         public Item item;
 
         [SerializeField] float delayBeforeDestroy = 1f;
+
+        [Header("Audio")]
         [SerializeField] AudioClip audioClip;
-        [SerializeField] AudioSource audioSource;
 
         public override bool Interact()
         {
@@ -18,7 +19,7 @@ namespace Assets.Game.Scripts.Items
             bool wasPickedUp = Inventory.Inventory.instance.Add(item);
             if (wasPickedUp)
             {
-                SoundManager.instance.PlayClip(audioSource,audioClip);
+                SoundManager.instance.PlayClip(audioClip);
                 Destroy(gameObject, delayBeforeDestroy);
             }
             return true;

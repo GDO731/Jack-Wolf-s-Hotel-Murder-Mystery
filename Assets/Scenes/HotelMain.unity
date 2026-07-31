@@ -94971,7 +94971,7 @@ GameObject:
   - component: {fileID: 725617221}
   - component: {fileID: 725617222}
   m_Layer: 0
-  m_Name: DialogueSoundSource
+  m_Name: DialogueAudioSource
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -150582,7 +150582,7 @@ GameObject:
   - component: {fileID: 1139775872}
   - component: {fileID: 1139775873}
   m_Layer: 0
-  m_Name: OtherSoundSource
+  m_Name: DefaultAudioSource
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -278651,6 +278651,9 @@ MonoBehaviour:
   inventoryUI: {fileID: 315373092}
   inputReader: {fileID: 7685886780605269299}
   quitButton: {fileID: 11940410}
+  audioSource: {fileID: 1139775873}
+  openClip: {fileID: 8300000, guid: d4a56d631c4f42845a1397153851a41a, type: 3}
+  closeClip: {fileID: 8300000, guid: cf84b5495bd61d849a439a106fd76cb0, type: 3}
 --- !u!114 &2121227680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -285381,6 +285384,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d7591e5d65088b418b0e233ef501985, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.PlayerConversant
+  audioSource: {fileID: 0}
+  nextClip: {fileID: 0}
+  quitClip: {fileID: 0}
 --- !u!114 &7685886780605269301
 MonoBehaviour:
   m_ObjectHideFlags: 0

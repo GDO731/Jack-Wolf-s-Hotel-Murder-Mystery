@@ -11,7 +11,8 @@ namespace Assets.Game.Scripts.UI
         [SerializeField] InputReader inputReader;
         [SerializeField] TextMeshProUGUI instruction;
         [SerializeField] float visibleDuration = 5f;
-        [SerializeField] AudioSource audioSource;
+
+        [Header("Audio")]
         [SerializeField] AudioClip openClip;
         [SerializeField] AudioClip closeClip;
 
@@ -50,13 +51,13 @@ namespace Assets.Game.Scripts.UI
             }
             else
             {
-                SoundManager.instance.PlayClip(audioSource, closeClip);
+                SoundManager.instance.PlayClip(closeClip);
             }
         }
 
         private void Hide()
         {
-            SoundManager.instance.PlayClip(audioSource, openClip);
+            SoundManager.instance.PlayClip(openClip);
             if (autoHideRoutine != null) StopCoroutine(autoHideRoutine);
             autoHideRoutine = StartCoroutine(AutoHide());
         }
@@ -65,7 +66,7 @@ namespace Assets.Game.Scripts.UI
         {
             yield return new WaitForSeconds(visibleDuration);
             inctructionsUI.SetActive(false);
-            SoundManager.instance.PlayClip(audioSource, closeClip);
+            SoundManager.instance.PlayClip(closeClip);
         }
 
         private IEnumerator ShowAfterDelay(float delay)

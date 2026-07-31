@@ -10,7 +10,10 @@ namespace Assets.Game.Scripts.UI
         [SerializeField] GameObject inventoryUI;
         [SerializeField] InputReader inputReader;
         [SerializeField] Button quitButton;
-        
+
+        [Header("Audio")]
+        [SerializeField] AudioClip openClip;
+        [SerializeField] AudioClip closeClip;
 
         Inventory.Inventory inventory;
         InventorySlot[] slots;
@@ -20,7 +23,7 @@ namespace Assets.Game.Scripts.UI
             inventory = Inventory.Inventory.instance;
             inventory.onItemChangedCallback += UpdateUI;
 
-            quitButton.onClick.AddListener(() => CloseInventory());
+            quitButton.onClick.AddListener(() => ToggleInventory());
 
             slots = itemsParent.GetComponentsInChildren<InventorySlot>();
         }
@@ -29,7 +32,14 @@ namespace Assets.Game.Scripts.UI
         void OnDisable() => inputReader.InventoryEvent -= ToggleInventory;
 
         void ToggleInventory()
-        => inventoryUI.SetActive(!inventoryUI.activeSelf);
+        {
+            inventoryUI.SetActive(!inventoryUI.activeSelf);
+
+            if (inventoryUI.activeSelf)
+                SoundManager.instance.PlayClip(openClip);
+            else
+                SoundManager.instance.PlayClip(closeClip);
+        }
 
         void UpdateUI()
         {
@@ -44,11 +54,6 @@ namespace Assets.Game.Scripts.UI
                     slots[i].ClearSlot();
                 }
             }
-        }
-
-        private void CloseInventory()
-        {
-            inventoryUI.SetActive(false);
         }
     }
 }

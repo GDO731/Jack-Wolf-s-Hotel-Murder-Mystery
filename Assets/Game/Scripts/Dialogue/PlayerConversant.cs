@@ -1,3 +1,4 @@
+using Assets.Game.Scripts.Core;
 using Assets.Game.Scripts.Dialogue.Enums;
 using Assets.Game.Scripts.Dialogue.Enums.Attributes;
 using System;
@@ -16,10 +17,17 @@ namespace Assets.Game.Scripts.Dialogue
         AIConversant currentConversant = null;
         bool isChoosing = false;
 
+        [Header("Audio")]
+        [SerializeField] AudioClip startClip;
+        [SerializeField] AudioClip choiceClip;
+        [SerializeField] AudioClip nextClip;
+        [SerializeField] AudioClip quitClip;
+
         public event Action onConversationUpdated;
 
         public void StartDialogue(AIConversant newConversant, Dialogue newDialogue)
         {
+            PlaySound(startClip);
             currentConversant = newConversant;
             currentDialogue = newDialogue;
             currentNode = currentDialogue.GetRootNode();
@@ -29,6 +37,7 @@ namespace Assets.Game.Scripts.Dialogue
 
         public void Quit()
         {
+            PlaySound(quitClip);
             currentDialogue = null;
             TriggerExitAction();
             currentConversant = null;
@@ -61,6 +70,7 @@ namespace Assets.Game.Scripts.Dialogue
 
         public void SelectChoice(DialogueNode chosenNode)
         {
+            PlaySound(choiceClip);
             currentNode = chosenNode;
             TriggerEnterAction();
             isChoosing = false;
@@ -80,6 +90,7 @@ namespace Assets.Game.Scripts.Dialogue
 
             if(HasNext())
             {
+                PlaySound(nextClip);
                 var childrenNodes = currentDialogue.GetAllChildren(currentNode);
                 var index = UnityEngine.Random.Range(0, childrenNodes.Count());
                 var nextNode = childrenNodes.ToList()[index];
@@ -117,6 +128,11 @@ namespace Assets.Game.Scripts.Dialogue
             {
                 return StringValueAttribute.GetStringValue(currentNode.GetCharacter());
             }
+        }
+
+        private void PlaySound(AudioClip clip)
+        {
+            SoundManager.instance.PlayClip(clip);
         }
 
         private void TriggerEnterAction()

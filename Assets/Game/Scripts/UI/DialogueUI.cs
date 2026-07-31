@@ -51,7 +51,7 @@ namespace Assets.Game.Scripts.UI
                 var audioClip = dialogueNode.GetAudioClip();
                 if(audioClip != null)
                 {
-                    SoundManager.instance.PlayClip(audioSource, audioClip);
+                    SoundManager.instance.PlayClip(audioClip,audioSource);
                 }
 
                 nextButton.gameObject.SetActive(playerConversant.HasNext());
@@ -80,7 +80,7 @@ namespace Assets.Game.Scripts.UI
                     if (audioClip != null)
                     {
                         DisableAllChoiceButtons();
-                        SoundManager.instance.PlayClip(audioSource, audioClip);
+                        SoundManager.instance.PlayClip(audioClip, audioSource);
                     }
                     
                     StartCoroutine(AdvanceAfterAudio());
