@@ -185,6 +185,7 @@ MonoBehaviour:
   icon: {fileID: 2186380810651943554}
   itemDescription: {fileID: 0}
   itemName: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: d4a56d631c4f42845a1397153851a41a, type: 3}
 --- !u!1 &7086316692113140953
 GameObject:
   m_ObjectHideFlags: 0

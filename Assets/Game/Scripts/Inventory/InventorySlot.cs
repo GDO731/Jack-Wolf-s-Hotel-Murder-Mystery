@@ -1,3 +1,4 @@
+using Assets.Game.Scripts.Core;
 using Assets.Game.Scripts.Inventory;
 using Assets.Game.Scripts.Items;
 using TMPro;
@@ -10,6 +11,9 @@ public class InventorySlot : MonoBehaviour
     [SerializeField] TextMeshProUGUI itemDescription;
     [SerializeField] TextMeshProUGUI itemName;
     Item item;
+
+    [Header("Audio")]
+    [SerializeField] AudioClip audioClip;
 
     public void AddItem(Item newItem)
     {
@@ -27,6 +31,7 @@ public class InventorySlot : MonoBehaviour
 
     public void UseItem()
     {
+        SoundManager.instance.PlayClip(audioClip);
         if (item != null) 
         {
             itemName.text = item.name;
