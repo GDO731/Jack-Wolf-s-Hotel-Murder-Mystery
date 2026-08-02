@@ -48,8 +48,8 @@ MonoBehaviour:
   children: []
   rect:
     serializedVersion: 2
-    x: 744
-    y: 312
+    x: 739
+    y: 331
     width: 300
     height: 125
   onEnterAction: Sprite Spwap 03
@@ -79,7 +79,7 @@ MonoBehaviour:
     width: 300
     height: 125
   onEnterAction: 
-  onExitAction: Body Huddle
+  onExitAction: 
   delay: 0
 --- !u!114 &11400000
 MonoBehaviour:
@@ -243,7 +243,7 @@ MonoBehaviour:
     width: 300
     height: 125
   onEnterAction: 
-  onExitAction: Body Huddle
+  onExitAction: 
   delay: 0
 --- !u!114 &7908136282156959560
 MonoBehaviour:
