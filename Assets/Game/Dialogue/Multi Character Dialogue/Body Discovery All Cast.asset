@@ -26,6 +26,7 @@ MonoBehaviour:
     height: 125
   onEnterAction: 
   onExitAction: Garden
+  delay: 0
 --- !u!114 &-8604757609245094258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52,6 +53,7 @@ MonoBehaviour:
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0
 --- !u!114 &-2485389464586274118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79,6 +81,7 @@ MonoBehaviour:
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0
 --- !u!114 &-2458182363495366055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105,6 +108,7 @@ MonoBehaviour:
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -139,7 +143,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 3
   text: "\"I can\u2019t believe this is happening!\""
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 7cf0317be5c96554297d5157371fa002, type: 3}
   animation: {fileID: 0}
   children:
   - 537a14ea-42e8-4de3-b94a-5745c7f2f788
@@ -151,6 +155,7 @@ MonoBehaviour:
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0
 --- !u!114 &8216004505415477860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -177,3 +182,4 @@ MonoBehaviour:
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0

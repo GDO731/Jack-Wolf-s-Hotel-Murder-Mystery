@@ -30,7 +30,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 3
   text: '"For the last time, Mr. Wilkins, I have no interest in you or your offer!"'
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: d773b71b5ca3e634bbcce1a10bf7d4b4, type: 3}
   animation: {fileID: 0}
   children:
   - c57246ec-d47c-4458-836f-ce8a83945253
@@ -42,6 +42,7 @@ MonoBehaviour:
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0
 --- !u!114 &2990640503336401004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68,3 +69,4 @@ MonoBehaviour:
     height: 125
   onEnterAction: 
   onExitAction: Argument
+  delay: 0

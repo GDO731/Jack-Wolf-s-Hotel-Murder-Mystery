@@ -29,7 +29,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: MainGame::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 3
   text: "\u201CMy family will hear about this!\u201D "
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 274461efc5db41346873a3c15568dd60, type: 3}
   animation: {fileID: 0}
   children: []
   rect:
@@ -40,3 +40,4 @@ MonoBehaviour:
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0

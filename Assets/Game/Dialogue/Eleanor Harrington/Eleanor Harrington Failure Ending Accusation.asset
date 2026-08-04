@@ -16,7 +16,7 @@ MonoBehaviour:
   text: "\u201DBlunt force trauma, Detective. There were no cuts on his body whatsoever.
     You\u2019re a rather poor excuse for a detective if you can\u2019t get basic
     facts right!\u201D"
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 839edd4b74f65e14790ab1e1f436f9a6, type: 3}
   animation: {fileID: 0}
   children:
   - 5c0cafba-0bdd-4df4-9d67-2c6fa0398747
@@ -26,7 +26,7 @@ MonoBehaviour:
     y: 99
     width: 300
     height: 125
-  onEnterAction: Sprite Swap 01
+  onEnterAction: 
   onExitAction: Ending
   delay: 0
 --- !u!114 &-7574697169761630469
@@ -104,8 +104,6 @@ MonoBehaviour:
   - {fileID: 266676155699639012}
   - {fileID: -7859706650881172568}
   - {fileID: 2459543531364616450}
-  - {fileID: 2318915289946124730}
-  - {fileID: 7811749189189563780}
   newNodeOffset: {x: 250, y: 0}
 --- !u!114 &266676155699639012
 MonoBehaviour:
@@ -123,39 +121,11 @@ MonoBehaviour:
   text: '"I need to collect more evidence" (Decide Later)'
   audioClip: {fileID: 8300000, guid: 46800bbcc88fbea40a4eddf0c2d4fdd4, type: 3}
   animation: {fileID: 0}
-  children:
-  - 0dc204fd-c30b-4d22-a8b2-fac7b3b0c3aa
-  - 0110f1e1-dd32-4f49-84ef-566ad49025d5
+  children: []
   rect:
     serializedVersion: 2
     x: 434
     y: 280
-    width: 300
-    height: 125
-  onEnterAction: 
-  onExitAction: 
-  delay: 0
---- !u!114 &2318915289946124730
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
-  m_Name: 0dc204fd-c30b-4d22-a8b2-fac7b3b0c3aa
-  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  character: 3
-  text: "\u201CMy family will hear about this!\u201D"
-  audioClip: {fileID: 0}
-  animation: {fileID: 0}
-  children: []
-  rect:
-    serializedVersion: 2
-    x: 804
-    y: 379
     width: 300
     height: 125
   onEnterAction: 
@@ -184,32 +154,6 @@ MonoBehaviour:
     y: 93
     width: 300
     height: 125
-  onEnterAction: Sprite Swap 02
-  onExitAction: Load Menu
-  delay: 0
---- !u!114 &7811749189189563780
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
-  m_Name: 0110f1e1-dd32-4f49-84ef-566ad49025d5
-  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  character: 3
-  text: "\u201CI hope you know what you are doing Detective\u201D"
-  audioClip: {fileID: 0}
-  animation: {fileID: 0}
-  children: []
-  rect:
-    serializedVersion: 2
-    x: 805
-    y: 245
-    width: 300
-    height: 125
   onEnterAction: 
-  onExitAction: 
-  delay: 0
+  onExitAction: Load Menu
+  delay: 2

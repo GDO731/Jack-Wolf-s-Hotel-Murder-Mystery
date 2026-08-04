@@ -31,7 +31,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 3
   text: '"Is that Gary?"'
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: ec7250942d7c680409ddd278a4b8d35f, type: 3}
   animation: {fileID: 0}
   children:
   - c57246ec-d47c-4458-836f-ce8a83945253
@@ -58,7 +58,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 3
   text: '"I need to call my father... (runs off)"'
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: a9a759cf999665e408ffde8175463bbc, type: 3}
   animation: {fileID: 0}
   children: []
   rect:

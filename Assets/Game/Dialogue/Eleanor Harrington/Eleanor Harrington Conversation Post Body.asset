@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 3
   text: "\u201CHe threatened to ruin my family if I didn\u2019t cooperate.\u201D "
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 71750e84ba3fd7441b510a24bb587c42, type: 3}
   animation: {fileID: 0}
   children:
   - cccc019e-7919-4c2f-a861-ca37e7139240
   rect:
     serializedVersion: 2
-    x: 754
-    y: 118
+    x: 753
+    y: 119
     width: 300
     height: 125
   onEnterAction: 
@@ -42,7 +42,7 @@ MonoBehaviour:
   character: 3
   text: "\u201CHe was pushy\u2026 kept pressuring me about deals and sleeping with
     him. I kept turning him down.\u201D "
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 979702ae33d425046b81b61495eddc16, type: 3}
   animation: {fileID: 0}
   children:
   - fa3fea82-44b7-49ae-a647-ec92e45b5f6e
@@ -76,7 +76,7 @@ MonoBehaviour:
   rect:
     serializedVersion: 2
     x: 367
-    y: 239
+    y: 237
     width: 300
     height: 125
   onEnterAction: 
@@ -174,7 +174,7 @@ MonoBehaviour:
   character: 3
   text: "\"This is all so dreadful\u2026 Gary could be very difficult, but I never
     imagined anything like this....\""
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 3dd46f39f27d85143831c771e3bf8f1c, type: 3}
   animation: {fileID: 0}
   children:
   - c57246ec-d47c-4458-836f-ce8a83945253
@@ -231,7 +231,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 3
   text: '"I don''t quite know, I''m sorry.."'
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 78c1f6e02c14201439b620958ec7fb63, type: 3}
   animation: {fileID: 0}
   children: []
   rect:
@@ -257,17 +257,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 3
   text: '"How dare you! Of course I''m upset!" (Storms off)'
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: c52f6f19386c04a4199bb75210a8f63e, type: 3}
   animation: {fileID: 0}
   children: []
   rect:
     serializedVersion: 2
-    x: 745
-    y: 253
+    x: 751
+    y: 237
     width: 300
     height: 125
-  onEnterAction: Sprite Swap
-  onExitAction: Disable
+  onEnterAction: 
+  onExitAction: 
   delay: 0
 --- !u!114 &8256897866065923444
 MonoBehaviour:
@@ -289,8 +289,8 @@ MonoBehaviour:
   - 77de84af-1997-4deb-a50c-f6b5878968e8
   rect:
     serializedVersion: 2
-    x: 391
-    y: -4
+    x: 379
+    y: 4
     width: 300
     height: 125
   onEnterAction: 
