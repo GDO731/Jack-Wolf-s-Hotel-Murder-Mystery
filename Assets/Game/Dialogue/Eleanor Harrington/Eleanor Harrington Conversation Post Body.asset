@@ -80,7 +80,7 @@ MonoBehaviour:
     width: 300
     height: 125
   onEnterAction: 
-  onExitAction: 
+  onExitAction: Sprite Swap
   delay: 0
 --- !u!114 &-4952691588169735044
 MonoBehaviour:
@@ -267,7 +267,7 @@ MonoBehaviour:
     width: 300
     height: 125
   onEnterAction: 
-  onExitAction: 
+  onExitAction: Disable
   delay: 0
 --- !u!114 &8256897866065923444
 MonoBehaviour:
