@@ -42,7 +42,7 @@ MonoBehaviour:
   character: 1
   text: (Strong Sigh) "Storms like this always bring down the phones and complicate
     travel. We're completely isolated out here."
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: d547b21a22f7f6348bbafa536863b6c1, type: 3}
   animation: {fileID: 0}
   children:
   - 84a87c88-b962-446f-9fd4-4a6731a07f4e
@@ -69,7 +69,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 1
   text: "\"I didn\u2019t want people to panic.\""
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 2096042b2edfbf64f87f2cf4558016e6, type: 3}
   animation: {fileID: 0}
   children:
   - 29f8207b-8f87-45b4-aedb-6ae2dd7474c0

@@ -15,7 +15,7 @@ MonoBehaviour:
   character: 1
   text: "\u201CI simply want the crime to be solved, detective\u2026 I don\u2019t
     like what you are accusing me of!\u201D (Storms Off)"
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: c8224b3b06e848d44adc639e3c10df66, type: 3}
   animation: {fileID: 0}
   children: []
   rect:
@@ -69,7 +69,7 @@ MonoBehaviour:
   character: 1
   text: "\u201CSure, here are the keys. I ask you to please remain aware of our guests'
     privacy.\u201D "
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 55fc87ff4c53883488de0d179d5db4b1, type: 3}
   animation: {fileID: 0}
   children:
   - 67a717f5-b4ca-4a05-9666-78e8f6f95f92
@@ -227,7 +227,7 @@ MonoBehaviour:
   character: 1
   text: "\u201CEleanor and Gary have had no prior relationship that I know of, but
     Gary has been persistent with her today.\u201D"
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 50a9eaa941326cc438c096806ce6999c, type: 3}
   animation: {fileID: 0}
   children:
   - f1e44a2f-2172-4ff6-9d5a-add6462ecd8d
@@ -255,7 +255,7 @@ MonoBehaviour:
   character: 1
   text: "\u201CI never liked that man; he was so cruel to that poor Eleanor\u2026
     If you asked me, she had every reason to want him gone.\u201D"
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 026d6a848c2cfb245a61694840de5432, type: 3}
   animation: {fileID: 0}
   children:
   - f1ec812e-380d-458a-84e6-7a18852bbb1b

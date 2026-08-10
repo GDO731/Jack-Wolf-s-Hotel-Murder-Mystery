@@ -43,7 +43,7 @@ MonoBehaviour:
   text: '"Sir, if you think I killed this man, you are mistaken. I am too old to
     hurt anyone in my age. I don''t appreciate what you are insinuating." (Shambles
     off)'
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: cc18f8cec73e8f6408674892937b0b7f, type: 3}
   animation: {fileID: 0}
   children: []
   rect:
@@ -120,7 +120,7 @@ MonoBehaviour:
   character: 2
   text: '"I went to tidy up the shed and found this man in the mud.. It''s a shame
     for someone as young as him, so much time gone.."'
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 7bde0ce1712ff1b48959ee548299edc7, type: 3}
   animation: {fileID: 0}
   children:
   - ed4bcd61-0793-49b9-af96-dc63dae1792c
@@ -149,7 +149,7 @@ MonoBehaviour:
   text: "\"I heard a loud noise earlier\u2026 Thought it was the storm up to their
     old tricks. I went to tidy up the shed\u2026 found him in the mud. Wrapped up
     like rubbish.\""
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 574f9d644077823439faf9dd865e7d36, type: 3}
   animation: {fileID: 0}
   children:
   - 7d786d03-5e36-4630-b126-4b9c0a600064
@@ -179,7 +179,7 @@ MonoBehaviour:
   character: 2
   text: '"In my old age, you see many deaths, young man.. Time isn''t kind to us
     as we get older; you shouldn''t waste it."'
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 6e6f8a648215022429eb0a5c0ca9609d, type: 3}
   animation: {fileID: 0}
   children:
   - daccf955-f227-4b81-b60c-9d5f035e6754

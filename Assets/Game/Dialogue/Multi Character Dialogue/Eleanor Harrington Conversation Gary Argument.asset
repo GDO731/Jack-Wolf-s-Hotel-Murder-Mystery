@@ -58,7 +58,7 @@ MonoBehaviour:
   character: 4
   text: '"Come on, Eleanor. Stop playing hard to get. We both know we would make
     a great team and couple."'
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 688b8ee4413b63244bce8d348ff137ff, type: 3}
   animation: {fileID: 0}
   children: []
   rect:

@@ -29,7 +29,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: MainGame::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 2
   text: "\u201CI wonder why they put him out there?\u201D "
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 1ea85ceceba97eb4999103061f4c55d6, type: 3}
   animation: {fileID: 0}
   children: []
   rect:
@@ -40,3 +40,4 @@ MonoBehaviour:
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0

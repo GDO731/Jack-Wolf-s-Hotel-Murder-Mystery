@@ -16,9 +16,7 @@ MonoBehaviour:
   text: '"I need to collect more evidence" (Decide Later)'
   audioClip: {fileID: 8300000, guid: 46800bbcc88fbea40a4eddf0c2d4fdd4, type: 3}
   animation: {fileID: 0}
-  children:
-  - f252a50d-c784-40a8-acb4-b327e8dd7cdc
-  - 41d73c3a-dd75-4508-a6c6-750785909c91
+  children: []
   rect:
     serializedVersion: 2
     x: 435
@@ -72,8 +70,6 @@ MonoBehaviour:
   - {fileID: 8707171820934618802}
   - {fileID: -5874773924461671245}
   - {fileID: -3651499109370093099}
-  - {fileID: 3951683857588028317}
-  - {fileID: 7822224923224120534}
   newNodeOffset: {x: 250, y: 0}
 --- !u!114 &1933499317288218564
 MonoBehaviour:
@@ -98,32 +94,6 @@ MonoBehaviour:
     serializedVersion: 2
     x: 50
     y: 117
-    width: 300
-    height: 125
-  onEnterAction: 
-  onExitAction: 
-  delay: 0
---- !u!114 &3951683857588028317
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
-  m_Name: f252a50d-c784-40a8-acb4-b327e8dd7cdc
-  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  character: 2
-  text: "\u201CI can\u2019t believe this happened in the dead of night!\u201D "
-  audioClip: {fileID: 0}
-  animation: {fileID: 0}
-  children: []
-  rect:
-    serializedVersion: 2
-    x: 794
-    y: 285
     width: 300
     height: 125
   onEnterAction: 
@@ -157,32 +127,6 @@ MonoBehaviour:
   onEnterAction: 
   onExitAction: 
   delay: 0
---- !u!114 &7822224923224120534
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
-  m_Name: 41d73c3a-dd75-4508-a6c6-750785909c91
-  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  character: 2
-  text: "\u201CI wonder why they put him out there?\u201D"
-  audioClip: {fileID: 0}
-  animation: {fileID: 0}
-  children: []
-  rect:
-    serializedVersion: 2
-    x: 800
-    y: 423
-    width: 300
-    height: 125
-  onEnterAction: 
-  onExitAction: 
-  delay: 0
 --- !u!114 &8707171820934618802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -198,7 +142,7 @@ MonoBehaviour:
   character: 2
   text: "\u201CI could barely lift a shovel at my age\u2026 Look at me! You\u2019re
     letting the real killer walk free because you are accusing the wrong man!\u201D"
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 21c112bb0b2d5dc4e8c5aba0722a6c01, type: 3}
   animation: {fileID: 0}
   children:
   - 5103bcb7-492c-4c61-9a9f-881c2e66e9b6

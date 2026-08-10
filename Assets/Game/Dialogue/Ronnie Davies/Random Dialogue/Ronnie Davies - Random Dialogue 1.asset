@@ -29,7 +29,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: MainGame::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 2
   text: "\u201CI can\u2019t believe this happened in the dead of night!\u201D "
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: d6519aef18dacbb46a1e6b8ef24fe207, type: 3}
   animation: {fileID: 0}
   children: []
   rect:
@@ -40,3 +40,4 @@ MonoBehaviour:
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0

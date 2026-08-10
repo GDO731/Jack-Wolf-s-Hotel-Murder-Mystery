@@ -15,7 +15,7 @@ MonoBehaviour:
   character: 1
   text: '"Only one single room, we should have one available for you, sir. I''ll
     go see if we do, please wait here."'
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 949ff62b89921e24fbfea1163437e699, type: 3}
   animation: {fileID: 0}
   children: []
   rect:
@@ -87,7 +87,7 @@ MonoBehaviour:
   character: 1
   text: '"Welcome to the Seron Hotel, good thing you stopped when you did! This storm
     is getting worse by the hour."'
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: aa947225c1d476a4c8143e41219f3ead, type: 3}
   animation: {fileID: 0}
   children:
   - a397f2e3-180f-4598-bdaf-7f9994d14a38

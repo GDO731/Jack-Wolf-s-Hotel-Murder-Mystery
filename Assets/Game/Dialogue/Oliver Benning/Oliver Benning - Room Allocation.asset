@@ -41,7 +41,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: MainGame::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 1
   text: '"Mr Wolf, here is your room key"'
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 84d4e72fe1c10b0418a3259d12ab1628, type: 3}
   animation: {fileID: 0}
   children:
   - be6a7405-f502-4167-a6f1-36af255a03c1
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 1
   text: "\u201CPlease call me Oliver.\u201D"
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: cc820562dbda63549856f37ae2854dbd, type: 3}
   animation: {fileID: 0}
   children:
   - 001261a9-79c3-42a3-992d-c04c6590e34a
@@ -173,13 +173,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 1
   text: '"Very funny, Mr Wolf."'
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 4ef22e1b659bfb7408e9eba8a903dacc, type: 3}
   animation: {fileID: 0}
   children: []
   rect:
     serializedVersion: 2
-    x: 2223
-    y: 394
+    x: 2224
+    y: 380
     width: 300
     height: 125
   onEnterAction: Sprite Swap 02
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: MainGame::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 1
   text: '"Alright, Sir, we have a room ready for you. What name can I put it under?"'
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: da28a93b7fee7f444bed1adc8d25b0a5, type: 3}
   animation: {fileID: 0}
   children:
   - a397f2e3-180f-4598-bdaf-7f9994d14a38
@@ -253,7 +253,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 1
   text: '"Thank you, I appreciate the compliments"'
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: c44323f6bdb743848acbfa83b141967e, type: 3}
   animation: {fileID: 0}
   children: []
   rect:

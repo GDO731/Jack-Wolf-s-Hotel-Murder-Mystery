@@ -43,6 +43,7 @@ MonoBehaviour:
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0
 --- !u!114 &2990640503336401004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57,7 +58,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 1
   text: "\u201CI know\u2026\u201D"
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 3fc63ddec00411142b3dc25a51f4f905, type: 3}
   animation: {fileID: 0}
   children: []
   rect:
@@ -68,3 +69,4 @@ MonoBehaviour:
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0

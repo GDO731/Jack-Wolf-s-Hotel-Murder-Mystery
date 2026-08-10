@@ -71,7 +71,7 @@ MonoBehaviour:
   character: 1
   text: "\u201CPlease, don\u2019t take me in. I did it for her\u2026 She deserved
     justice!\u201D"
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: e1cd99f62e7675948ae2534e71c4767c, type: 3}
   animation: {fileID: 0}
   children:
   - 5acc4915-4223-4766-bfb2-09b680b11f23
@@ -182,7 +182,7 @@ MonoBehaviour:
   character: 1
   text: "\u201CEveryone is already worried, Detective, please try not to make it
     worse.\u201D"
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 99da1fff8f3c25144af1fef4d20ca983, type: 3}
   animation: {fileID: 0}
   children: []
   rect:
@@ -234,7 +234,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 1
   text: "\u201CHe\u2019s the criminal, not me! He destroyed my life!\u201D"
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 6ca4fb7fc42113448ad2f3eb1fc2d085, type: 3}
   animation: {fileID: 0}
   children:
   - 9ecb6cbe-895a-465f-938f-4546696d38f7
@@ -261,7 +261,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 1
   text: "\u201CBut...\u201D"
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: c84cb36aa17af5946a3c803dfea0ca1c, type: 3}
   animation: {fileID: 0}
   children:
   - a9579085-2d52-4040-8c6c-2514d0a8c5fe
@@ -379,7 +379,7 @@ MonoBehaviour:
   character: 1
   text: "\"He murdered my wife fourteen years ago\u2026He got away with it. Then
     he came back here\u2026 Smiling! I couldn\u2019t let that stand!\u201D"
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 73a0e03eb00328f49852439d99fad7c0, type: 3}
   animation: {fileID: 0}
   children:
   - 9cbdc032-a473-4d91-9877-563f6fdfb94b
@@ -436,7 +436,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 1
   text: "\u201CPlease I did it for her!\u201D (Yelling)"
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 48548b11d9f3f1146a2a5e4de46d17c6, type: 3}
   animation: {fileID: 0}
   children:
   - cef20f1e-7d02-4c38-9b1f-472347b54548
@@ -490,7 +490,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 1
   text: "\u201CI just want this to end, please hurry Detective\u201D"
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: a67f443e88e4c7b439bf65839e12252c, type: 3}
   animation: {fileID: 0}
   children: []
   rect:
@@ -516,7 +516,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 1
   text: "\u201CI know\u2026\u201D (Whispered) "
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 3fc63ddec00411142b3dc25a51f4f905, type: 3}
   animation: {fileID: 0}
   children: []
   rect:

@@ -41,7 +41,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 2
   text: "\u201CPoor young soul\u2026\u201D"
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: dace9a131a99a7a458780e1dc805c477, type: 3}
   animation: {fileID: 0}
   children:
   - 464d2ed7-130e-4edf-b674-95d04d56c6c4
@@ -96,7 +96,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 1
   text: "\"Sir, I don\u2019t think\u2026\""
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 314652f1ac6ef9e44b20ebcd0fda8f92, type: 3}
   animation: {fileID: 0}
   children:
   - 234534e5-a8f8-43c5-8076-3732b407fb79

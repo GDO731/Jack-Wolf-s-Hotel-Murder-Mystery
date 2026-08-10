@@ -29,14 +29,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 2
   text: "\u201CMr. Benning, I found a dead body!\u201D"
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 2cba9fed6159e7a4295c71e1751803ba, type: 3}
   animation: {fileID: 0}
   children: []
   rect:
     serializedVersion: 2
     x: 204
-    y: 146
+    y: 145
     width: 300
     height: 125
   onEnterAction: 
   onExitAction: Body Discovery
+  delay: 0

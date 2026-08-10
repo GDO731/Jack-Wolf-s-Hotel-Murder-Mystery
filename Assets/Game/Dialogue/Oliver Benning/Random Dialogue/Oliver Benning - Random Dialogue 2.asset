@@ -29,7 +29,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: MainGame::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 1
   text: "\u201CI just want this to end, please hurry, Detective\u201D"
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: a67f443e88e4c7b439bf65839e12252c, type: 3}
   animation: {fileID: 0}
   children: []
   rect:
@@ -40,3 +40,4 @@ MonoBehaviour:
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0

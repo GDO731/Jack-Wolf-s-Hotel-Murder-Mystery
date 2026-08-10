@@ -30,14 +30,15 @@ MonoBehaviour:
   character: 1
   text: "\u201CEveryone is already worried, Detective, please try not to make it
     worse.\u201D "
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 99da1fff8f3c25144af1fef4d20ca983, type: 3}
   animation: {fileID: 0}
   children: []
   rect:
     serializedVersion: 2
-    x: -1
+    x: -2
     y: 328
     width: 300
     height: 125
   onEnterAction: 
   onExitAction: 
+  delay: 0
