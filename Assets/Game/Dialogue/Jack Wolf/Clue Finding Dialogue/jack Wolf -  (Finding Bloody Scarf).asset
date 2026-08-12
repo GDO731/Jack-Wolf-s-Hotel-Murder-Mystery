@@ -35,7 +35,7 @@ MonoBehaviour:
   rect:
     serializedVersion: 2
     x: 197
-    y: 269
+    y: 268
     width: 300
     height: 125
   onEnterAction: 

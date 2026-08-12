@@ -30,7 +30,7 @@ MonoBehaviour:
   character: 0
   text: "\u201CWhatever is down here, it smells like bleach. Someone tried to hide
     something.\u201D "
-  audioClip: {fileID: 8300000, guid: eee8f4f335ed10145980af3ed3fb24b8, type: 3}
+  audioClip: {fileID: 8300000, guid: edc2bc6f1329c1b458c47313f14b2b06, type: 3}
   animation: {fileID: 0}
   children: []
   rect:

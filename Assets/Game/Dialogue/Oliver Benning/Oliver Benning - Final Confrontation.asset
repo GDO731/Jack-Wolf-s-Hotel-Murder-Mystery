@@ -160,8 +160,8 @@ MonoBehaviour:
   - c63996b4-db3a-4926-bfc0-94592b3d7d86
   rect:
     serializedVersion: 2
-    x: 1985
-    y: 19
+    x: 1973
+    y: 21
     width: 300
     height: 125
   onEnterAction: 
@@ -215,6 +215,32 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2679
     y: 233
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: Load Menu 01
+  delay: 0
+--- !u!114 &-3692016673834134977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: bfb454c8-1fa1-4ff5-9e08-3fa96a9ec80c
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 0
+  text: "\u201CI just let a killer walk free\u2026 What have I done?\u201D"
+  audioClip: {fileID: 8300000, guid: a78529c0a29e2824891d965a3cabbed0, type: 3}
+  animation: {fileID: 0}
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 2060
+    y: 435
     width: 300
     height: 125
   onEnterAction: 
@@ -360,9 +386,9 @@ MonoBehaviour:
   - {fileID: -7740619218858528743}
   - {fileID: 3100930507828105802}
   - {fileID: -3793590857159517061}
-  - {fileID: 7137320071454206991}
   - {fileID: -4179405598072826457}
   - {fileID: 4481554609577549411}
+  - {fileID: -3692016673834134977}
   newNodeOffset: {x: 250, y: 0}
 --- !u!114 &4821159685554527
 MonoBehaviour:
@@ -442,8 +468,8 @@ MonoBehaviour:
   - cef20f1e-7d02-4c38-9b1f-472347b54548
   rect:
     serializedVersion: 2
-    x: 2333
-    y: 233
+    x: 2341
+    y: 240
     width: 300
     height: 125
   onEnterAction: 
@@ -495,8 +521,8 @@ MonoBehaviour:
   children: []
   rect:
     serializedVersion: 2
-    x: 621
-    y: 399
+    x: 595
+    y: 436
     width: 300
     height: 125
   onEnterAction: 
@@ -528,32 +554,6 @@ MonoBehaviour:
   onEnterAction: 
   onExitAction: Load Menu 01
   delay: 0
---- !u!114 &7137320071454206991
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
-  m_Name: e7fc268f-fa30-4538-8f3c-5b53ef57bee4
-  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  character: 0
-  text: "\u201CI just let a killer walk free\u2026 What have I done?\u201D"
-  audioClip: {fileID: 8300000, guid: a78529c0a29e2824891d965a3cabbed0, type: 3}
-  animation: {fileID: 0}
-  children: []
-  rect:
-    serializedVersion: 2
-    x: 2021
-    y: 433
-    width: 300
-    height: 125
-  onEnterAction: 
-  onExitAction: Load Menu 02
-  delay: 0
 --- !u!114 &7419768714246190271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -571,11 +571,11 @@ MonoBehaviour:
   audioClip: {fileID: 8300000, guid: f78b68dd38a26674e8bae1b2b486e66c, type: 3}
   animation: {fileID: 0}
   children:
-  - e7fc268f-fa30-4538-8f3c-5b53ef57bee4
+  - bfb454c8-1fa1-4ff5-9e08-3fa96a9ec80c
   rect:
     serializedVersion: 2
     x: 1674
-    y: 436
+    y: 435
     width: 300
     height: 125
   onEnterAction: 

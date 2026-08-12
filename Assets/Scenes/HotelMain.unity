@@ -200516,7 +200516,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5308084369947658397, guid: 2570acd2e6afdd245b63eabbf41aed72, type: 3}
       propertyPath: m_Volume
-      value: 0.75
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 6051419076414018024, guid: 2570acd2e6afdd245b63eabbf41aed72, type: 3}
       propertyPath: VelocityModule.y.scalar
@@ -200572,7 +200572,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7603324117953196352, guid: 2570acd2e6afdd245b63eabbf41aed72, type: 3}
       propertyPath: m_Volume
-      value: 0.6
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 8050164521505759312, guid: 2570acd2e6afdd245b63eabbf41aed72, type: 3}
       propertyPath: m_Name

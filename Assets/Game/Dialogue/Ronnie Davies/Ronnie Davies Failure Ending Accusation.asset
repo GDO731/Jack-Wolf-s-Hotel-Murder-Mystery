@@ -1,5 +1,31 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9172932623387719256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
+  m_Name: afd7eb7b-6da6-489f-801a-b918178b2171
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
+  character: 0
+  text: "\u201CI failed\u2026 Whoever did this\u2026 They\u2019re still out there\u2026\u201D"
+  audioClip: {fileID: 8300000, guid: 50e023ec504f08f4a835f73f89c3222e, type: 3}
+  animation: {fileID: 0}
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1255
+    y: 116
+    width: 300
+    height: 125
+  onEnterAction: 
+  onExitAction: Load Menu
+  delay: 0
 --- !u!114 &-5874773924461671245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26,32 +52,6 @@ MonoBehaviour:
   onEnterAction: 
   onExitAction: 
   delay: 0
---- !u!114 &-3651499109370093099
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2af882ccae0e519489bfd08f9f4633a4, type: 3}
-  m_Name: 5103bcb7-492c-4c61-9a9f-881c2e66e9b6
-  m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
-  character: 0
-  text: "\u201CI failed\u2026 Whoever did this\u2026 They\u2019re still out there\u2026\u201D"
-  audioClip: {fileID: 8300000, guid: 50e023ec504f08f4a835f73f89c3222e, type: 3}
-  animation: {fileID: 0}
-  children: []
-  rect:
-    serializedVersion: 2
-    x: 1193
-    y: 116
-    width: 300
-    height: 125
-  onEnterAction: Sprite Swap 02
-  onExitAction: Load Menu
-  delay: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69,7 +69,7 @@ MonoBehaviour:
   - {fileID: 4500546438378084686}
   - {fileID: 8707171820934618802}
   - {fileID: -5874773924461671245}
-  - {fileID: -3651499109370093099}
+  - {fileID: -9172932623387719256}
   newNodeOffset: {x: 250, y: 0}
 --- !u!114 &1933499317288218564
 MonoBehaviour:
@@ -145,7 +145,7 @@ MonoBehaviour:
   audioClip: {fileID: 8300000, guid: 21c112bb0b2d5dc4e8c5aba0722a6c01, type: 3}
   animation: {fileID: 0}
   children:
-  - 5103bcb7-492c-4c61-9a9f-881c2e66e9b6
+  - afd7eb7b-6da6-489f-801a-b918178b2171
   rect:
     serializedVersion: 2
     x: 838

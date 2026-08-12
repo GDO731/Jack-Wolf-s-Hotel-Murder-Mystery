@@ -29,7 +29,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Game.Scripts.Dialogue.DialogueNode
   character: 0
   text: "\u201CFresh blood, looks like someone tried to brush it away.\u201D "
-  audioClip: {fileID: 8300000, guid: 8ea00216012b3fe46838c698a19f6257, type: 3}
+  audioClip: {fileID: 8300000, guid: 3eee86e0cfbddb84a80558f720c6b819, type: 3}
   animation: {fileID: 0}
   children: []
   rect:
