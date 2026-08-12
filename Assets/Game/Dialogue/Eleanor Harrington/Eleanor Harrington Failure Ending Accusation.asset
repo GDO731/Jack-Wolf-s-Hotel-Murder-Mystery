@@ -150,10 +150,10 @@ MonoBehaviour:
   children: []
   rect:
     serializedVersion: 2
-    x: 1216
-    y: 100
+    x: 1137
+    y: 97
     width: 300
     height: 125
-  onEnterAction: 
+  onEnterAction: Sprite Swap 02
   onExitAction: Load Menu
   delay: 0
